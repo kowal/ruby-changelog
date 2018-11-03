@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Ruby versions changelog</title>
+
+    <link href="./cover_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./cover_files/styles.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center" data-gr-c-s-loaded="true" style="">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Ruby versions changelog</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="https://getbootstrap.com/docs/4.1/examples/cover/#">Changelog</a>
+            <a class="nav-link" href="https://getbootstrap.com/docs/4.1/examples/cover/#">About</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        </br>
+                  <div class="card">
+            <h5 class="card-header">Ruby 2.5.x</h5>
+            <div class="card-body">
+              <p class-"card-text">2.5.0 (Dec 2017) - 2.5.3 (Oct 2018). Status: Supported</p>
+
+                <p class-"card-text">Implementations:
+                                  <span class="badge badge-info"><a href="https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released">MRI 2.5.3</a></span>
+                                  <span class="badge badge-info"><a href="https://www.jruby.org/2018/05/24/jruby-9-2-0-0">JRuby 9.2.0.0</a></span>
+                                </p>
+                            <ul class="list-unstyled">
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>rescue</code> in blocks
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Hash#slice</code> and <code>Hash#transform_keys</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>ERB#result_with_hash</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    Pattern argument on <code>Enumerable</code> methods
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    Keyword arguments on <code>Struct.new</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    Removed Top-level constant lookup
+                  </li>
+                              </ul>
+            </div>
+          </div>
+          </br>
+                  <div class="card">
+            <h5 class="card-header">Ruby 2.4.x</h5>
+            <div class="card-body">
+              <p class-"card-text">2.4.0 (Dec 2016) - 2.4.5 (Oct 2018). Status: Supported</p>
+              <ul class="list-unstyled">
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Enumerable#sum</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Integer#digits</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Regexp#match?</code>, <code>Regexp#named_captures</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    New constructor <code>Logger.new(STDOUT, level:, progname:)</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-primary">
+                      Changed
+                    </span>
+                    Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision
+                  </li>
+                                  <li>
+                    <span class="badge badge-danger">
+                      Removed
+                    </span>
+                    Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)
+                  </li>
+                              </ul>
+            </div>
+          </div>
+          </br>
+                  <div class="card">
+            <h5 class="card-header">Ruby 2.3.x</h5>
+            <div class="card-body">
+              <p class-"card-text">2.3.0 (Dec 2015) - 2.3.8 (Oct 2018). Status: Security maintenance planned until March 2019</p>
+
+                <p class-"card-text">Implementations:
+                                  <span class="badge badge-info"><a href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released">MRI 2.3.8</a></span>
+                                  <span class="badge badge-info"><a href="https://www.jruby.org/2018/04/23/jruby-9-1-17-0">9.1.17.0</a></span>
+                                </p>
+                            <ul class="list-unstyled">
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    Safe navigation operator <code>&.</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    Frozen string literals
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Array#dig</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>
+                  </li>
+                                  <li>
+                    <span class="badge badge-success">
+                      Added
+                    </span>
+                    ''Did you mean?
+                  </li>
+                              </ul>
+            </div>
+          </div>
+          </br>
+              </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
+</body></html>
