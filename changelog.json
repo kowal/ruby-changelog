@@ -59,6 +59,39 @@
         { "type": "new", "summary": "<code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>" },
         { "type": "new", "summary": "''Did you mean?" }
       ]
+    },
+    {
+      "version": "2.2",
+      "version_info": "2.2.0 (Dec 2014) - 2.2.10 (March 2018)",
+      "state": "All maintenance ended on March 31, 2018",
+      "changes": [
+        { "type": "new", "summary": "Incremental GC - fixes performance for 'old' objects" },
+        { "type": "new", "summary": "The introduction of GC for symbols (mortal/immortal)" },
+        { "type": "removed", "summary": "<code>callcc</code> is obsolete - use Fiber instead" },
+        { "type": "removed", "summary": "<code>DL</code> has been removed from stdlib - use Fiddle instead" }
+      ]
+    },
+    {
+      "version": "2.1",
+      "version_info": "2.1.0 (Dec 2013) - 2.1.10 (March 2016)",
+      "state": "All maintenance ended on March 31, 2017",
+      "changes": [
+        { "type": "new", "summary": "Refinements" },
+        { "type": "new", "summary": "<code>Exception#cause</code> - for libraries exceptions" },
+        { "type": "new", "summary": "<code>Rational</code> and <code>Complex</code> literals" },
+        { "type": "new", "summary": "Generational GC - young / old objects" }
+      ]
+    },
+    {
+      "version": "2.0",
+      "version_info": "2.0.0-p0 (Feb 2013) - 2.0.0-p648 (Dec 2015)",
+      "state": "All maintenance ended on February 24, 2016",
+      "changes": [
+        { "type": "new", "summary": "Keyword arguments" },
+        { "type": "new", "summary": "<code>Module#prepend</code>" },
+        { "type": "new", "summary": "<code>Enumerator#lazy</code>" },
+        { "type": "new", "summary": "<code>%i</code> a literal for symbol array" }
+      ]
     }
   ]
 }

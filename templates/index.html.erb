@@ -25,7 +25,8 @@
           <div class="card">
             <h5 class="card-header">Ruby <%= ruby_version['version'] %>.x</h5>
             <div class="card-body">
-              <p class-"card-text"><%= ruby_version['version_info'] %>. Status: <%= ruby_version['state'] %></p>
+              <p class-"card-text"><%= ruby_version['version_info'] %>.</p>
+              <p>Status: <%= ruby_version['state'] %></p>
               <%- if !ruby_version['implementations'].nil? %>
                 <p class-"card-text">Implementations:
                 <% ruby_version['implementations'].each do |impl| -%>
