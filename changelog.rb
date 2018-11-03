@@ -3,7 +3,7 @@ require 'erb'
 
 CHANGELOG_SOURCE = 'changelog.json'
 TEMPLATE_HTML = 'templates/index.html.erb'
-OUTPUT_HTML = 'out/index.html'
+OUTPUT_HTML = 'index.html'
 
 class Changelog
   def generate_html
