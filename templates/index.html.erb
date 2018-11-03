@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Ruby versions changelog</title>
+
+    <link href="./cover_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./cover_files/styles.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center" data-gr-c-s-loaded="true" style="">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Ruby versions changelog</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="https://getbootstrap.com/docs/4.1/examples/cover/#">Changelog</a>
+            <a class="nav-link" href="https://getbootstrap.com/docs/4.1/examples/cover/#">About</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        </br>
+        <% ruby_versions.each do |ruby_version| -%>
+          <div class="card">
+            <h5 class="card-header">Ruby <%= ruby_version['version'] %>.x</h5>
+            <div class="card-body">
+              <p class-"card-text"><%= ruby_version['version_info'] %>. Status: <%= ruby_version['state'] %></p>
+              <%- if !ruby_version['implementations'].nil? %>
+                <p class-"card-text">Implementations:
+                <% ruby_version['implementations'].each do |impl| -%>
+                  <span class="badge badge-info"><a href="<%= impl['url'] %>"><%= impl['name'] %></a></span>
+                <% end -%>
+                </p>
+              <% end -%>
+              <ul class="list-unstyled">
+                <% ruby_version['changes'].each do |change| -%>
+                  <li>
+                    <span class="badge badge-<%= { new: 'success', update: 'primary', removed: 'danger' }[change['type'].to_sym] %>">
+                      <%= { new: 'Added', update: 'Changed', removed: 'Removed' }[change['type'].to_sym] %>
+                    </span>
+                    <%= change['summary'] %>
+                  </li>
+                <% end -%>
+              </ul>
+            </div>
+          </div>
+          </br>
+        <% end -%>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
+</body></html>
