@@ -10,6 +10,8 @@ class Changelog
     ruby_versions = JSON.parse(changelog_content)
     html_content = ERB.new(template_content, nil, '-')
       .result_with_hash(ruby_versions: ruby_versions['ruby_versions'])
+
+    puts "Generating HTML #{OUTPUT_HTML} .."
     File.write(OUTPUT_HTML, html_content)
   end
 
@@ -22,7 +24,4 @@ class Changelog
   def template_content
     File.read(TEMPLATE_HTML)
   end
-
 end
-
-Changelog.new.generate_html
