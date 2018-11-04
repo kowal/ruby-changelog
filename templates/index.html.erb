@@ -30,7 +30,9 @@
               <%- if !ruby_version['implementations'].nil? %>
                 <p class-"card-text">Implementations:
                 <% ruby_version['implementations'].each do |impl| -%>
-                  <span class="badge badge-info"><a href="<%= impl['url'] %>"><%= impl['name'] %></a></span>
+                  <span class="badge badge-info">
+                    <a href="<%= impl['url'] %>"><%= impl['name'] %></a>
+                  </span>
                 <% end -%>
                 </p>
               <% end -%>

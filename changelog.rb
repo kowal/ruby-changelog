@@ -8,12 +8,16 @@ OUTPUT_HTML = 'index.html'
 class Changelog
   def generate_html
     changelog_as_json
-      .yield_self { |versions_json| JSON.parse(versions_json) }
+      .yield_self { |versions_json| json_to_hash(versions_json) }
       .yield_self { |versions_hash| html_from_hash(versions_hash['ruby_versions']) }
       .yield_self { |versions_html| write_html(versions_html) }
   end
 
   private
+
+  def json_to_hash(json)
+    JSON.parse(json)
+  end
 
   def html_from_hash(ruby_versions)
     ERB.new(template_content, nil, '-').result_with_hash(
