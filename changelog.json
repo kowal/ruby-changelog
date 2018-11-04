@@ -15,14 +15,38 @@
         }
       ],
       "changes": [
-        { "type": "new", "summary": "<code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block" },
-        { "type": "new", "summary": "<code>rescue</code> in blocks" },
-        { "type": "new", "summary": "<code>Hash#slice</code> and <code>Hash#transform_keys</code>" },
-        { "type": "new", "summary": "<code>ERB#result_with_hash</code>" },
-        { "type": "update", "summary": "New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>" },
-        { "type": "update", "summary": "Pattern argument on <code>Enumerable</code> methods" },
-        { "type": "update", "summary": "Keyword arguments on <code>Struct.new</code>" },
-        { "type": "update", "summary": "Removed Top-level constant lookup" }
+        {
+          "type": "new",
+          "summary": "<code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block"
+        },
+        {
+          "type": "new",
+          "summary": "<code>rescue</code> in blocks"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Hash#slice</code> and <code>Hash#transform_keys</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>ERB#result_with_hash</code>"
+        },
+        {
+          "type": "update",
+          "summary": "New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>"
+        },
+        {
+          "type": "update",
+          "summary": "Pattern argument on <code>Enumerable</code> methods"
+        },
+        {
+          "type": "update",
+          "summary": "Keyword arguments on <code>Struct.new</code>"
+        },
+        {
+          "type": "update",
+          "summary": "Removed Top-level constant lookup"
+        }
       ]
     },
     {
@@ -30,12 +54,30 @@
       "version_info": "2.4.0 (Dec 2016) - 2.4.5 (Oct 2018)",
       "state": "Supported",
       "changes": [
-        { "type": "new", "summary": "<code>Enumerable#sum</code>" },
-        { "type": "new", "summary": "<code>Integer#digits</code>" },
-        { "type": "new", "summary": "<code>Regexp#match?</code>, <code>Regexp#named_captures</code>" },
-        { "type": "update", "summary": "New constructor <code>Logger.new(STDOUT, level:, progname:)</code>" },
-        { "type": "update", "summary": "Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision" },
-        { "type": "removed", "summary": "Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)" }
+        {
+          "type": "new",
+          "summary": "<code>Enumerable#sum</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Integer#digits</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Regexp#match?</code>, <code>Regexp#named_captures</code>"
+        },
+        {
+          "type": "update",
+          "summary": "New constructor <code>Logger.new(STDOUT, level:, progname:)</code>"
+        },
+        {
+          "type": "update",
+          "summary": "Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision"
+        },
+        {
+          "type": "removed",
+          "summary": "Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)"
+        }
       ]
     },
     {
@@ -53,11 +95,26 @@
         }
       ],
       "changes": [
-        { "type": "new", "summary": "Safe navigation operator <code>&.</code>" },
-        { "type": "new", "summary": "Frozen string literals" },
-        { "type": "new", "summary": "<code>Array#dig</code>" },
-        { "type": "new", "summary": "<code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>" },
-        { "type": "new", "summary": "''Did you mean?" }
+        {
+          "type": "new",
+          "summary": "Safe navigation operator <code>&.</code>"
+        },
+        {
+          "type": "new",
+          "summary": "Frozen string literals"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Array#dig</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>"
+        },
+        {
+          "type": "new",
+          "summary": "''Did you mean?"
+        }
       ]
     },
     {
@@ -65,10 +122,22 @@
       "version_info": "2.2.0 (Dec 2014) - 2.2.10 (March 2018)",
       "state": "All maintenance ended on March 31, 2018",
       "changes": [
-        { "type": "new", "summary": "Incremental GC - fixes performance for 'old' objects" },
-        { "type": "new", "summary": "The introduction of GC for symbols (mortal/immortal)" },
-        { "type": "removed", "summary": "<code>callcc</code> is obsolete - use Fiber instead" },
-        { "type": "removed", "summary": "<code>DL</code> has been removed from stdlib - use Fiddle instead" }
+        {
+          "type": "new",
+          "summary": "Incremental GC - fixes performance for 'old' objects"
+        },
+        {
+          "type": "new",
+          "summary": "The introduction of GC for symbols (mortal/immortal)"
+        },
+        {
+          "type": "removed",
+          "summary": "<code>callcc</code> is obsolete - use Fiber instead"
+        },
+        {
+          "type": "removed",
+          "summary": "<code>DL</code> has been removed from stdlib - use Fiddle instead"
+        }
       ]
     },
     {
@@ -76,10 +145,22 @@
       "version_info": "2.1.0 (Dec 2013) - 2.1.10 (March 2016)",
       "state": "All maintenance ended on March 31, 2017",
       "changes": [
-        { "type": "new", "summary": "Refinements" },
-        { "type": "new", "summary": "<code>Exception#cause</code> - for libraries exceptions" },
-        { "type": "new", "summary": "<code>Rational</code> and <code>Complex</code> literals" },
-        { "type": "new", "summary": "Generational GC - young / old objects" }
+        {
+          "type": "new",
+          "summary": "Refinements"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Exception#cause</code> - for libraries exceptions"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Rational</code> and <code>Complex</code> literals"
+        },
+        {
+          "type": "new",
+          "summary": "Generational GC - young / old objects"
+        }
       ]
     },
     {
@@ -87,10 +168,22 @@
       "version_info": "2.0.0-p0 (Feb 2013) - 2.0.0-p648 (Dec 2015)",
       "state": "All maintenance ended on February 24, 2016",
       "changes": [
-        { "type": "new", "summary": "Keyword arguments" },
-        { "type": "new", "summary": "<code>Module#prepend</code>" },
-        { "type": "new", "summary": "<code>Enumerator#lazy</code>" },
-        { "type": "new", "summary": "<code>%i</code> a literal for symbol array" }
+        {
+          "type": "new",
+          "summary": "Keyword arguments"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Module#prepend</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Enumerator#lazy</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>%i</code> a literal for symbol array"
+        }
       ]
     }
   ]
