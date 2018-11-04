@@ -7,17 +7,27 @@ OUTPUT_HTML = 'index.html'
 
 class Changelog
   def generate_html
-    ruby_versions = JSON.parse(changelog_content)
-    html_content = ERB.new(template_content, nil, '-')
-      .result_with_hash(ruby_versions: ruby_versions['ruby_versions'])
-
-    puts "Generating HTML #{OUTPUT_HTML} .."
-    File.write(OUTPUT_HTML, html_content)
+    changelog_as_json
+      .yield_self { |versions_json| JSON.parse(versions_json) }
+      .yield_self { |versions_hash| html_from_hash(versions_hash['ruby_versions']) }
+      .yield_self { |versions_html| write_html(versions_html) }
   end
 
   private
 
-  def changelog_content
+  def html_from_hash(ruby_versions)
+    ERB.new(template_content, nil, '-').result_with_hash(
+      ruby_versions: ruby_versions
+    )
+  end
+
+  def write_html(content)
+    puts "Generating HTML #{OUTPUT_HTML} .."
+
+    File.write(OUTPUT_HTML, content)
+  end
+
+  def changelog_as_json
     File.read(CHANGELOG_SOURCE)
   end
 
