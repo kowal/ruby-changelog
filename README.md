@@ -1,75 +1,67 @@
 # Ruby versions changelog
 
-https://kowal.github.io/ruby-changelog/
+* Last updated on 2019-09-08
+* See HTML version of this page on https://kowal.github.io/ruby-changelog
 
-Last updated on Nov 2018.
 
-## Ruby 2.6
-- :construction: *(2.6.0-preview2) May 2018*
+  ## Ruby 2.6
 
-* :new: Just-in-time Compiler
-* :new: Endless ranges `(1..)`
-* :arrows_counterclockwise: `then` alias for `Kernel#yeld_self`
+  * Implementations [MRI 2.6.4](https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/)  
+  * :internals: JIT compiler <code>--jit</code>
+  * :internals: Bundler is installed as a default gem
+  * :new: endless ranges <code>(1..)</code>
+  * :new: <code>Enumerable#chain</code>
+  * :new: function composition operators <code><<, >></code> to <code>Proc</code>
+  * :update: <code>#then</code> alias for <code>#yield_self</code>
+  
+  ## Ruby 2.5
 
-## Ruby 2.5
-- :white_check_mark: *(2.5.0) Dec 2017 - (2.5.3) Oct 2018*
-- Implementations [MRI 2.5.3](https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released/), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0), ..
+  * Implementations [MRI 2.5.3](https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
+  * :new: <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+  * :new: <code>rescue</code> in blocks
+  * :new: <code>Hash#slice</code> and <code>Hash#transform_keys</code>
+  * :new: <code>ERB#result_with_hash</code>
+  * :update: New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>
+  * :update: Pattern argument on <code>Enumerable</code> methods
+  * :update: Keyword arguments on <code>Struct.new</code>
+  * :update: Removed Top-level constant lookup
+  
+  ## Ruby 2.4
 
-* :new: **`yield_self`** - unlike `#tap`, it returns the result of the block
-* :new: `rescue` in blocks
-* :new: `Hash#slice`, `Hash#transform_keys`
-* :new: `ERB#result_with_hash`
-* :arrows_counterclockwise: New `Array` aliases: `#prepend` (`#unshift`) & `#append` (`#push`)
-* :arrows_counterclockwise: Pattern argument on `Enumerable` methods
-* :arrows_counterclockwise: Keyword arguments on `Struct.new`
-* :put_litter_in_its_place: Removed Top-level constant lookup
+  * :new: <code>Enumerable#sum</code>
+  * :new: <code>Integer#digits</code>
+  * :new: <code>Regexp#match?</code>, <code>Regexp#named_captures</code>
+  * :update: New constructor <code>Logger.new(STDOUT, level:, progname:)</code>
+  * :update: Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision
+  * :: Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)
+  
+  ## Ruby 2.3
 
-## Ruby 2.4
-- :white_check_mark: *(2.4.0) Dec 2016 - (2.4.5) Oct 2018*
+  * Implementations [MRI 2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released), [9.1.17.0](https://www.jruby.org/2018/04/23/jruby-9-1-17-0)  
+  * :new: Safe navigation operator <code>&.</code>
+  * :new: Frozen string literals
+  * :new: <code>Array#dig</code>
+  * :new: <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>
+  * :new: ''Did you mean?
+  
+  ## Ruby 2.2
 
-* :new: `Enumerable#sum`
-* :new: `Integer#digits`
-* :new: `Regexp#match?`, `Regexp#named_captures`
-* :put_litter_in_its_place: Removed `Fixnum` and `Bignum` classes (unified to `Integer`)
-* :arrows_counterclockwise: New constructor `Logger.new(STDOUT, level: :info, progname: 'LOG2')`
-* :arrows_counterclockwise: Float: `#round`, `#ceil`, `#floor`, and `#truncate` now accept a precision argument
+  * :new: Incremental GC - fixes performance for 'old' objects
+  * :new: The introduction of GC for symbols (mortal/immortal)
+  * :: <code>callcc</code> is obsolete - use Fiber instead
+  * :: <code>DL</code> has been removed from stdlib - use Fiddle instead
+  
+  ## Ruby 2.1
 
-## Ruby 2.3
-- :closed_lock_with_key: *Security maintenance planned until March 2019*
-- *(2.3.0) Dec 2015 - (2.3.8) Oct 2018*
-- Implementations [MRI 2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released/), [JRuby 9.1.17.0](https://www.jruby.org/2018/04/23/jruby-9-1-17-0), ..
+  * :new: Refinements
+  * :new: <code>Exception#cause</code> - for libraries exceptions
+  * :new: <code>Rational</code> and <code>Complex</code> literals
+  * :new: Generational GC - young / old objects
+  
+  ## Ruby 2.0
 
-* :new: **Safe navigation operator** `&.`
-* :new: **Frozen string literals**
-* :new: `Array#dig`
-* :new: `Hash#fetch_values`, `Hash#to_proc`, `Hash#dig`
-* :new: “Did you mean?”
-
-## Ruby 2.2
-- :lock: *All maintenance ended on March 31, 2018*
-
-* :new: **Incremental GC** - fixes performance for "old" objects
-* :new: The introduction of GC for symbols (mortal/immortal)
-* :put_litter_in_its_place: `callcc` is obsolete - use Fiber instead
-* :put_litter_in_its_place: `DL` has been removed from stdlib - use Fiddle instead
-* :information_source: Rails 5.0 will target Ruby 2.2+ exclusively
-
-## Ruby 2.1
-- :lock: *All maintenance ended on March 31, 2017*
-
-* :new: **Refinements** - lexical scope, are not global, must be explicitly activated (`using`)
-* :new: `Exception#cause` - for libraries exceptions
-* :new: `Rational` and `Complex` literals
-* :new: Generational GC - young / old objects
-
-## Ruby 2.0
-- :lock: *All maintenance ended on February 24, 2016*
-
-* :new: **Keyword arguments**
-* :new: **`Module#prepend`**
-* :new: `Enumerator#lazy`
-* :new: `%i` a literal for symbol array
-
-### Other resources
-
-* [Ruby Versions Used in Commercial Projects in 2017](https://semaphoreci.com/blog/2017/11/08/ruby-versions-used-in-commercial-projects-in-2017.html) (semaphoreci blog)
+  * :new: Keyword arguments
+  * :new: <code>Module#prepend</code>
+  * :new: <code>Enumerator#lazy</code>
+  * :new: <code>%i</code> a literal for symbol array
+  

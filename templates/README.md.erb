@@ -1,0 +1,15 @@
+# Ruby versions changelog
+
+* Last updated on <%= Date.today.to_s %>
+* See HTML version of this page on https://kowal.github.io/ruby-changelog
+
+<%- ruby_versions.each do |ruby_version| %>
+  ## Ruby <%= ruby_version['version'] %>
+  <%- if !ruby_version['implementations'].nil? %>
+  * Implementations <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
+  <% end -%>
+
+  <% ruby_version['changes'].each do |change| -%>
+* :<%= { new: 'new', update: 'update', internals: 'internals' }[change['type'].to_sym] %>: <%= change['summary'] %>
+  <% end -%>
+<% end -%>
