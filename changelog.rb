@@ -36,7 +36,6 @@ class Changelog
   end
 
   def markdown_from_hash(ruby_versions)
-    puts [TEMPLATE_MD, ruby_versions]
     ERB.new(template_content(TEMPLATE_MD), nil, '-')
        .result_with_hash(ruby_versions: ruby_versions)
   end
