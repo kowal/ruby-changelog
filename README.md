@@ -37,7 +37,7 @@
   
   ## Ruby 2.3
 
-  * Implementations: [MRI 2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released), [9.1.17.0](https://www.jruby.org/2018/04/23/jruby-9-1-17-0)  
+  * Implementations: [MRI 2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released), [JRuby 9.1.17.0](https://www.jruby.org/2018/04/23/jruby-9-1-17-0)  
   * :new: Safe navigation operator <code>&.</code>
   * :new: Frozen string literals
   * :new: <code>Array#dig</code>
@@ -46,8 +46,8 @@
   
   ## Ruby 2.2
 
-  * :new: Incremental GC - fixes performance for 'old' objects
-  * :new: The introduction of GC for symbols (mortal/immortal)
+  * :gem: Incremental GC - fixes performance for 'old' objects
+  * :gem: The introduction of GC for symbols (mortal/immortal)
   * :put_litter_in_its_place: <code>callcc</code> is obsolete - use Fiber instead
   * :put_litter_in_its_place: <code>DL</code> has been removed from stdlib - use Fiddle instead
   

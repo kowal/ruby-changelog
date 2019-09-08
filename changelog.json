@@ -129,7 +129,7 @@
           "url": "https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released"
         },
         {
-          "name": "9.1.17.0",
+          "name": "JRuby 9.1.17.0",
           "url": "https://www.jruby.org/2018/04/23/jruby-9-1-17-0"
         }
       ],
@@ -163,11 +163,11 @@
       "eol": "2018-03-31",
       "changes": [
         {
-          "type": "new",
+          "type": "internals",
           "summary": "Incremental GC - fixes performance for 'old' objects"
         },
         {
-          "type": "new",
+          "type": "internals",
           "summary": "The introduction of GC for symbols (mortal/immortal)"
         },
         {
