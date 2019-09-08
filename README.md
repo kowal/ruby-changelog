@@ -1,7 +1,6 @@
 # Ruby versions changelog
 
 * Last updated on 2019-09-08
-* See HTML version of this page on https://kowal.github.io/ruby-changelog
 
 
   ## Ruby 2.6
@@ -65,3 +64,5 @@
   * :new: <code>Enumerator#lazy</code>
   * :new: <code>%i</code> a literal for symbol array
   
+* See HTML version of this page on https://kowal.github.io/ruby-changelog
+* This page is generated via `rake md` task

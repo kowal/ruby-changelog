@@ -1,7 +1,6 @@
 # Ruby versions changelog
 
 * Last updated on <%= Date.today.to_s %>
-* See HTML version of this page on https://kowal.github.io/ruby-changelog
 
 <%- ruby_versions.each do |ruby_version| %>
   ## Ruby <%= ruby_version['version'] %>
@@ -13,3 +12,6 @@
 * :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gem', removed: 'put_litter_in_its_place' }[change['type'].to_sym] %>: <%= change['summary'] %>
   <% end -%>
 <% end -%>
+
+* See HTML version of this page on https://kowal.github.io/ruby-changelog
+* This page is generated via `rake md` task
