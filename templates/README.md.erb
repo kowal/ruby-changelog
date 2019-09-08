@@ -10,6 +10,6 @@
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>
-* :<%= { new: 'new', update: 'update', internals: 'internals' }[change['type'].to_sym] %>: <%= change['summary'] %>
+* :<%= { new: 'new', update: 'update', internals: 'gem', removed: 'put_litter_in_its_place' }[change['type'].to_sym] %>: <%= change['summary'] %>
   <% end -%>
 <% end -%>

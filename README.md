@@ -7,8 +7,8 @@
   ## Ruby 2.6
 
   * Implementations [MRI 2.6.4](https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/)  
-  * :internals: JIT compiler <code>--jit</code>
-  * :internals: Bundler is installed as a default gem
+  * :gem: JIT compiler <code>--jit</code>
+  * :gem: Bundler is installed as a default gem
   * :new: endless ranges <code>(1..)</code>
   * :new: <code>Enumerable#chain</code>
   * :new: function composition operators <code><<, >></code> to <code>Proc</code>
@@ -33,7 +33,7 @@
   * :new: <code>Regexp#match?</code>, <code>Regexp#named_captures</code>
   * :update: New constructor <code>Logger.new(STDOUT, level:, progname:)</code>
   * :update: Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision
-  * :: Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)
+  * :put_litter_in_its_place: Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)
   
   ## Ruby 2.3
 
@@ -48,8 +48,8 @@
 
   * :new: Incremental GC - fixes performance for 'old' objects
   * :new: The introduction of GC for symbols (mortal/immortal)
-  * :: <code>callcc</code> is obsolete - use Fiber instead
-  * :: <code>DL</code> has been removed from stdlib - use Fiddle instead
+  * :put_litter_in_its_place: <code>callcc</code> is obsolete - use Fiber instead
+  * :put_litter_in_its_place: <code>DL</code> has been removed from stdlib - use Fiddle instead
   
   ## Ruby 2.1
 
