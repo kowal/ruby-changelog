@@ -70,6 +70,6 @@ Last updated on Nov 2018.
 * :new: `Enumerator#lazy`
 * :new: `%i` a literal for symbol array
 
-# Ruby versions in the wild
+### Other resources
 
 * [Ruby Versions Used in Commercial Projects in 2017](https://semaphoreci.com/blog/2017/11/08/ruby-versions-used-in-commercial-projects-in-2017.html) (semaphoreci blog)

@@ -1,9 +1,9 @@
 require 'json'
 require 'erb'
 
-CHANGELOG_SOURCE = 'changelog.json'
-TEMPLATE_HTML = 'templates/index.html.erb'
-OUTPUT_HTML = 'index.html'
+CHANGELOG_SOURCE = 'changelog.json'.freeze
+TEMPLATE_HTML = 'templates/index.html.erb'.freeze
+OUTPUT_HTML = 'index.html'.freeze
 
 class Changelog
   def generate_html
@@ -20,15 +20,16 @@ class Changelog
   end
 
   def html_from_hash(ruby_versions)
-    ERB.new(template_content, nil, '-').result_with_hash(
-      ruby_versions: ruby_versions
-    )
+    ERB.new(template_content, nil, '-')
+       .result_with_hash(ruby_versions: ruby_versions)
   end
 
   def write_html(content)
-    puts "Generating HTML #{OUTPUT_HTML} .."
+    printf "Writing to #{OUTPUT_HTML} .."
 
     File.write(OUTPUT_HTML, content)
+
+    printf " Done\n"
   end
 
   def changelog_as_json
