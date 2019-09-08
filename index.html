@@ -32,15 +32,74 @@
   </header>
 
   <main role="main" class="inner cover">
+    <p>Last updated on 2019-09-08</p>
     </br>
     <!--<button type="button" class="btn btn-lg btn-danger" data-toggle="popover"-->
             <!--title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">-->
       <!--Click to toggle popover-->
     <!--</button>-->
           <div class="card">
+        <h5 class="card-header">Ruby 2.6.x</h5>
+        <div class="card-body">
+          <p class-"card-text">2.6.0 (Dec 2018) - 2.6.4 (Aug 2019).</p>
+          <p>Status: Supported</p>
+
+            <p class-"card-text">Implementations:
+                          <span class="badge badge-info">
+                <a href="https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/">MRI 2.6.4</a>
+              </span>
+                        </p>
+                    <ul class="list-unstyled">
+                          <li>
+                
+                <span class="badge badge-light">
+                  Internals
+                </span>
+                JIT compiler <code>--jit</code>
+              </li>
+                          <li>
+                
+                <span class="badge badge-light">
+                  Internals
+                </span>
+                Bundler is installed as a default gem
+              </li>
+                          <li>
+                
+                <span class="badge badge-success">
+                  Added
+                </span>
+                endless ranges <code>(1..)</code>
+              </li>
+                          <li>
+                
+                <span class="badge badge-success">
+                  Added
+                </span>
+                <code>Enumerable#chain</code>
+              </li>
+                          <li>
+                
+                <span class="badge badge-success">
+                  Added
+                </span>
+                function composition operators <code><<, >></code> to <code>Proc</code>
+              </li>
+                          <li>
+                
+                <span class="badge badge-primary">
+                  Changed
+                </span>
+                <code>#then</code> alias for <code>#yield_self</code>
+              </li>
+                      </ul>
+        </div>
+      </div>
+      </br>
+          <div class="card">
         <h5 class="card-header">Ruby 2.5.x</h5>
         <div class="card-body">
-          <p class-"card-text">2.5.0 (Dec 2017) - 2.5.3 (Oct 2018).</p>
+          <p class-"card-text">2.5.0 (Dec 2017) - 2.5.6 (Aug 2019).</p>
           <p>Status: Supported</p>
 
             <p class-"card-text">Implementations:
@@ -53,48 +112,56 @@
                         </p>
                     <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>rescue</code> in blocks
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Hash#slice</code> and <code>Hash#transform_keys</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>ERB#result_with_hash</code>
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
                 New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
                 Pattern argument on <code>Enumerable</code> methods
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
                 Keyword arguments on <code>Struct.new</code>
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
@@ -107,40 +174,46 @@
           <div class="card">
         <h5 class="card-header">Ruby 2.4.x</h5>
         <div class="card-body">
-          <p class-"card-text">2.4.0 (Dec 2016) - 2.4.5 (Oct 2018).</p>
+          <p class-"card-text">2.4.0 (Dec 2016) - 2.4.7 (Aug 2019).</p>
           <p>Status: Supported</p>
           <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Enumerable#sum</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Integer#digits</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Regexp#match?</code>, <code>Regexp#named_captures</code>
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
                 New constructor <code>Logger.new(STDOUT, level:, progname:)</code>
               </li>
                           <li>
+                
                 <span class="badge badge-primary">
                   Changed
                 </span>
                 Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision
               </li>
                           <li>
+                
                 <span class="badge badge-danger">
                   Removed
                 </span>
@@ -154,7 +227,7 @@
         <h5 class="card-header">Ruby 2.3.x</h5>
         <div class="card-body">
           <p class-"card-text">2.3.0 (Dec 2015) - 2.3.8 (Oct 2018).</p>
-          <p>Status: Security maintenance planned until March 2019</p>
+          <p>Status: All maintenance ended on March 31, 2019</p>
 
             <p class-"card-text">Implementations:
                           <span class="badge badge-info">
@@ -166,30 +239,35 @@
                         </p>
                     <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 Safe navigation operator <code>&.</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 Frozen string literals
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Array#dig</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
@@ -206,24 +284,28 @@
           <p>Status: All maintenance ended on March 31, 2018</p>
           <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 Incremental GC - fixes performance for 'old' objects
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 The introduction of GC for symbols (mortal/immortal)
               </li>
                           <li>
+                
                 <span class="badge badge-danger">
                   Removed
                 </span>
                 <code>callcc</code> is obsolete - use Fiber instead
               </li>
                           <li>
+                
                 <span class="badge badge-danger">
                   Removed
                 </span>
@@ -240,24 +322,28 @@
           <p>Status: All maintenance ended on March 31, 2017</p>
           <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 Refinements
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Exception#cause</code> - for libraries exceptions
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Rational</code> and <code>Complex</code> literals
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
@@ -274,24 +360,28 @@
           <p>Status: All maintenance ended on February 24, 2016</p>
           <ul class="list-unstyled">
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 Keyword arguments
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Module#prepend</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>
                 <code>Enumerator#lazy</code>
               </li>
                           <li>
+                
                 <span class="badge badge-success">
                   Added
                 </span>

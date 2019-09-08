@@ -1,5 +1,6 @@
 require 'json'
 require 'erb'
+require 'date'
 
 CHANGELOG_SOURCE = 'changelog.json'.freeze
 TEMPLATE_HTML = 'templates/index.html.erb'.freeze

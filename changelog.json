@@ -1,8 +1,45 @@
 {
   "ruby_versions": [
     {
+      "version": "2.6",
+      "version_info": "2.6.0 (Dec 2018) - 2.6.4 (Aug 2019)",
+      "state": "Supported",
+      "implementations": [
+        {
+          "name": "MRI 2.6.4",
+          "url": "https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/"
+        }
+      ],
+      "changes": [
+        {
+          "type": "internals",
+          "summary": "JIT compiler <code>--jit</code>"
+        },
+        {
+          "type": "internals",
+          "summary": "Bundler is installed as a default gem"
+        },
+        {
+          "type": "new",
+          "summary": "endless ranges <code>(1..)</code>"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Enumerable#chain</code>"
+        },
+        {
+          "type": "new",
+          "summary": "function composition operators <code><<, >></code> to <code>Proc</code>"
+        },
+        {
+          "type": "update",
+          "summary": "<code>#then</code> alias for <code>#yield_self</code>"
+        }
+      ]
+    },
+    {
       "version": "2.5",
-      "version_info": "2.5.0 (Dec 2017) - 2.5.3 (Oct 2018)",
+      "version_info": "2.5.0 (Dec 2017) - 2.5.6 (Aug 2019)",
       "state": "Supported",
       "implementations": [
         {
@@ -51,8 +88,9 @@
     },
     {
       "version": "2.4",
-      "version_info": "2.4.0 (Dec 2016) - 2.4.5 (Oct 2018)",
+      "version_info": "2.4.0 (Dec 2016) - 2.4.7 (Aug 2019)",
       "state": "Supported",
+      "eol": "2020-03-31",
       "changes": [
         {
           "type": "new",
@@ -83,7 +121,8 @@
     {
       "version": "2.3",
       "version_info": "2.3.0 (Dec 2015) - 2.3.8 (Oct 2018)",
-      "state": "Security maintenance planned until March 2019",
+      "state": "All maintenance ended on March 31, 2019",
+      "eol": "2019-03-31",
       "implementations": [
         {
           "name": "MRI 2.3.8",
@@ -121,6 +160,7 @@
       "version": "2.2",
       "version_info": "2.2.0 (Dec 2014) - 2.2.10 (March 2018)",
       "state": "All maintenance ended on March 31, 2018",
+      "eol": "2018-03-31",
       "changes": [
         {
           "type": "new",
@@ -144,6 +184,7 @@
       "version": "2.1",
       "version_info": "2.1.0 (Dec 2013) - 2.1.10 (March 2016)",
       "state": "All maintenance ended on March 31, 2017",
+      "eol": "2017-03-31",
       "changes": [
         {
           "type": "new",
@@ -167,6 +208,7 @@
       "version": "2.0",
       "version_info": "2.0.0-p0 (Feb 2013) - 2.0.0-p648 (Dec 2015)",
       "state": "All maintenance ended on February 24, 2016",
+      "eol": "2016-02-24",
       "changes": [
         {
           "type": "new",

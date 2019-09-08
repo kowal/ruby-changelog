@@ -32,6 +32,7 @@
   </header>
 
   <main role="main" class="inner cover">
+    <p>Last updated on <%= Date.today.to_s %></p>
     </br>
     <!--<button type="button" class="btn btn-lg btn-danger" data-toggle="popover"-->
             <!--title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">-->
@@ -55,8 +56,9 @@
           <ul class="list-unstyled">
             <% ruby_version['changes'].each do |change| -%>
               <li>
-                <span class="badge badge-<%= {new: 'success', update: 'primary', removed: 'danger'}[change['type'].to_sym] %>">
-                  <%= {new: 'Added', update: 'Changed', removed: 'Removed'}[change['type'].to_sym] %>
+                <%# map type of change to badge style (https://getbootstrap.com/docs/4.3/components/badge) %>
+                <span class="badge badge-<%= {new: 'success', update: 'primary', removed: 'danger', internals: 'light'}[change['type'].to_sym] %>">
+                  <%= {new: 'Added', update: 'Changed', removed: 'Removed', internals: 'Internals'}[change['type'].to_sym] %>
                 </span>
                 <%= change['summary'] %>
               </li>
