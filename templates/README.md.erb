@@ -6,10 +6,10 @@
 <%- ruby_versions.each do |ruby_version| %>
   ## Ruby <%= ruby_version['version'] %>
   <%- if !ruby_version['implementations'].nil? %>
-  * Implementations <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
+  * Implementations: <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>
-* :<%= { new: 'new', update: 'update', internals: 'gem', removed: 'put_litter_in_its_place' }[change['type'].to_sym] %>: <%= change['summary'] %>
+* :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gem', removed: 'put_litter_in_its_place' }[change['type'].to_sym] %>: <%= change['summary'] %>
   <% end -%>
 <% end -%>
