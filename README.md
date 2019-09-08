@@ -2,6 +2,8 @@
 
 https://kowal.github.io/ruby-changelog/
 
+Last updated on Nov 2018.
+
 ## Ruby 2.6
 - :construction: *(2.6.0-preview2) May 2018*
 
