@@ -1,8 +1,16 @@
 # Ruby versions changelog
 
-* Last updated on 2019-09-08
+* Last updated on 2020-02-21
 
 
+  ## Ruby 2.7
+
+  * Implementations: [MRI 2.7.0](https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/)  
+  * :new: Pattern Matching
+  * :arrows_counterclockwise: REPL improvements
+  * :arrows_counterclockwise: Separation of positional and keyword arguments
+  * :gem: Compaction GC
+  
   ## Ruby 2.6
 
   * Implementations: [MRI 2.6.4](https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/)  

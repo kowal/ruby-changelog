@@ -1,6 +1,35 @@
 {
   "ruby_versions": [
     {
+      "version": "2.7",
+      "version_info": "2.7.0 (Dec 2019)",
+      "state": "Supported",
+      "implementations": [
+        {
+          "name": "MRI 2.7.0",
+          "url": "https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/"
+        }
+      ],
+      "changes": [
+        {
+          "type": "new",
+          "summary": "Pattern Matching"
+        },
+        {
+          "type": "update",
+          "summary": "REPL improvements"
+        },
+        {
+          "type": "update",
+          "summary": "Separation of positional and keyword arguments"
+        },
+        {
+          "type": "internals",
+          "summary": "Compaction GC"
+        }
+      ]
+    },
+    {
       "version": "2.6",
       "version_info": "2.6.0 (Dec 2018) - 2.6.4 (Aug 2019)",
       "state": "Supported",
