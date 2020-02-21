@@ -13,13 +13,13 @@
   
   ## Ruby 2.6
 
-  * Implementations: [MRI 2.6.4](https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/)  
-  * :gem: JIT compiler <code>--jit</code>
-  * :gem: Bundler is installed as a default gem
+  * Implementations: [MRI 2.6.5](https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/)  
   * :new: endless ranges <code>(1..)</code>
   * :new: <code>Enumerable#chain</code>
   * :new: function composition operators <code><<, >></code> to <code>Proc</code>
   * :arrows_counterclockwise: <code>#then</code> alias for <code>#yield_self</code>
+  * :gem: JIT compiler <code>--jit</code>
+  * :gem: Bundler is installed as a default gem
   
   ## Ruby 2.5
 
@@ -53,10 +53,10 @@
   
   ## Ruby 2.2
 
-  * :gem: Incremental GC - fixes performance for 'old' objects
-  * :gem: The introduction of GC for symbols (mortal/immortal)
   * :put_litter_in_its_place: <code>callcc</code> is obsolete - use Fiber instead
   * :put_litter_in_its_place: <code>DL</code> has been removed from stdlib - use Fiddle instead
+  * :gem: Incremental GC - fixes performance for 'old' objects
+  * :gem: The introduction of GC for symbols (mortal/immortal)
   
   ## Ruby 2.1
 
