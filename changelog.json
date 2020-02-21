@@ -31,12 +31,12 @@
     },
     {
       "version": "2.6",
-      "version_info": "2.6.0 (Dec 2018) - 2.6.4 (Aug 2019)",
+      "version_info": "2.6.0 (Dec 2018) - 2.6.5 (Oct 2019)",
       "state": "Supported",
       "implementations": [
         {
-          "name": "MRI 2.6.4",
-          "url": "https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/"
+          "name": "MRI 2.6.5",
+          "url": "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
         }
       ],
       "changes": [
