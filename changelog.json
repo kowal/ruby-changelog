@@ -41,14 +41,6 @@
       ],
       "changes": [
         {
-          "type": "internals",
-          "summary": "JIT compiler <code>--jit</code>"
-        },
-        {
-          "type": "internals",
-          "summary": "Bundler is installed as a default gem"
-        },
-        {
           "type": "new",
           "summary": "endless ranges <code>(1..)</code>"
         },
@@ -63,6 +55,14 @@
         {
           "type": "update",
           "summary": "<code>#then</code> alias for <code>#yield_self</code>"
+        },
+        {
+          "type": "internals",
+          "summary": "JIT compiler <code>--jit</code>"
+        },
+        {
+          "type": "internals",
+          "summary": "Bundler is installed as a default gem"
         }
       ]
     },
@@ -192,20 +192,20 @@
       "eol": "2018-03-31",
       "changes": [
         {
-          "type": "internals",
-          "summary": "Incremental GC - fixes performance for 'old' objects"
-        },
-        {
-          "type": "internals",
-          "summary": "The introduction of GC for symbols (mortal/immortal)"
-        },
-        {
           "type": "removed",
           "summary": "<code>callcc</code> is obsolete - use Fiber instead"
         },
         {
           "type": "removed",
           "summary": "<code>DL</code> has been removed from stdlib - use Fiddle instead"
+        },
+        {
+          "type": "internals",
+          "summary": "Incremental GC - fixes performance for 'old' objects"
+        },
+        {
+          "type": "internals",
+          "summary": "The introduction of GC for symbols (mortal/immortal)"
         }
       ]
     },
