@@ -39,7 +39,7 @@
       "state": "Supported",
       "minors": [
         { "version": "2.6.6", "release_date": "2019-03-31", "end_date": "" },
-        { "version": "2.6.5", "release_date": "2019-10-01", "end_date": "2020-03-21" },
+        { "version": "2.6.5", "release_date": "2019-10-01", "end_date": "2020-03-31" },
         { "version": "2.6.4", "release_date": "2019-08-28", "end_date": "2019-10-01" },
         { "version": "2.6.3", "release_date": "2019-04-17", "end_date": "2019-08-28" },
         { "version": "2.6.2", "release_date": "2019-03-13", "end_date": "2019-04-17" },
@@ -144,6 +144,19 @@
       "version_info": "2.4.0 (Dec 2016) - 2.4.10 (Mar 2020)",
       "state": "All maintenance ended on March 31, 2020",
       "eol": "2020-03-31",
+      "minors": [
+        { "version": "2.4.10", "release_date": "2020-03-31", "end_date": "" },
+        { "version": "2.4.9", "release_date": "2019-10-02", "end_date": "2020-03-31" },
+        { "version": "2.4.8", "release_date": "2019-10-01", "end_date": "2019-10-02" },
+        { "version": "2.4.7", "release_date": "2019-08-28", "end_date": "2019-10-01" },
+        { "version": "2.4.6", "release_date": "2019-04-01", "end_date": "2020-03-31" },
+        { "version": "2.4.5", "release_date": "2018-10-17", "end_date": "2019-04-01" },
+        { "version": "2.4.4", "release_date": "2018-03-28", "end_date": "2018-10-17" },
+        { "version": "2.4.3", "release_date": "2017-12-14", "end_date": "2018-03-28" },
+        { "version": "2.4.2", "release_date": "2017-09-14", "end_date": "2017-12-14" },
+        { "version": "2.4.1", "release_date": "2017-03-22", "end_date": "2017-09-14" },
+        { "version": "2.4.0", "release_date": "2016-12-25", "end_date": "2017-03-22" }
+      ],
       "implementations": [
         {
           "name": "MRI 2.4.10",
@@ -182,6 +195,17 @@
       "version_info": "2.3.0 (Dec 2015) - 2.3.8 (Oct 2018)",
       "state": "All maintenance ended on March 31, 2019",
       "eol": "2019-03-31",
+      "minors": [
+        { "version": "2.3.8", "release_date": "2018-10-17", "end_date": "2019-03-31" },
+        { "version": "2.3.7", "release_date": "2018-03-28", "end_date": "2018-10-17" },
+        { "version": "2.3.6", "release_date": "2017-12-14", "end_date": "2018-03-28" },
+        { "version": "2.3.5", "release_date": "2017-09-14", "end_date": "2017-12-14" },
+        { "version": "2.3.4", "release_date": "2017-03-30", "end_date": "2017-09-14" },
+        { "version": "2.3.3", "release_date": "2016-11-21", "end_date": "2017-03-30" },
+        { "version": "2.3.2", "release_date": "2016-11-15", "end_date": "2016-11-21" },
+        { "version": "2.3.1", "release_date": "2016-04-26", "end_date": "2016-11-15" },
+        { "version": "2.3.0", "release_date": "2015-12-25", "end_date": "2016-04-26" }
+      ],
       "implementations": [
         {
           "name": "MRI 2.3.8",

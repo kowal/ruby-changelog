@@ -38,7 +38,7 @@ body {
 }
 
 .cover-container {
-  max-width: 50em;
+  max-width: 60em;
 }
 
 
@@ -114,4 +114,9 @@ code {
 
 .card {
   background-color: #494949;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 400px;
 }

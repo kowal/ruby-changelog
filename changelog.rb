@@ -9,19 +9,21 @@ TEMPLATE_MD = 'templates/README.md.erb'.freeze
 OUTPUT_HTML = 'index.html'.freeze
 OUTPUT_MD = 'README.MD'.freeze
 
+# > Changelog.new.generate_html
+# > Changelog.new.generate_markdown
 class Changelog
   def generate_html
     changelog_as_json
-      .yield_self { |versions_json| json_to_hash(versions_json) }
-      .yield_self { |versions_hash| html_from_hash(versions_hash['ruby_versions']) }
-      .yield_self { |versions_html| write_html(versions_html) }
+      .yield_self { |json| json_to_hash(json) }
+      .yield_self { |hash| html_from_hash(hash['ruby_versions']) }
+      .yield_self { |html| write_html(html) }
   end
 
   def generate_markdown
     changelog_as_json
-      .yield_self { |versions_json| json_to_hash(versions_json) }
-      .yield_self { |versions_hash| markdown_from_hash(versions_hash['ruby_versions']) }
-      .yield_self { |versions_html| write_markdown(versions_html) }
+      .yield_self { |json| json_to_hash(json) }
+      .yield_self { |hash| markdown_from_hash(hash['ruby_versions']) }
+      .yield_self { |html| write_markdown(html) }
   end
 
   private
