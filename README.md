@@ -1,11 +1,11 @@
 # Ruby versions changelog
 
-* Last updated on 2020-02-21
+* Last updated on 2020-04-05
 
 
   ## Ruby 2.7
 
-  * Implementations: [MRI 2.7.0](https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/)  
+  * Implementations: [MRI 2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  
   * :new: Pattern Matching
   * :arrows_counterclockwise: REPL improvements
   * :arrows_counterclockwise: Separation of positional and keyword arguments
@@ -13,7 +13,7 @@
   
   ## Ruby 2.6
 
-  * Implementations: [MRI 2.6.5](https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/)  
+  * Implementations: [MRI 2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/)  
   * :new: endless ranges <code>(1..)</code>
   * :new: <code>Enumerable#chain</code>
   * :new: function composition operators <code><<, >></code> to <code>Proc</code>
@@ -23,7 +23,7 @@
   
   ## Ruby 2.5
 
-  * Implementations: [MRI 2.5.3](https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
+  * Implementations: [MRI 2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
   * :new: <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
   * :new: <code>rescue</code> in blocks
   * :new: <code>Hash#slice</code> and <code>Hash#transform_keys</code>
@@ -35,6 +35,7 @@
   
   ## Ruby 2.4
 
+  * Implementations: [MRI 2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/)  
   * :new: <code>Enumerable#sum</code>
   * :new: <code>Integer#digits</code>
   * :new: <code>Regexp#match?</code>, <code>Regexp#named_captures</code>

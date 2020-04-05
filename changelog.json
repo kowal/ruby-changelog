@@ -2,12 +2,16 @@
   "ruby_versions": [
     {
       "version": "2.7",
-      "version_info": "2.7.0 (Dec 2019)",
+      "version_info": "2.7.0 (Dec 2019) - 2.7.1 (Mar 2020)",
       "state": "Supported",
+      "minors": [
+        { "version": "2.7.1", "release_date": "2020-03-31", "end_date": "" },
+        { "version": "2.7.0", "release_date": "2019-12-25", "end_date": "2020-03-31" }
+      ],
       "implementations": [
         {
-          "name": "MRI 2.7.0",
-          "url": "https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/"
+          "name": "MRI 2.7.1",
+          "url": "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/"
         }
       ],
       "changes": [
@@ -31,12 +35,21 @@
     },
     {
       "version": "2.6",
-      "version_info": "2.6.0 (Dec 2018) - 2.6.5 (Oct 2019)",
+      "version_info": "2.6.0 (Dec 2018) - 2.6.6 (Mar 2020)",
       "state": "Supported",
+      "minors": [
+        { "version": "2.6.6", "release_date": "2019-03-31", "end_date": "" },
+        { "version": "2.6.5", "release_date": "2019-10-01", "end_date": "2020-03-21" },
+        { "version": "2.6.4", "release_date": "2019-08-28", "end_date": "2019-10-01" },
+        { "version": "2.6.3", "release_date": "2019-04-17", "end_date": "2019-08-28" },
+        { "version": "2.6.2", "release_date": "2019-03-13", "end_date": "2019-04-17" },
+        { "version": "2.6.1", "release_date": "2019-01-30", "end_date": "2019-03-13" },
+        { "version": "2.6.0", "release_date": "2018-12-25", "end_date": "2019-01-30" }
+      ],
       "implementations": [
         {
-          "name": "MRI 2.6.5",
-          "url": "https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/"
+          "name": "MRI 2.6.6",
+          "url": "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/"
         }
       ],
       "changes": [
@@ -68,12 +81,23 @@
     },
     {
       "version": "2.5",
-      "version_info": "2.5.0 (Dec 2017) - 2.5.6 (Aug 2019)",
+      "version_info": "2.5.0 (Dec 2017) - 2.5.8 (Mar 2020)",
       "state": "Supported",
+      "minors": [
+        { "version": "2.5.8", "release_date": "2020-03-31", "end_date": "" },
+        { "version": "2.5.7", "release_date": "2019-10-01", "end_date": "2020-03-31" },
+        { "version": "2.5.6", "release_date": "2019-08-28", "end_date": "2019-10-01" },
+        { "version": "2.5.5", "release_date": "2019-03-15", "end_date": "2019-08-28" },
+        { "version": "2.5.4", "release_date": "2019-03-13", "end_date": "2019-03-15" },
+        { "version": "2.5.3", "release_date": "2018-10-18", "end_date": "2019-03-13" },
+        { "version": "2.5.2", "release_date": "2018-10-17", "end_date": "2018-10-18" },
+        { "version": "2.5.1", "release_date": "2018-03-28", "end_date": "2018-10-17" },
+        { "version": "2.5.0", "release_date": "2017-12-25", "end_date": "2018-03-28" }
+      ],
       "implementations": [
         {
-          "name": "MRI 2.5.3",
-          "url": "https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released"
+          "name": "MRI 2.5.8",
+          "url": "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/"
         },
         {
           "name": "JRuby 9.2.0.0",
@@ -117,9 +141,15 @@
     },
     {
       "version": "2.4",
-      "version_info": "2.4.0 (Dec 2016) - 2.4.7 (Aug 2019)",
-      "state": "Supported",
+      "version_info": "2.4.0 (Dec 2016) - 2.4.10 (Mar 2020)",
+      "state": "All maintenance ended on March 31, 2020",
       "eol": "2020-03-31",
+      "implementations": [
+        {
+          "name": "MRI 2.4.10",
+          "url": "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/"
+        }
+      ],
       "changes": [
         {
           "type": "new",
