@@ -33,8 +33,6 @@ class Changelog
   end
 
   def generate_full_docs
-    return 'work in progress!'
-
     rv = ruby_versions
 
     rv.yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_DOCS_VERSIONS_MAIN_MD) }
@@ -62,6 +60,10 @@ class Changelog
     printf "Writing to #{target_file} .."
     File.write(target_file, content)
     printf " Done\n"
+  end
+
+  def json_to_hash(json)
+    JSON.parse(json)
   end
 
   def json_to_hash(json)

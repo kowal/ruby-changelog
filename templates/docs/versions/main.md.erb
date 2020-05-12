@@ -1,0 +1,22 @@
+# Ruby latest minor versions
+
+<%- ruby_versions.each do |ruby_version| %>
+
+  <%- if !ruby_version['implementations'].nil? %>
+## Ruby <%= ruby_version['implementations'].map { |impl| "[#{impl['name'].split.last}](#{impl['url']})" }.first %>
+  <% else %>
+## Ruby <%= ruby_version['version'] %>
+  <% end -%>
+
+  <%- if !ruby_version['eol'].nil? %>
+All maintenance ended on <%= ruby_version['eol'] %>.
+  <% end -%>
+
+  <% ruby_version['changes'].each do |change| -%>
+* <%= { new: '&#43;', update: '&#177;', internals: '&#9883;', removed: '(removed)' }[change['type'].to_sym] %> <%= change['summary'] %>
+  <% end -%>
+
+----
+<% end -%>
+
+(This page was updated on <%= Time.now.to_s %>)
