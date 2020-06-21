@@ -2,14 +2,16 @@
 
 <%- ruby_versions.each do |ruby_version| %>
 
-  <%- if !ruby_version['implementations'].nil? %>
-## Ruby <%= ruby_version['implementations'].map { |impl| "[#{impl['name'].split.last}](#{impl['url']})" }.first %>
-  <% else %>
 ## Ruby <%= ruby_version['version'] %>
+
+  <%- if !ruby_version['eol'].nil? %>
+- All maintenance ended on <%= ruby_version['eol'] %>.
   <% end -%>
 
-  <% ruby_version['changes'].each do |change| -%>
-* <%= { new: '&#43;', update: '&#177;', internals: '&#9883;', removed: '(removed)' }[change['type'].to_sym] %> <%= change['summary'] %>
+  <%- [*ruby_version['minors']].each do |minor_version| %>
+### Ruby [<%= minor_version['version'] %>](https://www.ruby-lang.org/en/news/<%= minor_version['release_date'].gsub('-', '/') %>/ruby-<%= minor_version['version'].gsub('.', '-') %>-released/)
+
+- Released on <%= minor_version['release_date'] %>
   <% end -%>
 
 <% end -%>

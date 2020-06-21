@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-06-21
+* Last updated on 2020-07-17
 
 
   ## Ruby 2.7
@@ -75,3 +75,33 @@
   
 * See HTML version of this page on https://kowal.github.io/ruby-changelog
 * This page is generated via `rake md` task
+
+### Development
+
+#### Docs
+
+Rebuild documentation pages from templates
+
+    $ rake doc
+    # Writing to mkdocs-material/docs/versions-main.md .. Done
+    # Writing to mkdocs-material/docs/versions-all.md .. Done
+    # Writing to mkdocs-material/docs/javascripts/charts-timeline.js .. Done
+
+Start documentation app
+
+    $ cd mkdocs
+    $ mkdocs serve
+
+Open http://localhost:8000/
+
+#### README
+
+Rebuild README.md from templates
+
+    $ rake md
+    # Writing to README.MD .. Done
+
+    $ yield
+    # =* Yield is serving your markdown at http://localhost:4000/
+
+Open http://localhost:4000/

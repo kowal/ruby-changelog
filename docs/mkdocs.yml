@@ -1,0 +1,70 @@
+
+# Project information
+site_name: Ruby Changelog
+site_url: https://rubychangelog.com/
+site_author: Marek Kowalcze
+site_description: >-
+  Changelog of Ruby programming language versions
+
+# Repository
+repo_name: kowal/ruby-changelog
+repo_url: https://github.com/kowal/ruby-changelog
+
+# Copyright
+copyright: Copyright &copy; 2020 Marek Kowalcze
+
+# Configuration
+theme:
+  name: null
+  logo: assets/favicon.ico
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+  palette:
+    primary: red
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+  favicon: assets/favicon.ico
+
+# Plugins
+plugins:
+  - search
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kowal
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kowal
+
+extra_javascript:
+  - https://www.amcharts.com/lib/4/core.js
+  - https://www.amcharts.com/lib/4/charts.js
+  - https://www.amcharts.com/lib/4/themes/dark.js
+  - https://www.amcharts.com/lib/4/themes/animated.js
+  - javascripts/charts-timeline.js
+
+# Page tree
+nav:
+  - Home: index.md
+  - Versions:
+    - Latest Versions: versions-main.md
+    - All Versions: versions-all.md
+  - Charts:
+    - Timeline: timeline.md

@@ -15,3 +15,38 @@
 
 * See HTML version of this page on https://kowal.github.io/ruby-changelog
 * This page is generated via `rake md` task
+
+## Development
+
+#### Docs
+
+Rebuild documentation pages from templates
+
+    $ rake doc
+    # Writing to mkdocs-material/docs/versions-main.md .. Done
+    # ...
+
+
+
+Start documentation app
+
+    $ cd mkdocs
+    $ mkdocs serve
+
+Open http://localhost:8000/
+
+#### README
+
+Rebuild `README.md` from `templates/README.md.erb` template:
+
+    $ rake md
+    # Writing to README.MD .. Done
+
+    $ yield
+    # =* Yield is serving your markdown at http://localhost:4000/
+
+Open http://localhost:4000/
+
+#### Update minor versions data
+
+    $ ruby fetch_minors # TODO: changeto rake task
