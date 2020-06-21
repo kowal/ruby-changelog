@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-04-05
+* Last updated on 2020-06-21
 
 
   ## Ruby 2.7
@@ -50,7 +50,7 @@
   * :new: Frozen string literals
   * :new: <code>Array#dig</code>
   * :new: <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>
-  * :new: ''Did you mean?
+  * :new: 'Did you mean?'
   
   ## Ruby 2.2
 
