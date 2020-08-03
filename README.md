@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-07-17
+* Last updated on 2020-08-02
 
 
   ## Ruby 2.7
@@ -76,7 +76,7 @@
 * See HTML version of this page on https://kowal.github.io/ruby-changelog
 * This page is generated via `rake md` task
 
-### Development
+## Development
 
 #### Docs
 
@@ -84,8 +84,7 @@ Rebuild documentation pages from templates
 
     $ rake doc
     # Writing to mkdocs-material/docs/versions-main.md .. Done
-    # Writing to mkdocs-material/docs/versions-all.md .. Done
-    # Writing to mkdocs-material/docs/javascripts/charts-timeline.js .. Done
+    # ...
 
 Start documentation app
 
@@ -96,7 +95,7 @@ Open http://localhost:8000/
 
 #### README
 
-Rebuild README.md from templates
+Rebuild `README.md` from `templates/README.md.erb` template:
 
     $ rake md
     # Writing to README.MD .. Done
