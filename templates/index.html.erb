@@ -37,11 +37,12 @@
       chart.data = <%= ruby_versions.map { |rb|
           [*rb['minors']].map { |minor|
             color = minor['version'].split.last.split('.').map { |n| n.to_i + 1 }.reduce(:*) % 255
+            end_date = minor['end_date'] != "" ? minor['end_date'] : (rb['eol'] ? rb['eol'] : Date.today.to_s)
             {
               "category": "Ruby #{rb['version']}",
               "task": minor['version'],
               "start": minor['release_date'],
-              "end": (minor['end_date'] != "" ? minor['end_date'] : Date.today.to_s),
+              "end": end_date,
               "color": "rgb(255, #{color}, 0)",
               "info": [
                 rb['state'],
