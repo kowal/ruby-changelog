@@ -1,0 +1,793 @@
+{
+  "2.7.1": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/",
+      "title": "CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/",
+      "title": "CVE-2020-10933: Heap exposure vulnerability in the socket library"
+    }
+  ],
+  "2.6.6": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/",
+      "title": "CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/",
+      "title": "CVE-2020-10933: Heap exposure vulnerability in the socket library"
+    }
+  ],
+  "2.5.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/",
+      "title": "CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/",
+      "title": "CVE-2020-10933: Heap exposure vulnerability in the socket library"
+    }
+  ],
+  "2.4.10": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/",
+      "title": "CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)"
+    }
+  ],
+  "2.7.0": [
+
+  ],
+  "2.7.0.rc2": [
+
+  ],
+  "2.7.0.rc1": [
+
+  ],
+  "2.7.0.preview3": [
+
+  ],
+  "2.7.0.preview2": [
+
+  ],
+  "2.4.9": [
+
+  ],
+  "2.6.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/",
+      "title": "CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/",
+      "title": "CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/",
+      "title": "CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/",
+      "title": "CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick’s Digest access authentication"
+    }
+  ],
+  "2.5.7": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/",
+      "title": "CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/",
+      "title": "CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/",
+      "title": "CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/",
+      "title": "CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick’s Digest access authentication"
+    }
+  ],
+  "2.4.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/",
+      "title": "CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/",
+      "title": "CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/",
+      "title": "CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/",
+      "title": "CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick’s Digest access authentication"
+    }
+  ],
+  "2.6.4": [
+
+  ],
+  "2.5.6": [
+
+  ],
+  "2.4.7": [
+
+  ],
+  "2.7.0.preview1": [
+
+  ],
+  "2.6.3": [
+
+  ],
+  "2.4.6": [
+
+  ],
+  "2.5.5": [
+
+  ],
+  "2.6.2": [
+
+  ],
+  "2.5.4": [
+
+  ],
+  "2.6.1": [
+
+  ],
+  "2.6.0": [
+
+  ],
+  "2.6.0.rc2": [
+
+  ],
+  "2.6.0.rc1": [
+
+  ],
+  "2.6.0.preview3": [
+
+  ],
+  "2.5.3": [
+
+  ],
+  "2.5.2": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/",
+      "title": "CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/",
+      "title": "CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly"
+    }
+  ],
+  "2.4.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/",
+      "title": "CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/",
+      "title": "CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly"
+    }
+  ],
+  "2.3.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/",
+      "title": "CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/",
+      "title": "CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly"
+    }
+  ],
+  "2.6.0.preview2": [
+
+  ],
+  "2.5.1": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/",
+      "title": "CVE-2017-17742: HTTP response splitting in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/",
+      "title": "CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/",
+      "title": "CVE-2018-8777: DoS by large request in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/",
+      "title": "CVE-2018-8778: Buffer under-read in String#unpack"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/",
+      "title": "CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/",
+      "title": "CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir"
+    }
+  ],
+  "2.4.4": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/",
+      "title": "CVE-2017-17742: HTTP response splitting in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/",
+      "title": "CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/",
+      "title": "CVE-2018-8777: DoS by large request in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/",
+      "title": "CVE-2018-8778: Buffer under-read in String#unpack"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/",
+      "title": "CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/",
+      "title": "CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir"
+    }
+  ],
+  "2.3.7": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/",
+      "title": "CVE-2017-17742: HTTP response splitting in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/",
+      "title": "CVE-2018-8777: DoS by large request in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/",
+      "title": "CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/",
+      "title": "CVE-2018-8778: Buffer under-read in String#unpack"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/",
+      "title": "CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/",
+      "title": "CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir"
+    }
+  ],
+  "2.2.10": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/",
+      "title": "CVE-2017-17742: HTTP response splitting in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/",
+      "title": "CVE-2018-8777: DoS by large request in WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/",
+      "title": "CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/",
+      "title": "CVE-2018-8778: Buffer under-read in String#unpack"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/",
+      "title": "CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/",
+      "title": "CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir"
+    }
+  ],
+  "2.6.0.preview1": [
+
+  ],
+  "2.5.0": [
+
+  ],
+  "2.5.0.rc1": [
+
+  ],
+  "2.4.3": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/",
+      "title": "CVE-2017-17405: Command injection vulnerability in Net::FTP"
+    }
+  ],
+  "2.3.6": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/",
+      "title": "CVE-2017-17405: Command injection vulnerability in Net::FTP"
+    }
+  ],
+  "2.2.9": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/",
+      "title": "CVE-2017-17405: Command injection vulnerability in Net::FTP"
+    }
+  ],
+  "2.5.0.preview1": [
+
+  ],
+  "2.4.2": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/",
+      "title": "CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/",
+      "title": "CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/",
+      "title": "CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/",
+      "title": "CVE-2017-14064: Heap exposure in generating JSON"
+    }
+  ],
+  "2.3.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/",
+      "title": "CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/",
+      "title": "CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/",
+      "title": "CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/",
+      "title": "CVE-2017-14064: Heap exposure vulnerability in generating JSON"
+    }
+  ],
+  "2.2.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/",
+      "title": "CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/",
+      "title": "CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/",
+      "title": "CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/",
+      "title": "CVE-2017-14064: Heap exposure vulnerability in generating JSON"
+    }
+  ],
+  "2.3.4": [
+
+  ],
+  "2.2.7": [
+
+  ],
+  "2.4.1": [
+
+  ],
+  "2.4.0": [
+
+  ],
+  "2.4.0.rc1": [
+
+  ],
+  "2.3.3": [
+
+  ],
+  "2.3.2": [
+
+  ],
+  "2.2.6": [
+
+  ],
+  "2.4.0.preview3": [
+
+  ],
+  "2.4.0.preview2": [
+
+  ],
+  "2.4.0.preview1": [
+
+  ],
+  "2.3.1": [
+
+  ],
+  "2.2.5": [
+
+  ],
+  "2.1.10": [
+
+  ],
+  "2.1.9": [
+
+  ],
+  "2.3.0": [
+
+  ],
+  "2.2.4": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/",
+      "title": "CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL"
+    }
+  ],
+  "2.1.8": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/",
+      "title": "CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL"
+    }
+  ],
+  "2.0.0.p648": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/",
+      "title": "CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL"
+    }
+  ],
+  "2.3.0.preview2": [
+
+  ],
+  "2.3.0.preview1": [
+
+  ],
+  "2.2.3": [
+    {
+      "url": "https://www.ruby-lang.orghttp://blog.rubygems.org/2015/05/14/CVE-2015-3900.html",
+      "title": "CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier"
+    }
+  ],
+  "2.1.7": [
+    {
+      "url": "https://www.ruby-lang.orghttp://blog.rubygems.org/2015/05/14/CVE-2015-3900.html",
+      "title": "CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier"
+    }
+  ],
+  "2.0.0.p647": [
+    {
+      "url": "https://www.ruby-lang.orghttp://blog.rubygems.org/2015/05/14/CVE-2015-3900.html",
+      "title": "CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier"
+    }
+  ],
+  "2.2.2": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/",
+      "title": "CVE-2015-1855: Ruby OpenSSL Hostname Verification"
+    }
+  ],
+  "2.1.6": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/",
+      "title": "CVE-2015-1855: Ruby OpenSSL Hostname Verification"
+    }
+  ],
+  "2.0.0.p645": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/",
+      "title": "CVE-2015-1855: Ruby OpenSSL Hostname Verification"
+    }
+  ],
+  "2.2.1": [
+
+  ],
+  "2.0.0.p643": [
+
+  ],
+  "2.2.0": [
+
+  ],
+  "2.2.0.rc1": [
+
+  ],
+  "2.2.0.preview2": [
+
+  ],
+  "2.1.5": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/",
+      "title": "CVE-2014-8090: Another Denial of Service XML Expansion"
+    }
+  ],
+  "2.0.0.p598": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/",
+      "title": "CVE-2014-8090: Another Denial of Service XML Expansion"
+    }
+  ],
+  "1.9.3.p551": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/",
+      "title": "CVE-2014-8090: Another Denial of Service XML Expansion"
+    }
+  ],
+  "2.1.4": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/",
+      "title": "CVE-2014-8080: Denial of Service XML Expansion"
+    },
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/",
+      "title": "Changed default settings of ext/openssl related to CVE-2014-3566"
+    }
+  ],
+  "2.0.0.p594": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/",
+      "title": "CVE-2014-8080: Denial of Service XML Expansion"
+    }
+  ],
+  "1.9.3.p550": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/",
+      "title": "CVE-2014-8080: Denial of Service XML Expansion"
+    }
+  ],
+  "2.1.3": [
+
+  ],
+  "2.0.0.p576": [
+
+  ],
+  "2.2.0.preview1": [
+
+  ],
+  "1.9.2.p330": [
+    {
+      "url": "https://www.ruby-lang.orghttps://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6438",
+      "title": "CVE-2014-6438"
+    }
+  ],
+  "1.9.3.p547": [
+
+  ],
+  "2.1.2": [
+
+  ],
+  "2.0.0.p481": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/",
+      "title": "Heap Overflow in YAML URI Escape Parsing (CVE-2014-2525)"
+    }
+  ],
+  "2.1.1": [
+
+  ],
+  "2.0.0.p451": [
+
+  ],
+  "1.9.3.p545": [
+
+  ],
+  "2.1.0": [
+
+  ],
+  "2.1.0.rc1": [
+
+  ],
+  "2.1.0.preview2": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/",
+      "title": "Heap Overflow in Floating Point Parsing (CVE-2013-4164)"
+    }
+  ],
+  "2.0.0.p353": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/",
+      "title": "Heap Overflow in Floating Point Parsing\n(CVE-2013-4164)"
+    }
+  ],
+  "1.9.3.p484": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/",
+      "title": "Heap Overflow in Floating Point Parsing (CVE-2013-4164)"
+    }
+  ],
+  "2.1.0.preview1": [
+
+  ],
+  "2.0.0.p247": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/",
+      "title": "Hostname check bypassing vulnerability in SSL client\n(CVE-2013-4073)"
+    }
+  ],
+  "1.9.3.p448": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/",
+      "title": "Hostname check bypassing vulnerability in SSL client\n(CVE-2013-4073)"
+    }
+  ],
+  "1.8.7.p374": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/",
+      "title": "Hostname check bypassing vulnerability in SSL client\n(CVE-2013-4073)"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/02/22/rexml-dos-2013-02-22/",
+      "title": "Entity expansion DoS vulnerability in REXML (XML bomb,\nCVE-2013-1821)"
+    }
+  ],
+  "2.0.0.p195": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/",
+      "title": "Object taint bypassing in DL and Fiddle in Ruby\n(CVE-2013-2065)"
+    }
+  ],
+  "1.9.3.p429": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/",
+      "title": "Object taint bypassing in DL and Fiddle in Ruby (CVE-2013-2065)"
+    }
+  ],
+  "2.0.0.p0": [
+
+  ],
+  "1.9.3.p392": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2013/02/22/json-dos-cve-2013-0269/",
+      "title": "Denial of Service and Unsafe Object Creation Vulnerability in JSON\n(CVE-2013-0269)"
+    },
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2013/02/22/rexml-dos-2013-02-22/",
+      "title": "Entity expansion DoS vulnerability in REXML (XML bomb,\nCVE-2013-1821)"
+    }
+  ],
+  "2.0.0.rc2": [
+
+  ],
+  "1.9.3.p385": [
+
+  ],
+  "1.9.3.p374": [
+
+  ],
+  "1.9.3.p362": [
+
+  ],
+  "1.9.3.p327": [
+
+  ],
+  "1.9.3.p286": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2012/10/12/cve-2012-4464-cve-2012-4466/",
+      "title": "$SAFE escaping vulnerability about Exception#to_s / NameError#to_s\n(CVE-2012-4464, CVE-2012-4466)"
+    }
+  ],
+  "1.8.7.p370": [
+
+  ],
+  "1.9.2.p320": [
+
+  ],
+  "1.9.3.p194": [
+
+  ],
+  "1.9.3.p125": [
+
+  ],
+  "1.9.3.p0": [
+
+  ],
+  "1.9.3.rc1": [
+
+  ],
+  "1.9.3.preview1": [
+
+  ],
+  "1.9.2.p290": [
+
+  ],
+  "1.8.7.p352": [
+
+  ],
+  "1.9.2.p136": [
+
+  ],
+  "1.8.7.p330": [
+
+  ],
+  "1.9.2": [
+
+  ],
+  "1.9.1.p430": [
+
+  ],
+  "1.8.7.p302": [
+
+  ],
+  "1.9.2.rc2": [
+
+  ],
+  "1.9.2.rc1": [
+
+  ],
+  "1.9.1.p429": [
+
+  ],
+  "1.8.7.p299": [
+
+  ],
+  "1.8.7.p248": [
+
+  ],
+  "1.9.1.p376": [
+
+  ],
+  "1.9.2.preview.1": [
+
+  ],
+  "1.9.1.p243": [
+
+  ],
+  "1.9.1.p129": [
+
+  ],
+  "1.8.7.p160.and.1.8.6.p368": [
+
+  ],
+  "1.9.1": [
+
+  ],
+  "1.9.1.preview.1": [
+
+  ],
+  "1.8.7.p72.and.1.8.6.p287": [
+
+  ],
+  "1.8.7": [
+
+  ],
+  "1.9.0": [
+
+  ],
+  "1.8.6": [
+
+  ],
+  "1.8.5": [
+
+  ],
+  "184": [
+
+  ],
+  "184.preview.2": [
+
+  ],
+  "183": [
+
+  ],
+  "182": [
+
+  ],
+  "182.preview4": [
+
+  ],
+  "182.preview3": [
+
+  ],
+  "182.preview2": [
+
+  ],
+  "182.preview1": [
+
+  ],
+  "180": [
+
+  ],
+  "167": [
+
+  ]
+}

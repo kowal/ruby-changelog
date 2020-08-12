@@ -5,7 +5,7 @@ require 'json'
 RUBY_BASE_URL = 'https://www.ruby-lang.org'.freeze
 RUBY_RELEASES_PATH = '/en/downloads/releases/'.freeze
 
-CVE_RESULT_FILE = 'ruby_cve.json'.freeze
+CVE_RESULT_FILE = 'data/ruby_cve.json'.freeze
 
 def ruby_link(path)
   "#{RUBY_BASE_URL}#{path}"

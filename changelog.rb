@@ -2,7 +2,8 @@ require 'json'
 require 'erb'
 require 'date'
 
-CHANGELOG_SOURCE = 'changelog.json'.freeze
+CHANGELOG_SOURCE = 'data/ruby_versions.json'.freeze
+CVE_SOURCE = 'data/ruby_cve.json'.freeze
 
 TEMPLATE_HTML = 'templates/index.html.erb'.freeze
 TEMPLATE_MD = 'templates/README.md.erb'.freeze
@@ -22,47 +23,42 @@ DOCS_CHARTS_TIMELINE_JS = "#{DOCS_BASE}/docs/javascripts/charts-timeline.js".fre
 # > Changelog.new.generate_markdown
 class Changelog
   def generate_html
-    ruby_versions
-      .yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_HTML) }
-      .yield_self { |output| write_out(OUTPUT_HTML, output) }
+    save_file(OUTPUT_HTML, generate_file(TEMPLATE_HTML, ruby_versions: ruby_versions_data))
   end
 
   def generate_readme
-    ruby_versions
-      .yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_MD) }
-      .yield_self { |output| write_out(OUTPUT_README_MD, output) }
+    save_file(OUTPUT_README_MD, generate_file(TEMPLATE_MD, ruby_versions: ruby_versions_data))
   end
 
   def generate_full_docs
-    rv = ruby_versions
+    save_file(DOCS_VERSIONS_MAIN_MD,
+              generate_file(TEMPLATE_DOCS_VERSIONS_MAIN_MD, ruby_versions: ruby_versions_data))
 
-    rv.yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_DOCS_VERSIONS_MAIN_MD) }
-      .yield_self { |output| write_out(DOCS_VERSIONS_MAIN_MD, output) }
+    save_file(DOCS_VERSIONS_ALL_MD,
+              generate_file(TEMPLATE_DOCS_VERSIONS_ALL_MD,
+                            ruby_versions: ruby_versions_data, ruby_cve: ruby_cve_data))
 
-    rv.yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_DOCS_VERSIONS_ALL_MD) }
-      .yield_self { |output| write_out(DOCS_VERSIONS_ALL_MD, output) }
-
-    rv.yield_self { |ruby_versions| file_from_template(ruby_versions, TEMPLATE_DOCS_TIMELINE_JS) }
-      .yield_self { |output| write_out(DOCS_CHARTS_TIMELINE_JS, output) }
+    save_file(DOCS_CHARTS_TIMELINE_JS,
+              generate_file(TEMPLATE_DOCS_TIMELINE_JS, ruby_versions: ruby_versions_data))
   end
 
   private
 
-  def ruby_versions
-    changelog_as_json
-      .yield_self { |json| json_to_hash(json) }
-      .yield_self { |hash| hash['ruby_versions'] }
+  def ruby_versions_data
+    @ruby_versions_data ||= json_to_hash(changelog_as_json)['ruby_versions']
   end
 
-  def file_from_template(ruby_versions, template)
-    read_file(template)
-      .yield_self { |content| ERB.new(content, nil, '-') }
-      .yield_self { |erb| erb.result_with_hash(ruby_versions: ruby_versions) }
+  def ruby_cve_data
+    @ruby_cve_data ||= json_to_hash(cve_as_json)
   end
 
-  def write_out(target_file, content)
-    printf "Writing to #{target_file} .."
-    File.write(target_file, content)
+  def generate_file(template_path, template_params)
+    ERB.new(read_file(template_path), nil, '-').result_with_hash(template_params)
+  end
+
+  def save_file(path, output)
+    printf "Writing to #{path} .."
+    File.write(path, output)
     printf " Done\n"
   end
 
@@ -72,6 +68,10 @@ class Changelog
 
   def changelog_as_json
     File.read(CHANGELOG_SOURCE)
+  end
+
+  def cve_as_json
+    File.read(CVE_SOURCE)
   end
 
   def read_file(template_file)

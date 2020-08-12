@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-08-02
+* Last updated on 2020-08-12
 
 
   ## Ruby 2.7
@@ -88,7 +88,7 @@ Rebuild documentation pages from templates
 
 Start documentation app
 
-    $ cd mkdocs
+    $ cd docs
     $ mkdocs serve
 
 Open http://localhost:8000/
