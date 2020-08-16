@@ -42,6 +42,12 @@ class Changelog
               generate_file(TEMPLATE_DOCS_TIMELINE_JS, ruby_versions: ruby_versions_data))
   end
 
+  def fetch_cve_history
+    cve_results = RubyChangelog::CveData.new.fetch
+
+    save_json_file_from_hash CVE_SOURCE, cve_results
+  end
+
   private
 
   def ruby_versions_data
@@ -59,6 +65,14 @@ class Changelog
   def save_file(path, output)
     printf "Writing to #{path} .."
     File.write(path, output)
+    printf " Done\n"
+  end
+
+  def save_json_file_from_hash(path, hash)
+    printf "\nWriting to #{path} .."
+    File.open(path, 'w') do |f|
+      f.write(JSON.pretty_generate(hash))
+    end
     printf " Done\n"
   end
 

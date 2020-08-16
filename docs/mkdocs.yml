@@ -59,6 +59,11 @@ extra_javascript:
   - https://www.amcharts.com/lib/4/themes/dark.js
   - https://www.amcharts.com/lib/4/themes/animated.js
   - javascripts/charts-timeline.js
+  - https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css
+  - stylesheets/custom.css
 
 # Page tree
 nav:

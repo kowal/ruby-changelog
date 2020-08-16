@@ -1,0 +1,29 @@
+
+.icon-label {
+  display: inline;
+  font-size: small;
+}
+
+.icon-label.calendar {
+  color: cadetblue;
+}
+
+.icon {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  margin-left: -5px;
+}
+
+.eol > .icon {
+  fill: red;
+}
+
+.calendar > .icon {
+  fill: cadetblue;
+}
+
+.md-typeset ul {
+  list-style-type: none;
+  margin-left: -8px;
+}
