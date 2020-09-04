@@ -13,6 +13,7 @@
   vertical-align: middle;
   margin-bottom: 4px;
   margin-left: -5px;
+  margin-right: 5px;
 }
 
 .eol > .icon {
@@ -26,4 +27,12 @@
 .md-typeset ul {
   list-style-type: none;
   margin-left: -8px;
+}
+
+.md-typeset a {
+  color: #7b0101;
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
 }

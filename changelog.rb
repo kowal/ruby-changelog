@@ -7,7 +7,7 @@ CVE_SOURCE = 'data/ruby_cve.json'.freeze
 
 TEMPLATE_HTML = 'templates/index.html.erb'.freeze
 TEMPLATE_MD = 'templates/README.md.erb'.freeze
-TEMPLATE_DOCS_VERSIONS_MAIN_MD = 'templates/docs/versions/main.md.erb'.freeze
+TEMPLATE_DOCS_VERSIONS_LATEST_MD = 'templates/docs/versions/LATEST.md.erb'.freeze
 TEMPLATE_DOCS_VERSIONS_ALL_MD = 'templates/docs/versions/all.md.erb'.freeze
 TEMPLATE_DOCS_TIMELINE_JS = 'templates/docs/charts/timeline.js.erb'.freeze
 
@@ -15,7 +15,7 @@ OUTPUT_HTML = 'index.html'.freeze
 OUTPUT_README_MD = 'README.MD'.freeze
 
 DOCS_BASE = 'docs'.freeze
-DOCS_VERSIONS_MAIN_MD = "#{DOCS_BASE}/docs/versions-main.md".freeze
+DOCS_VERSIONS_LATEST_MD = "#{DOCS_BASE}/docs/versions-latest.md".freeze
 DOCS_VERSIONS_ALL_MD = "#{DOCS_BASE}/docs/versions-all.md".freeze
 DOCS_CHARTS_TIMELINE_JS = "#{DOCS_BASE}/docs/javascripts/charts-timeline.js".freeze
 
@@ -31,8 +31,8 @@ class Changelog
   end
 
   def generate_full_docs
-    save_file(DOCS_VERSIONS_MAIN_MD,
-              generate_file(TEMPLATE_DOCS_VERSIONS_MAIN_MD, ruby_versions: ruby_versions_data))
+    save_file(DOCS_VERSIONS_LATEST_MD,
+              generate_file(TEMPLATE_DOCS_VERSIONS_LATEST_MD, ruby_versions: ruby_versions_data))
 
     save_file(DOCS_VERSIONS_ALL_MD,
               generate_file(TEMPLATE_DOCS_VERSIONS_ALL_MD,

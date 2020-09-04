@@ -107,7 +107,13 @@
       "changes": [
         {
           "type": "new",
-          "summary": "<code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block"
+          "summary": "<code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block",
+          "details": [
+            "<code>yield_self</code> is like <code>map</code> for single object"
+          ],
+          "links": {
+            "grep.app": "https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"
+          }
         },
         {
           "type": "new",

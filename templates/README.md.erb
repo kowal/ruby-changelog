@@ -20,13 +20,16 @@
 
 #### Docs
 
-Rebuild documentation pages from templates
+Documentation app is built on top of https://squidfunk.github.io/mkdocs-material/ which is a theme for https://www.mkdocs.org/.
+
+
+To rebuild documentation pages from templates:
 
     $ rake doc
-    # Writing to mkdocs-material/docs/versions-main.md .. Done
+    # Writing to mkdocs-material/docs/versions-latest.md .. Done
     # ...
 
-Start documentation app
+To start documentation app:
 
     $ cd docs
     $ mkdocs serve
@@ -35,7 +38,7 @@ Open http://localhost:8000/
 
 #### README
 
-Rebuild `README.md` from `templates/README.md.erb` template:
+To rebuild `README.md` from `templates/README.md.erb` template:
 
     $ rake md
     # Writing to README.MD .. Done

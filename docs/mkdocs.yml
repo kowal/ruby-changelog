@@ -69,7 +69,7 @@ extra_css:
 nav:
   - Home: index.md
   - Versions:
-    - Latest Versions: versions-main.md
+    - Latest Versions: versions-latest.md
     - All Versions: versions-all.md
   - Charts:
     - Timeline: timeline.md
