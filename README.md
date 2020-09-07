@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-09-04
+* Last updated on 2020-09-07
 
 
   ## Ruby 2.7

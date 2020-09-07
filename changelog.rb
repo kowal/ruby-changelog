@@ -59,7 +59,22 @@ class Changelog
   end
 
   def generate_file(template_path, template_params)
-    ERB.new(read_file(template_path), nil, '-').result_with_hash(template_params)
+    ERB.new(
+      read_file(template_path),
+      nil,
+      '-'
+    ).result_with_hash(default_template_params.merge(template_params))
+  end
+
+  def default_template_params
+    {
+      icon_types: {
+        new: "<div data-icon='ei-plus' data-size='s'></div>",
+        update: "<div data-icon='ei-pencil' data-size='s'></div>",
+        internals: "<div data-icon='ei-gear' data-size='s'></div>",
+        removed: "<div data-icon='ei-minus' data-size='s'></div>"
+      }
+    }
   end
 
   def save_file(path, output)

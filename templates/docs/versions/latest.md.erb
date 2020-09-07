@@ -13,7 +13,7 @@ All maintenance ended on <%= ruby_version['eol'] %>.
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>
-- <%= { new: "<div data-icon='ei-plus' data-size='s'></div>", update: "<div data-icon='ei-pencil' data-size='s'></div>", internals: "<div data-icon='ei-gear' data-size='s'></div>", removed: "<div data-icon='ei-minus' data-size='s'></div>" }[change['type'].to_sym] %> <%= change['summary'] %>
+- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %> <%= (change['links'] || []).to_a.map { |link_type, link| "<a target='_blank' href=\"#{link}\"><img class=\"icon link-service-icon\" src=\"/assets/link-icon-#{link_type}.ico\" title=\"Show code examples\" alt=\"Go to examples\"></a>" }.join(' ') %>
   <% end -%>
 
 ----

@@ -112,7 +112,7 @@
             "<code>yield_self</code> is like <code>map</code> for single object"
           ],
           "links": {
-            "grep.app": "https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"
+            "grep-app": "https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"
           }
         },
         {
