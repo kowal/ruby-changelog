@@ -3,17 +3,15 @@
 <%- ruby_versions.each do |ruby_version| %>
 
   <%- if !ruby_version['implementations'].nil? %>
-## Ruby <%= ruby_version['implementations'].map { |impl| "[#{impl['name'].split.last}](#{impl['url']})" }.first %> <div class='icon-label calendar' title='Released on <%= ruby_version['minors'].first['release_date'] %>'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <%= ruby_version['implementations'].map { |impl| "[#{impl['name'].split.last}](#{impl['url']})" }.first %> <%= !ruby_version['eol'].nil? ? "<div class='icon-label eol' title='All maintenance ended on #{ruby_version['eol']}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %> <div class='icon-label calendar' title='Released on <%= ruby_version['minors'].first['release_date'] %>'><div data-icon='ei-calendar' data-size='s'></div></div>
   <% else %>
 ## Ruby <%= ruby_version['version'] %>
   <% end -%>
 
-  <%- if !ruby_version['eol'].nil? %>
-All maintenance ended on <%= ruby_version['eol'] %>.
-  <% end -%>
-
   <% ruby_version['changes'].each do |change| -%>
-- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %> <%= (change['links'] || []).to_a.map { |link_type, link| "<a target='_blank' href=\"#{link}\"><img class=\"icon link-service-icon\" src=\"/assets/link-icon-#{link_type}.ico\" title=\"Show code examples\" alt=\"Go to examples\"></a>" }.join(' ') %>
+- <%= icon_types[change['type'].to_sym] %>
+  <%= change['summary'] %>
+  <%= (change['links'] || []).to_a.map { |link_type, link| "<a target='_blank' href=\"#{link}\"><img class=\"icon link-service-icon\" src=\"/assets/link-icon-#{link_type}.ico\" title=\"#{link_titles[link_type.to_sym]}\"></a>" }.join(' ') %>
   <% end -%>
 
 ----

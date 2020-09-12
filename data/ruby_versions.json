@@ -17,7 +17,11 @@
       "changes": [
         {
           "type": "new",
-          "summary": "Pattern Matching"
+          "experimental": true,
+          "summary": "Pattern Matching",
+          "links": {
+            "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"
+          }
         },
         {
           "type": "update",
@@ -25,7 +29,10 @@
         },
         {
           "type": "update",
-          "summary": "Separation of positional and keyword arguments"
+          "summary": "Separation of positional and keyword arguments",
+          "links": {
+            "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"
+          }
         },
         {
           "type": "internals",
@@ -55,7 +62,11 @@
       "changes": [
         {
           "type": "new",
-          "summary": "endless ranges <code>(1..)</code>"
+          "summary": "endless ranges <code>(1..)</code>",
+          "links" : {
+            "news": "https://github.com/ruby/ruby/blob/ruby_2_6/NEWS#language-changes-",
+            "grep-app": "https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"
+          }
         },
         {
           "type": "new",

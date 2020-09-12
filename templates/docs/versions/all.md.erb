@@ -4,18 +4,19 @@
 
 ## Ruby <%= ruby_version['version'] %> <%= !ruby_version['eol'].nil? ? "<div class='icon-label eol' title='All maintenance ended on #{ruby_version['eol']}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %>
 
-  <%- [*ruby_version['minors']].each do |minor_version| %>
+<%- [*ruby_version['minors']].each do |minor_version| %>
 ### Ruby [<%= minor_version['version'] %>](https://www.ruby-lang.org/en/news/<%= minor_version['release_date'].gsub('-', '/') %>/ruby-<%= minor_version['version'].gsub('.', '-') %>-released/) <div class='icon-label calendar' title='Released on <%= minor_version['release_date'] %>'><div data-icon='ei-calendar' data-size='s'></div></div>
 
-<%- if minor_version['version'].end_with? '.0' %>
-  <% ruby_version['changes'].each do |change| -%>
+  <%- if minor_version['version'].end_with? '.0' %>
+    <%- ruby_version['changes'].each do |change| %>
 - <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %>
+    <% end -%>
+  <% end -%>
+
+  <%- ruby_cve[minor_version['version']].each do |cve| %>
+- <%= icon_types[:cve] %> [<%= cve['title'] %>](<%= cve['url'] %>)
   <% end -%>
 <% end -%>
-<%- ruby_cve[minor_version['version']].each do |cve| %>
-- <div data-icon='ei-exclamation' data-size='s'></div>[<%= cve['title'] %>](<%= cve['url'] %>)
-<% end -%>
-  <% end -%>
 
 ----
 <% end -%>

@@ -60,9 +60,11 @@ extra_javascript:
   - https://www.amcharts.com/lib/4/themes/animated.js
   - javascripts/charts-timeline.js
   - https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js
+  - https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css
+  - https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
   - stylesheets/custom.css
 
 # Page tree

@@ -69,10 +69,15 @@ class Changelog
   def default_template_params
     {
       icon_types: {
-        new: "<div data-icon='ei-plus' data-size='s'></div>",
-        update: "<div data-icon='ei-pencil' data-size='s'></div>",
-        internals: "<div data-icon='ei-gear' data-size='s'></div>",
-        removed: "<div data-icon='ei-minus' data-size='s'></div>"
+        new: "<span class='badge badge-pill badge-success'>Added</span>",
+        update: "<span class='badge badge-pill badge-primary'>Updated</span>",
+        internals: "<span class='badge badge-pill badge-dark'>Internals</span>",
+        removed: "<span class='badge badge-pill badge-danger'>Removed</span>",
+        cve: "<span class='badge badge-pill badge-warning'>CVE</span>"
+      },
+      link_titles: {
+        news: 'Check details on NEWS page (github)',
+        'grep-app': 'Check code examples on grep.app'
       }
     }
   end

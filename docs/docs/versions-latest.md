@@ -3,74 +3,123 @@
 
 
 
-## Ruby [2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby [2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
-
-  - <div data-icon='ei-plus' data-size='s'></div> Pattern Matching 
-  - <div data-icon='ei-pencil' data-size='s'></div> REPL improvements 
-  - <div data-icon='ei-pencil' data-size='s'></div> Separation of positional and keyword arguments 
-  - <div data-icon='ei-gear' data-size='s'></div> Compaction GC 
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Pattern Matching
+  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  REPL improvements
   
-----
-
-
-
-## Ruby [2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Separation of positional and keyword arguments
+  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Compaction GC
   
-
-  - <div data-icon='ei-plus' data-size='s'></div> endless ranges <code>(1..)</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Enumerable#chain</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> function composition operators <code><<, >></code> to <code>Proc</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> <code>#then</code> alias for <code>#yield_self</code> 
-  - <div data-icon='ei-gear' data-size='s'></div> JIT compiler <code>--jit</code> 
-  - <div data-icon='ei-gear' data-size='s'></div> Bundler is installed as a default gem 
   
 ----
 
 
 
-## Ruby [2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby [2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
-
-  - <div data-icon='ei-plus' data-size='s'></div> <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Show code examples" alt="Go to examples"></a>
-  - <div data-icon='ei-plus' data-size='s'></div> <code>rescue</code> in blocks 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Hash#slice</code> and <code>Hash#transform_keys</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>ERB#result_with_hash</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> Pattern argument on <code>Enumerable</code> methods 
-  - <div data-icon='ei-pencil' data-size='s'></div> Keyword arguments on <code>Struct.new</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> Removed Top-level constant lookup 
+  - <span class='badge badge-pill badge-success'>Added</span>
+  endless ranges <code>(1..)</code>
+  <a target='_blank' href=""><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Enumerable#chain</code>
   
-----
-
-
-
-## Ruby [2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+  - <span class='badge badge-pill badge-success'>Added</span>
+  function composition operators <code><<, >></code> to <code>Proc</code>
   
-
-All maintenance ended on 2020-03-31.
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  <code>#then</code> alias for <code>#yield_self</code>
   
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Enumerable#sum</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Integer#digits</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Regexp#match?</code>, <code>Regexp#named_captures</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> New constructor <code>Logger.new(STDOUT, level:, progname:)</code> 
-  - <div data-icon='ei-pencil' data-size='s'></div> Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision 
-  - <div data-icon='ei-minus' data-size='s'></div> Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>) 
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  JIT compiler <code>--jit</code>
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Bundler is installed as a default gem
+  
   
 ----
 
 
 
-## Ruby [2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released) <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby [2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+  <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>rescue</code> in blocks
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Hash#slice</code> and <code>Hash#transform_keys</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>ERB#result_with_hash</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Pattern argument on <code>Enumerable</code> methods
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Keyword arguments on <code>Struct.new</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Removed Top-level constant lookup
+  
+  
+----
 
-All maintenance ended on 2019-03-31.
+
+
+## Ruby [2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/) <div class='icon-label eol' title='All maintenance ended on 2020-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
-  - <div data-icon='ei-plus' data-size='s'></div> Safe navigation operator <code>&.</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> Frozen string literals 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Array#dig</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> 'Did you mean?' 
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Enumerable#sum</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Integer#digits</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Regexp#match?</code>, <code>Regexp#named_captures</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  New constructor <code>Logger.new(STDOUT, level:, progname:)</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision
+  
+  - <span class='badge badge-pill badge-danger'>Removed</span>
+  Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)
+  
+  
+----
+
+
+
+## Ruby [2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released) <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Safe navigation operator <code>&.</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Frozen string literals
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Array#dig</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  'Did you mean?'
+  
   
 ----
 
@@ -78,13 +127,18 @@ All maintenance ended on 2019-03-31.
 
 ## Ruby 2.2
   
-
-All maintenance ended on 2018-03-31.
+  - <span class='badge badge-pill badge-danger'>Removed</span>
+  <code>callcc</code> is obsolete - use Fiber instead
   
-  - <div data-icon='ei-minus' data-size='s'></div> <code>callcc</code> is obsolete - use Fiber instead 
-  - <div data-icon='ei-minus' data-size='s'></div> <code>DL</code> has been removed from stdlib - use Fiddle instead 
-  - <div data-icon='ei-gear' data-size='s'></div> Incremental GC - fixes performance for 'old' objects 
-  - <div data-icon='ei-gear' data-size='s'></div> The introduction of GC for symbols (mortal/immortal) 
+  - <span class='badge badge-pill badge-danger'>Removed</span>
+  <code>DL</code> has been removed from stdlib - use Fiddle instead
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Incremental GC - fixes performance for 'old' objects
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  The introduction of GC for symbols (mortal/immortal)
+  
   
 ----
 
@@ -92,13 +146,18 @@ All maintenance ended on 2018-03-31.
 
 ## Ruby 2.1
   
-
-All maintenance ended on 2017-03-31.
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Refinements
   
-  - <div data-icon='ei-plus' data-size='s'></div> Refinements 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Exception#cause</code> - for libraries exceptions 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Rational</code> and <code>Complex</code> literals 
-  - <div data-icon='ei-plus' data-size='s'></div> Generational GC - young / old objects 
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Exception#cause</code> - for libraries exceptions
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Rational</code> and <code>Complex</code> literals
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Generational GC - young / old objects
+  
   
 ----
 
@@ -106,14 +165,19 @@ All maintenance ended on 2017-03-31.
 
 ## Ruby 2.0
   
-
-All maintenance ended on 2016-02-24.
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Keyword arguments
   
-  - <div data-icon='ei-plus' data-size='s'></div> Keyword arguments 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Module#prepend</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>Enumerator#lazy</code> 
-  - <div data-icon='ei-plus' data-size='s'></div> <code>%i</code> a literal for symbol array 
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Module#prepend</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Enumerator#lazy</code>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>%i</code> a literal for symbol array
+  
   
 ----
 
-(This page was updated on 2020-09-07 23:36:52 +0200)
+(This page was updated on 2020-09-13 00:32:20 +0200)
