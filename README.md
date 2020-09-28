@@ -1,8 +1,20 @@
 # Ruby versions changelog
 
-* Last updated on 2020-09-07
+* Last updated on 2020-09-28
 
 
+  ## Ruby 3.0.0.preview1
+
+  * Implementations: [MRI 3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/)  
+  * :new: RBS language
+  * :new: Ractor
+  * :new: Scheduler
+  * :new: <code>Hash#except</code>
+  * :arrows_counterclockwise: Keyword arguments are separated from other arguments
+  * :arrows_counterclockwise: Rightward assignment statement
+  * :arrows_counterclockwise: Endless method definition <code>def square(x) = x * x</code>
+  * :arrows_counterclockwise: Reversed (again) order of backtrace (error message first, callers later)
+  
   ## Ruby 2.7
 
   * Implementations: [MRI 2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  
@@ -24,7 +36,7 @@
   ## Ruby 2.5
 
   * Implementations: [MRI 2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
-  * :new: <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+  * :new: <code>yield_self</code>
   * :new: <code>rescue</code> in blocks
   * :new: <code>Hash#slice</code> and <code>Hash#transform_keys</code>
   * :new: <code>ERB#result_with_hash</code>

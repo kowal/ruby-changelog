@@ -1,6 +1,56 @@
 {
   "ruby_versions": [
     {
+      "version": "3.0.0.preview1",
+      "version_info": "3.0.0.preview1 (Sep 2020) - ",
+      "state": "RC",
+      "minors": [
+        { "version": "3.0.0.preview1", "release_date": "2020-09-25", "end_date": "" }
+      ],
+      "implementations": [
+        {
+          "name": "MRI 3.0.0.preview1",
+          "url": "https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/"
+        }
+      ],
+      "changes": [
+        {
+          "type": "new",
+          "summary": "RBS language"
+        },
+        {
+          "type": "new",
+          "experimental": true,
+          "summary": "Ractor"
+        },
+        {
+          "type": "new",
+          "experimental": true,
+          "summary": "Scheduler"
+        },
+        {
+          "type": "new",
+          "summary": "<code>Hash#except</code>"
+        },
+        {
+          "type": "update",
+          "summary": "Keyword arguments are separated from other arguments"
+        },
+        {
+          "type": "update",
+          "summary": "Rightward assignment statement"
+        },
+        {
+          "type": "update",
+          "summary": "Endless method definition <code>def square(x) = x * x</code>"
+        },
+        {
+          "type": "update",
+          "summary": "Reversed (again) order of backtrace (error message first, callers later)"
+        }
+      ]
+    },
+    {
       "version": "2.7",
       "version_info": "2.7.0 (Dec 2019) - 2.7.1 (Mar 2020)",
       "state": "Supported",
@@ -118,9 +168,10 @@
       "changes": [
         {
           "type": "new",
-          "summary": "<code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block",
+          "summary": "<code>yield_self</code>",
           "details": [
-            "<code>yield_self</code> is like <code>map</code> for single object"
+            "Unlike <code>#tap</code>, it returns the result of the block.",
+            "<code>yield_self</code> is like <code>map</code> for single object."
           ],
           "links": {
             "grep-app": "https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"

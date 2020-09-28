@@ -2,6 +2,16 @@
 
 
 
+## Ruby 3.0.0.preview1 
+
+
+### Ruby [3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/) <div class='icon-label calendar' title='Released on 2020-09-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+----
+
+
 ## Ruby 2.7 
 
 
@@ -155,7 +165,7 @@
 
 
 
-- <span class='badge badge-pill badge-success'>Added</span> <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+- <span class='badge badge-pill badge-success'>Added</span> <code>yield_self</code>
     
 - <span class='badge badge-pill badge-success'>Added</span> <code>rescue</code> in blocks
     
@@ -370,4 +380,4 @@
 
 ----
 
-(Last updated on 2020-09-13 00:32:20 +0200)
+(Last updated on 2020-09-28 08:15:20 +0200)

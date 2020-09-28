@@ -3,6 +3,37 @@
 
 
 
+## Ruby [3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/)  <div class='icon-label calendar' title='Released on 2020-09-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  RBS language
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Ractor
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  Scheduler
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>Hash#except</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Keyword arguments are separated from other arguments
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Rightward assignment statement
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Endless method definition <code>def square(x) = x * x</code>
+  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Reversed (again) order of backtrace (error message first, callers later)
+  
+  
+----
+
+
+
 ## Ruby [2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -26,7 +57,7 @@
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
-  <a target='_blank' href=""><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_6/NEWS#language-changes-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>Enumerable#chain</code>
   
@@ -50,8 +81,16 @@
 ## Ruby [2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
-  <code>yield_self</code> - unlike <code>#tap</code>, it returns the result of the block
+  <code>yield_self</code>
   <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+  <a data-toggle="collapse" href="#codeExample250" aria-expanded="false" aria-controls="collapseExample">
+    Details
+  </a>
+  <div class="collapse" id="codeExample250">
+    <div class="alert alert-light" role="alert">
+      Unlike <code>#tap</code>, it returns the result of the block.<br><code>yield_self</code> is like <code>map</code> for single object.
+    </div>
+  </div>
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>rescue</code> in blocks
   
@@ -180,4 +219,13 @@
   
 ----
 
-(This page was updated on 2020-09-13 00:32:20 +0200)
+<a data-toggle="collapse" href="#ciasteczko" aria-expanded="false" aria-controls="collapseExample">
+  Show code example
+</a>
+<div class="collapse" id="ciasteczko">
+  <div class="card card-body">
+    For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+  </div>
+</div>
+
+(This page was updated on 2020-09-28 08:15:20 +0200)

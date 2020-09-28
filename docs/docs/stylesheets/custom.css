@@ -53,3 +53,7 @@ img.link-service-icon {
 .badge-pill {
   min-width: 66px;
 }
+
+a {
+  color: black;
+}

@@ -8,13 +8,32 @@
 ## Ruby <%= ruby_version['version'] %>
   <% end -%>
 
-  <% ruby_version['changes'].each do |change| -%>
+  <% ruby_version['changes'].each_with_index do |change, change_id| -%>
 - <%= icon_types[change['type'].to_sym] %>
   <%= change['summary'] %>
   <%= (change['links'] || []).to_a.map { |link_type, link| "<a target='_blank' href=\"#{link}\"><img class=\"icon link-service-icon\" src=\"/assets/link-icon-#{link_type}.ico\" title=\"#{link_titles[link_type.to_sym]}\"></a>" }.join(' ') %>
+  <%- if change['details'] && !change['details'].empty? -%>
+  <a data-toggle="collapse" href="#codeExample<%= ruby_version['version'].gsub('.', '') %><%= change_id %>" aria-expanded="false" aria-controls="collapseExample">
+    Details
+  </a>
+  <div class="collapse" id="codeExample<%= ruby_version['version'].gsub('.', '') %><%= change_id %>">
+    <div class="alert alert-light" role="alert">
+      <%= change['details'].join('<br>') %>
+    </div>
+  </div>
+  <%- end -%>
   <% end -%>
 
 ----
 <% end -%>
+
+<a data-toggle="collapse" href="#ciasteczko" aria-expanded="false" aria-controls="collapseExample">
+  Show code example
+</a>
+<div class="collapse" id="ciasteczko">
+  <div class="card card-body">
+    For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+  </div>
+</div>
 
 (This page was updated on <%= Time.now.to_s %>)
