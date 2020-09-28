@@ -12,8 +12,6 @@
   display: inline-flex;
   vertical-align: middle;
   margin-bottom: 4px;
-  /* margin-left: -5px; */
-  margin-right: 5px;
 }
 
 .eol > .icon {
@@ -39,7 +37,6 @@
 
 img.link-service-icon {
   max-height: 16px;
-  margin-left: 3px;
   width: auto;
   transition: transform .5s;
   opacity: 0.3;
