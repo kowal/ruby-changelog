@@ -1,0 +1,24 @@
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <h1>Ruby-changelog application architecture</h1>
+
+  <h2>Overview</h2>
+
+  <div class="mermaid">
+    flowchart LR
+    A0[(fa:fa-database Data source<br><br>/data/ruby_versions.json<br>/data/ruby_cve.json)] -. uses JSON files as data source .-> B[main Changelog class]
+    A1[fa:fa-user rake html]      --> B[fa:fa-cogs main Changelog class]
+    A2[fa:fa-user rake md]        --> B
+    A3[fa:fa-user rake doc]       --> B
+    A4[fa:fa-user rake fetch:cve] --> B
+
+    B --> D(fa:fa-bolt Genereate static HTML)        --> dd::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o index.html]
+    B --> E(fa:fa-bolt Genereate readme in Markdown) --> ee::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o README.md]
+    B --> F(fa:fa-bolt Genereate MkDocs md files)    --> ff::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o docs/docs/*.md files]
+    B --> G(fa:fa-bolt Fetch CVE data) --> A0
+
+    X[Legend<br><br>fa:fa-user user command<br>fa:fa-cogs system module<br>fa:fa-bolt system command<br>fa:fa-arrow-circle-o-right command result<br>fa:fa-file-text-o file update]
+  </div>
+</body>
