@@ -219,13 +219,4 @@
   
 ----
 
-<a data-toggle="collapse" href="#ciasteczko" aria-expanded="false" aria-controls="collapseExample">
-  Show code example
-</a>
-<div class="collapse" id="ciasteczko">
-  <div class="card card-body">
-    For example, <code>&lt;section&gt;</code> should be wrapped as inline.
-  </div>
-</div>
-
-(This page was updated on 2020-09-28 08:15:20 +0200)
+(This page was updated on 2020-09-28 08:18:19 +0200)
