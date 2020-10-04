@@ -69,6 +69,12 @@
           "type": "new",
           "experimental": true,
           "summary": "Pattern Matching",
+          "details": [
+            "<code>case [0, [1, 2, 3]] in [a, [b, *c]]</code>",
+            "<code>a # => 0</code>",
+            "<code>b # => 1</code>",
+            "<code>c # => [2, 3]</code>"
+          ],
           "links": {
             "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"
           }
@@ -82,6 +88,15 @@
           "summary": "Separation of positional and keyword arguments",
           "links": {
             "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"
+          }
+        },
+        {
+          "type": "update",
+          "summary": "Argument forwarding",
+          "links": {
+            "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#other-miscellaneous-changes-",
+            "post": "https://www.mendelowski.com/docs/ruby/new-way-for-argument-forwarding-in-27/",
+            "rblang": "https://bugs.ruby-lang.org/issues/16253" 
           }
         },
         {

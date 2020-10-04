@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-09-28
+* Last updated on 2020-10-04
 
 
   ## Ruby 3.0.0.preview1
@@ -21,6 +21,7 @@
   * :new: Pattern Matching
   * :arrows_counterclockwise: REPL improvements
   * :arrows_counterclockwise: Separation of positional and keyword arguments
+  * :arrows_counterclockwise: Argument forwarding
   * :gem: Compaction GC
   
   ## Ruby 2.6

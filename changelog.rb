@@ -77,7 +77,9 @@ class Changelog
       },
       link_titles: {
         news: 'Check details on NEWS page (github)',
-        'grep-app': 'Check code examples on grep.app'
+        'grep-app': 'Check code examples on grep.app',
+        'rbnews': 'Check discussion on rubylang',
+        'post': 'Check a blog post about this change'
       }
     }
   end

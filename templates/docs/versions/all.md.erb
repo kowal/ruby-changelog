@@ -9,12 +9,12 @@
 
   <%- if minor_version['version'].end_with? '.0' %>
     <%- ruby_version['changes'].each do |change| %>
-- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %>
+- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %><%= change['experimental'] ? ' (experimental)' : '' -%>
     <% end -%>
   <% end -%>
 
   <%- ruby_cve[minor_version['version']].each do |cve| %>
-- <%= icon_types[:cve] %> [<%= cve['title'] %>](<%= cve['url'] %>)
+- <%= icon_types[:cve] %> [<%= cve['title'][0..60] %>..](<%= cve['url'] %>)
   <% end -%>
 <% end -%>
 
