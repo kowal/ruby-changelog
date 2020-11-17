@@ -69,11 +69,11 @@
           "type": "new",
           "experimental": true,
           "summary": "Pattern Matching",
-          "details": [
-            "<code>case [0, [1, 2, 3]] in [a, [b, *c]]</code>",
-            "<code>a # => 0</code>",
-            "<code>b # => 1</code>",
-            "<code>c # => [2, 3]</code>"
+          "detailsCode": [
+            "case [0, [1, 2, 3]] in [a, [b, *c]]",
+            "a # => 0",
+            "b # => 1",
+            "c # => [2, 3]"
           ],
           "links": {
             "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"
@@ -184,9 +184,9 @@
         {
           "type": "new",
           "summary": "<code>yield_self</code>",
-          "details": [
-            "Unlike <code>#tap</code>, it returns the result of the block.",
-            "<code>yield_self</code> is like <code>map</code> for single object."
+          "detailsCode": [
+            "Unlike #tap, it returns the result of the block.",
+            "yield_self is like #map for single object."
           ],
           "links": {
             "grep-app": "https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"

@@ -31,11 +31,14 @@
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
   <a data-toggle="collapse" href="#codeExample270" aria-expanded="false" aria-controls="collapseExample">
-    Details
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample270">
     <div class="alert alert-light" role="alert">
-      <code>case [0, [1, 2, 3]] in [a, [b, *c]]</code><br><code>a # => 0</code><br><code>b # => 1</code><br><code>c # => [2, 3]</code>
+      <code class="code">case [0, [1, 2, 3]] in [a, [b, *c]]
+a # => 0
+b # => 1
+c # => [2, 3]</code>
     </div>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
@@ -75,11 +78,12 @@
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>yield_self</code>  <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
   <a data-toggle="collapse" href="#codeExample250" aria-expanded="false" aria-controls="collapseExample">
-    Details
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample250">
     <div class="alert alert-light" role="alert">
-      Unlike <code>#tap</code>, it returns the result of the block.<br><code>yield_self</code> is like <code>map</code> for single object.
+      <code class="code">Unlike #tap, it returns the result of the block.
+yield_self is like #map for single object.</code>
     </div>
   </div>
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -180,4 +184,4 @@
   
 ----
 
-(This page was updated on 2020-10-04 18:08:16 +0200)
+(This page was updated on 2020-11-17 12:04:06 +0100)

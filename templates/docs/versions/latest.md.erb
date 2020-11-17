@@ -12,13 +12,13 @@
 - <%= icon_types[change['type'].to_sym] %>
   <%= change['summary'] %><%= change['experimental'] ? ' (experimental)' : '' -%>
   <%= (change['links'] || []).to_a.map { |link_type, link| "<a target='_blank' href=\"#{link}\"><img class=\"icon link-service-icon\" src=\"/assets/link-icon-#{link_type}.ico\" title=\"#{link_titles[link_type.to_sym]}\"></a>" }.join(' ') %>
-  <%- if change['details'] && !change['details'].empty? -%>
+  <%- if change['detailsCode'] && !change['detailsCode'].empty? -%>
   <a data-toggle="collapse" href="#codeExample<%= ruby_version['version'].gsub('.', '') %><%= change_id %>" aria-expanded="false" aria-controls="collapseExample">
-    Details
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample<%= ruby_version['version'].gsub('.', '') %><%= change_id %>">
     <div class="alert alert-light" role="alert">
-      <%= change['details'].join('<br>') %>
+      <code class="code"><%= change['detailsCode'].join("\n").strip -%></code>
     </div>
   </div>
   <%- end -%>

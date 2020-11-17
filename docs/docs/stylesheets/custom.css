@@ -54,3 +54,8 @@ img.link-service-icon {
 a {
   color: black;
 }
+
+code.code {
+  display: block;
+  white-space: pre-wrap   
+}
