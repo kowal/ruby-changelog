@@ -88,7 +88,13 @@
           "summary": "Separation of positional and keyword arguments",
           "links": {
             "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"
-          }
+          },
+          "detailsCode": [
+            "// To treat last hash argument as keywords, add a double splat operator",
+            "// (to avoid the warning and ensure correct behavior in Ruby 3)",
+            "def foo(key: 42); end; foo({key: 42})   # warned",
+            "def foo(key: 42); end; foo(**{key: 42}) # OK"
+          ]
         },
         {
           "type": "update",
@@ -97,7 +103,13 @@
             "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#other-miscellaneous-changes-",
             "post": "https://www.mendelowski.com/docs/ruby/new-way-for-argument-forwarding-in-27/",
             "rblang": "https://bugs.ruby-lang.org/issues/16253" 
-          }
+          },
+          "detailsCode": [
+            "// parentheses are mandatory",
+            "def foo(...)",
+            "  bar(...)",
+            "end"
+          ]
         },
         {
           "type": "internals",

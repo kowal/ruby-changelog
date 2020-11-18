@@ -45,8 +45,30 @@ c # => [2, 3]</code>
   REPL improvements  
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Separation of positional and keyword arguments  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  <a data-toggle="collapse" href="#codeExample272" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample272">
+    <div class="alert alert-light" role="alert">
+      <code class="code">// To treat last hash argument as keywords, add a double splat operator
+// (to avoid the warning and ensure correct behavior in Ruby 3)
+def foo(key: 42); end; foo({key: 42})   # warned
+def foo(key: 42); end; foo(**{key: 42}) # OK</code>
+    </div>
+  </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Argument forwarding  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#other-miscellaneous-changes-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://www.mendelowski.com/docs/ruby/new-way-for-argument-forwarding-in-27/"><img class="icon link-service-icon" src="/assets/link-icon-post.ico" title="Check a blog post about this change"></a> <a target='_blank' href="https://bugs.ruby-lang.org/issues/16253"><img class="icon link-service-icon" src="/assets/link-icon-rblang.ico" title=""></a>
+  <a data-toggle="collapse" href="#codeExample273" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample273">
+    <div class="alert alert-light" role="alert">
+      <code class="code">// parentheses are mandatory
+def foo(...)
+  bar(...)
+end</code>
+    </div>
+  </div>
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Compaction GC  
   
@@ -184,4 +206,4 @@ yield_self is like #map for single object.</code>
   
 ----
 
-(This page was updated on 2020-11-17 12:04:06 +0100)
+(This page was updated on 2020-11-17 16:57:36 +0100)
