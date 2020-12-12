@@ -33,7 +33,7 @@
 
 
 
-- <span class='badge badge-pill badge-success'>Added</span> Pattern Matching (experimental!)    
+- <span class='badge badge-pill badge-success'>Added</span> Pattern Matching (experimental)    
 - <span class='badge badge-pill badge-primary'>Updated</span> REPL improvements    
 - <span class='badge badge-pill badge-primary'>Updated</span> Separation of positional and keyword arguments    
 - <span class='badge badge-pill badge-primary'>Updated</span> Argument forwarding    
@@ -170,7 +170,7 @@
 - <span class='badge badge-pill badge-primary'>Updated</span> Pattern argument on <code>Enumerable</code> methods    
 - <span class='badge badge-pill badge-primary'>Updated</span> Keyword arguments on <code>Struct.new</code>    
 - <span class='badge badge-pill badge-primary'>Updated</span> Removed Top-level constant lookup    
-- <span class='badge badge-pill badge-primary'>Updated</span> Reverse order of backtrace (oldest call first) (experimental!)      
+- <span class='badge badge-pill badge-primary'>Updated</span> Reverse order of backtrace (oldest call first) (experimental)      
 
 ----
 
@@ -359,4 +359,4 @@
 
 ----
 
-(Last updated on 2020-12-12 14:16:56 +0100)
+(Last updated on 2020-12-12 18:59:11 +0100)

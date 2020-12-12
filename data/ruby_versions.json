@@ -42,14 +42,16 @@
         },
         {
           "type": "update",
-          "summary": "Endless method definition <code>def square(x) = x * x</code>"
+          "experimental": true,
+          "summary": "Reversed (again) order of backtrace ",
+          "detailsCode": [
+            "Error message first, caller later.",
+            "This reverts change from Ruby 2.5.0."
+          ]
         },
         {
           "type": "update",
-          "summary": "Reversed (again) order of backtrace (error message first, callers later).",
-          "detailsCode": [
-            "This reverts change from Ruby 2.5.0"
-          ]
+          "summary": "Endless method definition <code>def square(x) = x * x</code>"
         }
       ]
     },

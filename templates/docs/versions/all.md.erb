@@ -9,7 +9,7 @@
 
   <%- if minor_version['version'].end_with? '.0' %>
     <%- ruby_version['changes'].each do |change| %>
-- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %><%= change['experimental'] ? ' (experimental!)' : '' -%>
+- <%= icon_types[change['type'].to_sym] %> <%= change['summary'] %><%= change['experimental'] ? ' (experimental)' : '' -%>
     <% end -%>
   <% end -%>
 
