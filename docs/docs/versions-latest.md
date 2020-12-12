@@ -6,17 +6,39 @@
 ## Ruby [3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/)  <div class='icon-label calendar' title='Released on 2020-09-25'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
-  RBS language
+  RBS - a language to describe the structure of Ruby classes/modules
+    <a target='_blank' href="https://github.com/ruby/rbs"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  <a data-toggle="collapse" href="#codeExample300preview10" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample300preview10">
+    <div class="alert alert-light" role="alert">
+      <code class="code">class User
+  attr_reader login: String
+  attr_reader email: String
+  def initialize: (login: String, email: String) -> void
+end</code>
+    </div>
+  </div>
   - <span class='badge badge-pill badge-success'>Added</span>
   Ractor (experimental)
   - <span class='badge badge-pill badge-success'>Added</span>
   Scheduler (experimental)
   - <span class='badge badge-pill badge-success'>Added</span>
-  <code>Hash#except</code>
+  <code>Hash.except</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Keyword arguments are separated from other arguments
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Rightward assignment statement
+  <a data-toggle="collapse" href="#codeExample300preview15" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample300preview15">
+    <div class="alert alert-light" role="alert">
+      <code class="code">fib(10) => a
+a #=> 55</code>
+    </div>
+  </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Reversed (again) order of backtrace  (experimental)
   <a data-toggle="collapse" href="#codeExample300preview16" aria-expanded="false" aria-controls="collapseExample">
@@ -235,4 +257,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(This page was updated on 2020-12-12 18:59:11 +0100)
+(This page was updated on 2020-12-12 22:19:56 +0100)

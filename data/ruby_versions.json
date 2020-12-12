@@ -16,7 +16,17 @@
       "changes": [
         {
           "type": "new",
-          "summary": "RBS language"
+          "summary": "RBS - a language to describe the structure of Ruby classes/modules",
+          "links": {
+            "news": "https://github.com/ruby/rbs"
+          },
+          "detailsCode": [
+            "class User",
+            "  attr_reader login: String",
+            "  attr_reader email: String",
+            "  def initialize: (login: String, email: String) -> void",
+            "end"
+          ]
         },
         {
           "type": "new",
@@ -38,7 +48,11 @@
         },
         {
           "type": "update",
-          "summary": "Rightward assignment statement"
+          "summary": "Rightward assignment statement",
+          "detailsCode": [
+            "fib(10) => a",
+            "a #=> 55"
+          ]
         },
         {
           "type": "update",
