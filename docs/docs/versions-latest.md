@@ -8,9 +8,9 @@
   - <span class='badge badge-pill badge-success'>Added</span>
   RBS language  
   - <span class='badge badge-pill badge-success'>Added</span>
-  Ractor (experimental)  
+  Ractor (experimental!)  
   - <span class='badge badge-pill badge-success'>Added</span>
-  Scheduler (experimental)  
+  Scheduler (experimental!)  
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>Hash#except</code>  
   - <span class='badge badge-pill badge-primary'>Updated</span>
@@ -20,7 +20,15 @@
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Endless method definition <code>def square(x) = x * x</code>  
   - <span class='badge badge-pill badge-primary'>Updated</span>
-  Reversed (again) order of backtrace (error message first, callers later)  
+  Reversed (again) order of backtrace (error message first, callers later).  
+  <a data-toggle="collapse" href="#codeExample300preview17" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample300preview17">
+    <div class="alert alert-light" role="alert">
+      <code class="code">This reverts change from Ruby 2.5.0</code>
+    </div>
+  </div>
   
 ----
 
@@ -29,7 +37,7 @@
 ## Ruby [2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)  <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
-  Pattern Matching (experimental)  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  Pattern Matching (experimental!)  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
   <a data-toggle="collapse" href="#codeExample270" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
   </a>
@@ -104,8 +112,12 @@ end</code>
   </a>
   <div class="collapse" id="codeExample250">
     <div class="alert alert-light" role="alert">
-      <code class="code">Unlike #tap, it returns the result of the block.
-yield_self is like #map for single object.</code>
+      <code class="code">// Unlike #tap, it returns the result of the block.
+// yield_self is like #map for single object.
+'Hello'.yield_self { |word| word.upcase }
+=> 'HELLO'
+['Hello'].map { |word| word.upcase }.first
+=> 'HELLO'</code>
     </div>
   </div>
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -122,6 +134,17 @@ yield_self is like #map for single object.</code>
   Keyword arguments on <code>Struct.new</code>  
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Removed Top-level constant lookup  
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Reverse order of backtrace (oldest call first) (experimental!)  
+  <a data-toggle="collapse" href="#codeExample258" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample258">
+    <div class="alert alert-light" role="alert">
+      <code class="code">Only when printed to terminal directly.
+This will be reversed again in Ruby 3.0.0</code>
+    </div>
+  </div>
   
 ----
 
@@ -206,4 +229,4 @@ yield_self is like #map for single object.</code>
   
 ----
 
-(This page was updated on 2020-12-12 13:03:31 +0100)
+(This page was updated on 2020-12-12 14:16:56 +0100)

@@ -13,7 +13,7 @@
   * :arrows_counterclockwise: Keyword arguments are separated from other arguments
   * :arrows_counterclockwise: Rightward assignment statement
   * :arrows_counterclockwise: Endless method definition <code>def square(x) = x * x</code>
-  * :arrows_counterclockwise: Reversed (again) order of backtrace (error message first, callers later)
+  * :arrows_counterclockwise: Reversed (again) order of backtrace (error message first, callers later).
   
   ## Ruby 2.7
 
@@ -45,6 +45,7 @@
   * :arrows_counterclockwise: Pattern argument on <code>Enumerable</code> methods
   * :arrows_counterclockwise: Keyword arguments on <code>Struct.new</code>
   * :arrows_counterclockwise: Removed Top-level constant lookup
+  * :arrows_counterclockwise: Reverse order of backtrace (oldest call first)
   
   ## Ruby 2.4
 

@@ -27,6 +27,10 @@
   margin-left: -20px;
 }
 
+.md-typeset ul li, .md-typeset ol li {
+  line-height: 20px;
+}
+
 .md-typeset a {
   color: #7b0101;
 }
