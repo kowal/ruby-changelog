@@ -15,6 +15,12 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/) <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..](https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
+  
 ### Ruby [2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -352,4 +358,4 @@
 
 ----
 
-(Last updated on 2020-11-17 16:57:36 +0100)
+(Last updated on 2020-12-12 13:03:31 +0100)

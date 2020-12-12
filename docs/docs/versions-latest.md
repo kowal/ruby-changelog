@@ -26,7 +26,7 @@
 
 
 
-## Ruby [2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby [2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)  <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)  <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
@@ -206,4 +206,4 @@ yield_self is like #map for single object.</code>
   
 ----
 
-(This page was updated on 2020-11-17 16:57:36 +0100)
+(This page was updated on 2020-12-12 13:03:31 +0100)

@@ -1,4 +1,13 @@
 {
+  "3.0.0.preview2": [
+
+  ],
+  "2.7.2": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/",
+      "title": "CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick"
+    }
+  ],
   "3.0.0.preview1": [
 
   ],

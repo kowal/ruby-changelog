@@ -1,6 +1,6 @@
 # Ruby versions changelog
 
-* Last updated on 2020-10-04
+* Last updated on 2020-12-12
 
 
   ## Ruby 3.0.0.preview1
@@ -17,7 +17,7 @@
   
   ## Ruby 2.7
 
-  * Implementations: [MRI 2.7.1](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/)  
+  * Implementations: [MRI 2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)  
   * :new: Pattern Matching
   * :arrows_counterclockwise: REPL improvements
   * :arrows_counterclockwise: Separation of positional and keyword arguments

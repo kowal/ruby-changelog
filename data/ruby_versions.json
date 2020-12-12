@@ -52,16 +52,17 @@
     },
     {
       "version": "2.7",
-      "version_info": "2.7.0 (Dec 2019) - 2.7.1 (Mar 2020)",
+      "version_info": "2.7.0 (Dec 2019) - 2.7.2 (Oct 2020)",
       "state": "Supported",
       "minors": [
-        { "version": "2.7.1", "release_date": "2020-03-31", "end_date": "" },
+        { "version": "2.7.2", "release_date": "2020-10-02", "end_date": "" },
+        { "version": "2.7.1", "release_date": "2020-03-31", "end_date": "2020-10-02" },
         { "version": "2.7.0", "release_date": "2019-12-25", "end_date": "2020-03-31" }
       ],
       "implementations": [
         {
-          "name": "MRI 2.7.1",
-          "url": "https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/"
+          "name": "MRI 2.7.2",
+          "url": "https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/"
         }
       ],
       "changes": [
@@ -314,7 +315,8 @@
       "changes": [
         {
           "type": "new",
-          "summary": "Safe navigation operator <code>&.</code>"
+          "summary": "Safe navigation operator <code>&.</code>",
+          "discussion": "https://bugs.ruby-lang.org/issues/11537"
         },
         {
           "type": "new",

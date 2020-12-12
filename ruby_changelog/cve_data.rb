@@ -19,7 +19,7 @@ module RubyChangelog
       version_paths.each_with_object({}) do |path, results|
         # Find CVE information for gien release
         version_doc = open_doc(ruby_link(path))
-        links = version_doc.xpath('//a[contains(text(), "CVE")]')
+        links = version_doc.xpath('//div[contains(@id, "content-wrapper")]//a[contains(text(), "CVE")]')
         ruby_version = ruby_version_from_ruby_path(path)
 
         next results unless ruby_version
