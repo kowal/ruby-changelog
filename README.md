@@ -6,14 +6,14 @@
   ## Ruby 3.0.0.preview1
 
   * Implementations: [MRI 3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/)  
-  * :new: RBS language
+  * :new: RBS - a language to describe the structure of Ruby classes/modules
   * :new: Ractor
   * :new: Scheduler
   * :new: <code>Hash#except</code>
   * :arrows_counterclockwise: Keyword arguments are separated from other arguments
   * :arrows_counterclockwise: Rightward assignment statement
+  * :arrows_counterclockwise: Reversed (again) order of backtrace 
   * :arrows_counterclockwise: Endless method definition <code>def square(x) = x * x</code>
-  * :arrows_counterclockwise: Reversed (again) order of backtrace (error message first, callers later).
   
   ## Ruby 2.7
 
