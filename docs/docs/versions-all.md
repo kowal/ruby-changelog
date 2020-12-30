@@ -2,12 +2,23 @@
 
 
 
-## Ruby 3.0.0.preview1 
+## Ruby 3.0.0 
 
 
-### Ruby [3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/) <div class='icon-label calendar' title='Released on 2020-09-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+### Ruby [3.0.0](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/) <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
+
+- <span class='badge badge-pill badge-dark'>Internals</span> MJIT improvements    
+- <span class='badge badge-pill badge-success'>Added</span> Ractor - Actor-model like concurrent abstraction (experimental)    
+- <span class='badge badge-pill badge-success'>Added</span> Fiber Scheduler for light-weight concurrency (experimental)    
+- <span class='badge badge-pill badge-success'>Added</span> RBS - a language to describe the structure of Ruby classes    
+- <span class='badge badge-pill badge-success'>Added</span> TypeProf - type analysis tool, generates RBS type signatures (experimental)    
+- <span class='badge badge-pill badge-success'>Added</span> <code>Hash#except</code>    
+- <span class='badge badge-pill badge-primary'>Updated</span> Keyword arguments are separated from other arguments    
+- <span class='badge badge-pill badge-primary'>Updated</span> Rightward assignment statement    
+- <span class='badge badge-pill badge-primary'>Updated</span> Reversed (again) order of backtrace  (experimental)    
+- <span class='badge badge-pill badge-primary'>Updated</span> Endless method definition <code>def square(x) = x * x</code>      
 
 ----
 
@@ -359,4 +370,4 @@
 
 ----
 
-(Last updated on 2020-12-12 22:19:56 +0100)
+(Last updated on 2020-12-30 11:40:07 +0100)

@@ -1,22 +1,40 @@
 {
   "ruby_versions": [
     {
-      "version": "3.0.0.preview1",
-      "version_info": "3.0.0.preview1 (Sep 2020) - ",
-      "state": "RC",
+      "version": "3.0.0",
+      "version_info": "3.0.0 (Dec 2020)",
+      "state": "Supported",
       "minors": [
-        { "version": "3.0.0.preview1", "release_date": "2020-09-25", "end_date": "" }
+        { "version": "3.0.0", "release_date": "2020-12-25", "end_date": "" }
       ],
       "implementations": [
         {
-          "name": "MRI 3.0.0.preview1",
-          "url": "https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/"
+          "name": "MRI 3.0.0",
+          "url": "https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/"
         }
       ],
       "changes": [
         {
+          "type": "internals",
+          "tags": ["performance"],
+          "summary": "MJIT improvements"
+        },
+        {
           "type": "new",
-          "summary": "RBS - a language to describe the structure of Ruby classes/modules",
+          "experimental": true,
+          "tags": ["concurrency"],
+          "summary": "Ractor - Actor-model like concurrent abstraction"
+        },
+        {
+          "type": "new",
+          "experimental": true,
+          "tags": ["concurrency"],
+          "summary": "Fiber Scheduler for light-weight concurrency"
+        },
+        {
+          "type": "new",
+          "tags": ["typing"],
+          "summary": "RBS - a language to describe the structure of Ruby classes",
           "links": {
             "news": "https://github.com/ruby/rbs"
           },
@@ -31,12 +49,8 @@
         {
           "type": "new",
           "experimental": true,
-          "summary": "Ractor"
-        },
-        {
-          "type": "new",
-          "experimental": true,
-          "summary": "Scheduler"
+          "tags": ["typing"],
+          "summary": "TypeProf - type analysis tool, generates RBS type signatures"
         },
         {
           "type": "new",

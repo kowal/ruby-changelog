@@ -13,7 +13,7 @@
     <% end -%>
   <% end -%>
 
-  <%- ruby_cve[minor_version['version']].each do |cve| %>
+  <%- [*ruby_cve[minor_version['version']]].each do |cve| %>
 - <%= icon_types[:cve] %> [<%= cve['title'][0..60] %>..](<%= cve['url'] %>)
   <% end -%>
 <% end -%>

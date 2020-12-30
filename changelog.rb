@@ -59,11 +59,10 @@ class Changelog
   end
 
   def generate_file(template_path, template_params)
-    ERB.new(
-      read_file(template_path),
-      nil,
-      '-'
-    ).result_with_hash(default_template_params.merge(template_params))
+    erb_file = read_file(template_path)
+    erb_template_params = default_template_params.merge(template_params)
+
+    ERB.new(erb_file, nil, '-').result_with_hash(erb_template_params)
   end
 
   def default_template_params

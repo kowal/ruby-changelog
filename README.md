@@ -1,14 +1,16 @@
 # Ruby versions changelog
 
-* Last updated on 2020-12-12
+* Last updated on 2020-12-30
 
 
-  ## Ruby 3.0.0.preview1
+  ## Ruby 3.0.0
 
-  * Implementations: [MRI 3.0.0.preview1](https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/)  
-  * :new: RBS - a language to describe the structure of Ruby classes/modules
-  * :new: Ractor
-  * :new: Scheduler
+  * Implementations: [MRI 3.0.0](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)  
+  * :gem: MJIT improvements
+  * :new: Ractor - Actor-model like concurrent abstraction
+  * :new: Fiber Scheduler for light-weight concurrency
+  * :new: RBS - a language to describe the structure of Ruby classes
+  * :new: TypeProf - type analysis tool, generates RBS type signatures
   * :new: <code>Hash#except</code>
   * :arrows_counterclockwise: Keyword arguments are separated from other arguments
   * :arrows_counterclockwise: Rightward assignment statement
