@@ -26,7 +26,7 @@
 
   * Implementations: [MRI 2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)  
   * :new: Pattern Matching:test_tube:
-  * :arrows_counterclockwise: REPL improvements
+  * :arrows_counterclockwise: REPL irb improvements (multi-line edit, rdoc int., colorized)
   * :arrows_counterclockwise: Separation of positional and keyword arguments
   * :arrows_counterclockwise: Argument forwarding
   * :gear: Compaction GC
@@ -75,6 +75,7 @@
   
   ### Ruby 2.2
   * :lock: EOL 2018-03-31
+  * Implementations: [MRI 2.2.10](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released)  
   * :wastebasket: <code>callcc</code> is obsolete - use Fiber instead
   * :wastebasket: <code>DL</code> has been removed from stdlib - use Fiddle instead
   * :gear: Incremental GC - fixes performance for 'old' objects

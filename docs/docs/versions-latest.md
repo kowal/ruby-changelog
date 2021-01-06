@@ -74,7 +74,7 @@ This reverts change from Ruby 2.5.0.</code>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
-    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://bugs.ruby-lang.org/issues/14912"><img class="icon link-service-icon" src="../assets/link-icon-rblang.ico" title=""></a>
   <a data-toggle="collapse" href="#codeExample270" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
@@ -87,7 +87,7 @@ c # => [2, 3]</code>
     </div>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
-  REPL improvements
+  REPL irb improvements (multi-line edit, rdoc int., colorized)
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Separation of positional and keyword arguments
     <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
@@ -118,6 +118,7 @@ end</code>
   </div>
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Compaction GC
+    <a target='_blank' href="https://bugs.ruby-lang.org/issues/15626"><img class="icon link-service-icon" src="../assets/link-icon-rblang.ico" title=""></a>
   
 ----
 
@@ -227,7 +228,7 @@ This will be reversed again in Ruby 3.0.0</code>
 
 
 
-## Ruby 2.2
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released">2.2.10</a> <div class='icon-label eol' title='All maintenance ended on 2018-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2018-03-28'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-danger'>Removed</span>
   <code>callcc</code> is obsolete - use Fiber instead
@@ -270,4 +271,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2021-01-06 15:21:52 +0100)
+(Last updated on 2021-01-06 17:09:49 +0100)

@@ -45,7 +45,7 @@
 
 
 - <span class='badge badge-pill badge-success'>Added</span> Pattern Matching (experimental)    
-- <span class='badge badge-pill badge-primary'>Updated</span> REPL improvements    
+- <span class='badge badge-pill badge-primary'>Updated</span> REPL irb improvements (multi-line edit, rdoc int., colorized)    
 - <span class='badge badge-pill badge-primary'>Updated</span> Separation of positional and keyword arguments    
 - <span class='badge badge-pill badge-primary'>Updated</span> Argument forwarding    
 - <span class='badge badge-pill badge-dark'>Internals</span> Compaction GC      
@@ -356,6 +356,77 @@
 ## Ruby 2.2 <div class='icon-label eol' title='All maintenance ended on 2018-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
+### Ruby [2.2.10](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released/) <div class='icon-label calendar' title='Released on 2018-03-28'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-17742: HTTP response splitting in WEBrick..](https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2018-8777: DoS by large request in WEBrick..](https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2018-6914: Unintentional file and directory creation with..](https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2018-8778: Buffer under-read in String#unpack..](https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2018-8779: Unintentional socket creation by poisoned NUL ..](https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2018-8780: Unintentional directory traversal by poisoned ..](https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+  
+### Ruby [2.2.9](https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-2-9-released/) <div class='icon-label calendar' title='Released on 2017-12-14'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-17405: Command injection vulnerability in Net::FTP..](https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+  
+### Ruby [2.2.8](https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-2-8-released/) <div class='icon-label calendar' title='Released on 2017-09-14'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprint..](https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-10784: Escape sequence injection vulnerability in th..](https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1..](https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2017-14064: Heap exposure vulnerability in generating JSO..](https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+  
+### Ruby [2.2.7](https://www.ruby-lang.org/en/news/2017/03/28/ruby-2-2-7-released/) <div class='icon-label calendar' title='Released on 2017-03-28'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [2.2.6](https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-2-6-released/) <div class='icon-label calendar' title='Released on 2016-11-15'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [2.2.5](https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-2-5-released/) <div class='icon-label calendar' title='Released on 2016-04-26'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [2.2.4](https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-2-4-released/) <div class='icon-label calendar' title='Released on 2015-12-16'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
+  
+### Ruby [2.2.3](https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/) <div class='icon-label calendar' title='Released on 2015-08-18'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4..](https://www.ruby-lang.orghttp://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
+  
+### Ruby [2.2.1](https://www.ruby-lang.org/en/news/2015/03/03/ruby-2-2-1-released/) <div class='icon-label calendar' title='Released on 2015-03-03'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [2.2.0](https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/) <div class='icon-label calendar' title='Released on 2014-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-danger'>Removed</span> <code>callcc</code> is obsolete - use Fiber instead    
+- <span class='badge badge-pill badge-danger'>Removed</span> <code>DL</code> has been removed from stdlib - use Fiddle instead    
+- <span class='badge badge-pill badge-dark'>Internals</span> Incremental GC - fixes performance for 'old' objects    
+- <span class='badge badge-pill badge-dark'>Internals</span> The introduction of GC for symbols (mortal/immortal)      
+
 ----
 
 
@@ -370,4 +441,4 @@
 
 ----
 
-(Last updated on 2021-01-06 15:21:52 +0100)
+(Last updated on 2021-01-06 17:09:49 +0100)

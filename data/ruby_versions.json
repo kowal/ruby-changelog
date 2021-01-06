@@ -102,6 +102,8 @@
           "url": "https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/"
         }
       ],
+      "libs-default-gems": ["benchmark", "cgi", "delegate", "getoptlong", "net-pop", "net-smtp", "open3", "pstore", "singleton"],
+      "libs-unbundled-gems": ["cmath", "scanf", "shell", "sync", "thwait", "e2mmap"],
       "changes": [
         {
           "type": "new",
@@ -114,12 +116,13 @@
             "c # => [2, 3]"
           ],
           "links": {
-            "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"
+            "news": "https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-",
+            "rblang": "https://bugs.ruby-lang.org/issues/14912"
           }
         },
         {
           "type": "update",
-          "summary": "REPL improvements"
+          "summary": "REPL irb improvements (multi-line edit, rdoc int., colorized)"
         },
         {
           "type": "update",
@@ -151,7 +154,10 @@
         },
         {
           "type": "internals",
-          "summary": "Compaction GC"
+          "summary": "Compaction GC",
+          "links": {
+            "rblang": "https://bugs.ruby-lang.org/issues/15626"
+          }
         }
       ]
     },
@@ -391,6 +397,24 @@
       "version_info": "2.2.0 (Dec 2014) - 2.2.10 (March 2018)",
       "state": "All maintenance ended on March 31, 2018",
       "eol": "2018-03-31",
+      "minors": [
+        { "version": "2.2.10", "release_date": "2018-03-28", "end_date": "" },
+        { "version": "2.2.9", "release_date": "2017-12-14", "end_date": "2018-03-28" },
+        { "version": "2.2.8", "release_date": "2017-09-14", "end_date": "2017-12-14" },
+        { "version": "2.2.7", "release_date": "2017-03-28", "end_date": "2017-09-14" },
+        { "version": "2.2.6", "release_date": "2016-11-15", "end_date": "2017-03-28" },
+        { "version": "2.2.5", "release_date": "2016-04-26", "end_date": "2016-11-15" },
+        { "version": "2.2.4", "release_date": "2015-12-16", "end_date": "2016-04-26" },
+        { "version": "2.2.3", "release_date": "2015-08-18", "end_date": "2015-12-16" },
+        { "version": "2.2.1", "release_date": "2015-03-03", "end_date": "2015-08-18" },
+        { "version": "2.2.0", "release_date": "2014-12-25", "end_date": "2015-03-03" }
+      ],
+      "implementations": [
+        {
+          "name": "MRI 2.2.10",
+          "url": "https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-2-10-released"
+        }
+      ],
       "changes": [
         {
           "type": "removed",

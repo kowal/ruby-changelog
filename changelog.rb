@@ -5,13 +5,11 @@ require 'date'
 CHANGELOG_SOURCE = 'data/ruby_versions.json'.freeze
 CVE_SOURCE = 'data/ruby_cve.json'.freeze
 
-TEMPLATE_HTML = 'templates/index.html.erb'.freeze
 TEMPLATE_MD = 'templates/README.md.erb'.freeze
 TEMPLATE_DOCS_VERSIONS_LATEST_MD = 'templates/docs/versions/LATEST.md.erb'.freeze
 TEMPLATE_DOCS_VERSIONS_ALL_MD = 'templates/docs/versions/all.md.erb'.freeze
 TEMPLATE_DOCS_TIMELINE_JS = 'templates/docs/charts/timeline.js.erb'.freeze
 
-OUTPUT_HTML = 'index.html'.freeze
 OUTPUT_README_MD = 'README.MD'.freeze
 
 DOCS_BASE = 'docs'.freeze
@@ -19,13 +17,9 @@ DOCS_VERSIONS_LATEST_MD = "#{DOCS_BASE}/docs/versions-latest.md".freeze
 DOCS_VERSIONS_ALL_MD = "#{DOCS_BASE}/docs/versions-all.md".freeze
 DOCS_CHARTS_TIMELINE_JS = "#{DOCS_BASE}/docs/javascripts/charts-timeline.js".freeze
 
-# > Changelog.new.generate_html
-# > Changelog.new.generate_markdown
+# > Changelog.new.generate_readme
+# > Changelog.new.generate_full_docs
 class Changelog
-  def generate_html
-    save_file(OUTPUT_HTML, generate_file(TEMPLATE_HTML, ruby_versions: ruby_versions_data))
-  end
-
   def generate_readme
     save_file(OUTPUT_README_MD, generate_file(TEMPLATE_MD, ruby_versions: ruby_versions_data))
   end
