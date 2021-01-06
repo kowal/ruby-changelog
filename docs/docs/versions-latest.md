@@ -13,9 +13,9 @@
   Fiber Scheduler for light-weight concurrency (experimental)
   - <span class='badge badge-pill badge-success'>Added</span>
   RBS - a language to describe the structure of Ruby classes
-    <a target='_blank' href="https://github.com/ruby/rbs"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+    <a target='_blank' href="https://github.com/ruby/rbs"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
   <a data-toggle="collapse" href="#codeExample3003" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample3003">
     <div class="alert alert-light" role="alert">
@@ -33,7 +33,7 @@ end</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Keyword arguments are separated from other arguments
   <a data-toggle="collapse" href="#codeExample3006" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample3006">
     <div class="alert alert-light" role="alert">
@@ -44,7 +44,7 @@ def foo(key: 42); end; foo(**{key: 42}) # OK</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Rightward assignment statement
   <a data-toggle="collapse" href="#codeExample3007" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample3007">
     <div class="alert alert-light" role="alert">
@@ -55,7 +55,7 @@ a #=> 55</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Reversed (again) order of backtrace  (experimental)
   <a data-toggle="collapse" href="#codeExample3008" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample3008">
     <div class="alert alert-light" role="alert">
@@ -74,9 +74,9 @@ This reverts change from Ruby 2.5.0.</code>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
-    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#pattern-matching-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
   <a data-toggle="collapse" href="#codeExample270" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample270">
     <div class="alert alert-light" role="alert">
@@ -90,9 +90,9 @@ c # => [2, 3]</code>
   REPL improvements
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Separation of positional and keyword arguments
-    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#the-spec-of-keyword-arguments-is-changed-towards-30-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
   <a data-toggle="collapse" href="#codeExample272" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample272">
     <div class="alert alert-light" role="alert">
@@ -104,9 +104,9 @@ def foo(key: 42); end; foo(**{key: 42}) # OK</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Argument forwarding
-    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#other-miscellaneous-changes-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://www.mendelowski.com/docs/ruby/new-way-for-argument-forwarding-in-27/"><img class="icon link-service-icon" src="/assets/link-icon-post.ico" title="Check a blog post about this change"></a> <a target='_blank' href="https://bugs.ruby-lang.org/issues/16253"><img class="icon link-service-icon" src="/assets/link-icon-rblang.ico" title=""></a>
+    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_7/NEWS#other-miscellaneous-changes-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://www.mendelowski.com/docs/ruby/new-way-for-argument-forwarding-in-27/"><img class="icon link-service-icon" src="../assets/link-icon-post.ico" title="Check a blog post about this change"></a> <a target='_blank' href="https://bugs.ruby-lang.org/issues/16253"><img class="icon link-service-icon" src="../assets/link-icon-rblang.ico" title=""></a>
   <a data-toggle="collapse" href="#codeExample273" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample273">
     <div class="alert alert-light" role="alert">
@@ -127,7 +127,7 @@ end</code>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
-    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_6/NEWS#language-changes-"><img class="icon link-service-icon" src="/assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+    <a target='_blank' href="https://github.com/ruby/ruby/blob/ruby_2_6/NEWS#language-changes-"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a> <a target='_blank' href="https://grep.app/search?q=%281..%29&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="../assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>Enumerable#chain</code>
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -147,9 +147,9 @@ end</code>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>yield_self</code>
-    <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="/assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
+    <a target='_blank' href="https://grep.app/search?q=%5C.yield_self&regexp=true&filter[lang][0]=Ruby"><img class="icon link-service-icon" src="../assets/link-icon-grep-app.ico" title="Check code examples on grep.app"></a>
   <a data-toggle="collapse" href="#codeExample250" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample250">
     <div class="alert alert-light" role="alert">
@@ -178,7 +178,7 @@ end</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Reverse order of backtrace (oldest call first) (experimental)
   <a data-toggle="collapse" href="#codeExample258" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
   <div class="collapse" id="codeExample258">
     <div class="alert alert-light" role="alert">
@@ -270,4 +270,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(This page was updated on 2021-01-06 08:15:23 +0100)
+(This page was updated on 2021-01-06 10:19:37 +0100)
