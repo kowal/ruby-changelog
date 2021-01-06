@@ -75,3 +75,5 @@ nav:
   - Versions:
     - Latest Versions: versions-latest.md
     - All Versions: versions-all.md
+  - Other:
+    - Ruby resources: links.md
