@@ -1,44 +1,52 @@
 # Ruby versions changelog
 
-* Last updated on <%= Date.today.to_s %>
+## Intro
+
+* See full version of this project on https://rubychangelog.com/
+* This page was last updated on <%= Date.today.to_s %> via `rake md` task
+
+## Ruby changelog
 
 <%- ruby_versions.each do |ruby_version| %>
-  ## Ruby <%= ruby_version['version'] %>
+  ### Ruby <%= ruby_version['version'] %>
+  <%- if !ruby_version['eol'].nil? -%>
+  * :lock: EOL <%= ruby_version['eol'] -%>
+  <%- end -%>
   <%- if !ruby_version['implementations'].nil? %>
   * Implementations: <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>
-* :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gem', removed: 'put_litter_in_its_place' }[change['type'].to_sym] %>: <%= change['summary'] %>
+* :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gear', removed: 'wastebasket' }[change['type'].to_sym] %>: <%= change['summary'] %><%= ':test_tube:' if change['experimental'] %>
   <% end -%>
 <% end -%>
 
-* See HTML version of this page on https://kowal.github.io/ruby-changelog
-* This page is generated via `rake md` task
-
 ## Development
 
-#### Docs
+#### Documentation app
 
-Documentation app is built on top of https://squidfunk.github.io/mkdocs-material/ which is a theme for https://www.mkdocs.org/.
+Documentation app is built on top of [mkdocs-material](https://squidfunk.github.io/mkdocs-material) which is a theme for [mkdocs](https://www.mkdocs.org).
 
-
-To rebuild documentation pages from templates:
+To rebuild documentation pages from `templates/docs/**`:
 
     $ rake doc
     # Writing to mkdocs-material/docs/versions-latest.md .. Done
     # ...
 
-To start documentation app:
+To start documentation app locally:
 
     $ cd docs
     $ mkdocs serve
 
 Open http://localhost:8000/
 
-#### README
+##### Deployment
 
-To rebuild `README.md` from `templates/README.md.erb` template:
+Deployment to github Pages is set up via [github actions](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions) using [mkdocs gh-deploy](https://github.com/kowal/ruby-changelog/blob/master/.github/workflows/ci.yml) command.
+
+#### Readme
+
+To rebuild `README.md` from `templates/README.md.erb`:
 
     $ rake md
     # Writing to README.MD .. Done
