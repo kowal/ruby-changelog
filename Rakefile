@@ -1,12 +1,7 @@
 require './changelog'
 require './ruby_changelog/cve_data'
 
-task default: :html
-
-desc 'Generate single html page with changelog'
-task :html do
-  Changelog.new.generate_html
-end
+task default: :doc
 
 desc 'Generate README file with changelog'
 task :md do
