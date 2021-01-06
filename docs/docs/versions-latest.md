@@ -3,7 +3,7 @@
 
 
 
-## Ruby [3.0.0](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)  <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/">3.0.0</a>  <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -70,7 +70,7 @@ This reverts change from Ruby 2.5.0.</code>
 
 
 
-## Ruby [2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/)  <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/">2.7.2</a>  <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -123,7 +123,7 @@ end</code>
 
 
 
-## Ruby [2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/">2.6.6</a>  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
@@ -143,7 +143,7 @@ end</code>
 
 
 
-## Ruby [2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/)  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/">2.5.8</a>  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>yield_self</code>
@@ -191,7 +191,7 @@ This will be reversed again in Ruby 3.0.0</code>
 
 
 
-## Ruby [2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/) <div class='icon-label eol' title='All maintenance ended on 2020-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/">2.4.10</a> <div class='icon-label eol' title='All maintenance ended on 2020-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>Enumerable#sum</code>
@@ -210,7 +210,7 @@ This will be reversed again in Ruby 3.0.0</code>
 
 
 
-## Ruby [2.3.8](https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released) <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released">2.3.8</a> <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Safe navigation operator <code>&.</code>
@@ -270,4 +270,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2021-01-06 13:29:09 +0100)
+(Last updated on 2021-01-06 13:44:40 +0100)
