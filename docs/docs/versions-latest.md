@@ -32,6 +32,15 @@ end</code>
   <code>Hash#except</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Keyword arguments are separated from other arguments
+  <a data-toggle="collapse" href="#codeExample3006" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="/assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample3006">
+    <div class="alert alert-light" role="alert">
+      <code class="code">def foo(key: 42); end; foo({key: 42})   # won't work!
+def foo(key: 42); end; foo(**{key: 42}) # OK</code>
+    </div>
+  </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Rightward assignment statement
   <a data-toggle="collapse" href="#codeExample3007" aria-expanded="false" aria-controls="collapseExample">
@@ -261,4 +270,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(This page was updated on 2020-12-30 11:40:07 +0100)
+(This page was updated on 2021-01-06 08:15:23 +0100)

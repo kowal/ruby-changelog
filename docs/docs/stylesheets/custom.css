@@ -32,11 +32,15 @@
 }
 
 .md-typeset a {
-  color: #7b0101;
+  color: #f07373;
 }
 
 .md-typeset a:hover {
   color: var(--md-primary-fg-color);
+}
+
+.md-header-nav__source a {
+  color: white;
 }
 
 img.link-service-icon {

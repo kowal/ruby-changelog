@@ -4,7 +4,7 @@ site_name: Ruby Changelog
 site_url: https://rubychangelog.com/
 site_author: Marek Kowalcze
 site_description: >-
-  Welcome to the RubyChangelog.com site! You can find here the history of Ruby programming language versions. Easy searchable, with quick overview, detailed list and chart views
+  Welcome to the RubyChangelog.com site! You can find here the history of Ruby programming language versions
 
 # Repository
 repo_name: kowal/ruby-changelog
@@ -75,5 +75,3 @@ nav:
   - Versions:
     - Latest Versions: versions-latest.md
     - All Versions: versions-all.md
-  - Charts:
-    - Timeline: timeline.md
