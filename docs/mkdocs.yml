@@ -11,7 +11,7 @@ repo_name: kowal/ruby-changelog
 repo_url: https://github.com/kowal/ruby-changelog
 
 # Copyright
-copyright: Copyright &copy; 2020 Marek Kowalcze
+copyright: Copyright &copy; 2020-2021 Marek Kowalcze
 
 # Configuration
 theme:

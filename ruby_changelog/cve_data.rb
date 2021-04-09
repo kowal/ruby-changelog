@@ -14,7 +14,7 @@ module RubyChangelog
 
       version_paths = list_doc.xpath('//a[contains(text(), "more")]').map { |link| link['href'] }
 
-      puts "Fetching #{version_paths.size} Ruby versions ...\n"
+      puts "Fetching CVE data about #{version_paths.size} Ruby minor versions ...\n"
 
       version_paths.each_with_object({}) do |path, results|
         # Find CVE information for gien release
@@ -41,8 +41,7 @@ module RubyChangelog
 
     def open_doc(url)
       print '.'
-      # pp "Fetching #{url} ..."
-      Nokogiri::HTML(open(url))
+      Nokogiri::HTML(URI.open(url))
     end
 
     def ruby_version_from_ruby_path(path)

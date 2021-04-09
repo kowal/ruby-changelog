@@ -3,7 +3,7 @@
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/">3.0.0</a>  <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/">3.0.1</a>  <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -14,10 +14,10 @@
   - <span class='badge badge-pill badge-success'>Added</span>
   RBS - a language to describe the structure of Ruby classes
     <a target='_blank' href="https://github.com/ruby/rbs"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
-  <a data-toggle="collapse" href="#codeExample3003" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample303" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample3003">
+  <div class="collapse" id="codeExample303">
     <div class="alert alert-light" role="alert">
       <code class="code">class User
   attr_reader login: String
@@ -32,10 +32,10 @@ end</code>
   <code>Hash#except</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Keyword arguments are separated from other arguments
-  <a data-toggle="collapse" href="#codeExample3006" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample306" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample3006">
+  <div class="collapse" id="codeExample306">
     <div class="alert alert-light" role="alert">
       <code class="code">def foo(key: 42); end; foo({key: 42})   # won't work!
 def foo(key: 42); end; foo(**{key: 42}) # OK</code>
@@ -43,10 +43,10 @@ def foo(key: 42); end; foo(**{key: 42}) # OK</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Rightward assignment statement
-  <a data-toggle="collapse" href="#codeExample3007" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample307" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample3007">
+  <div class="collapse" id="codeExample307">
     <div class="alert alert-light" role="alert">
       <code class="code">fib(10) => a
 a #=> 55</code>
@@ -54,10 +54,10 @@ a #=> 55</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Reversed (again) order of backtrace  (experimental)
-  <a data-toggle="collapse" href="#codeExample3008" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample308" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample3008">
+  <div class="collapse" id="codeExample308">
     <div class="alert alert-light" role="alert">
       <code class="code">Error message first, caller later.
 This reverts change from Ruby 2.5.0.</code>
@@ -70,7 +70,7 @@ This reverts change from Ruby 2.5.0.</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/">2.7.2</a>  <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/">2.7.3</a>  <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -123,7 +123,7 @@ end</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/">2.6.6</a>  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/">2.6.7</a>  <div class='icon-label calendar' title='Released on 2020-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
@@ -143,7 +143,7 @@ end</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/">2.5.8</a>  <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/">2.5.9</a>  <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>yield_self</code>
@@ -270,4 +270,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2021-01-06 13:44:40 +0100)
+(Last updated on 2021-04-09 18:17:51 +0200)

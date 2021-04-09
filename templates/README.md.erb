@@ -10,14 +10,14 @@
 <%- ruby_versions.each do |ruby_version| %>
   ### Ruby <%= ruby_version['version'] %>
   <%- if !ruby_version['eol'].nil? -%>
-  * :lock: EOL <%= ruby_version['eol'] -%>
+  * :lock: **EOL** <%= ruby_version['eol'] -%>
   <%- end -%>
   <%- if !ruby_version['implementations'].nil? %>
   * Implementations: <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>
-* :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gear', removed: 'wastebasket' }[change['type'].to_sym] %>: <%= change['summary'] %><%= ':test_tube:' if change['experimental'] %>
+* :<%= { new: 'new', update: 'arrows_counterclockwise', internals: 'gear', removed: 'wastebasket' }[change['type'].to_sym] %>: <%= change['summary'] %> <%= ':test_tube:' if change['experimental'] %>
   <% end -%>
 <% end -%>
 

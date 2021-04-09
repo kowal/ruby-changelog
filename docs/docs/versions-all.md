@@ -2,9 +2,17 @@
 
 
 
-## Ruby 3.0.0 
+## Ruby 3.0 
 
 
+### Ruby [3.0.1](https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28965: XML round-trip vulnerability in REXML..](https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28966: Path traversal in Tempfile on Windows..](https://www.ruby-lang.org/en/news/2021/04/05/tempfile-path-traversal-on-windows-cve-2021-28966/)
+  
 ### Ruby [3.0.0](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/) <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -26,6 +34,14 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.3](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28965: XML round-trip vulnerability in REXML..](https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28966: Path traversal in Tempfile on Windows..](https://www.ruby-lang.org/en/news/2021/04/05/tempfile-path-traversal-on-windows-cve-2021-28966/)
+  
 ### Ruby [2.7.2](https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/) <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -56,6 +72,14 @@
 ## Ruby 2.6 
 
 
+### Ruby [2.6.7](https://www.ruby-lang.org/en/news/2020/04/05/ruby-2-6-7-released/) <div class='icon-label calendar' title='Released on 2020-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..](https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28965: XML round-trip vulnerability in REXML..](https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/)
+  
 ### Ruby [2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -109,6 +133,14 @@
 ## Ruby 2.5 
 
 
+### Ruby [2.5.9](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..](https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-28965: XML round-trip vulnerability in REXML..](https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/)
+  
 ### Ruby [2.5.8](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -370,4 +402,4 @@
 
 ----
 
-(Last updated on 2021-01-06 13:44:40 +0100)
+(Last updated on 2021-04-09 18:17:51 +0200)
