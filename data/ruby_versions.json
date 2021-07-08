@@ -5,13 +5,14 @@
       "version_info": "3.0.0 (Dec 2020) - 3.0.1 (Apr 2021)",
       "state": "Supported",
       "minors": [
-        { "version": "3.0.1", "release_date": "2021-04-05", "end_date": "" },
+        { "version": "3.0.2", "release_date": "2021-07-07", "end_date": "" },
+        { "version": "3.0.1", "release_date": "2021-04-05", "end_date": "2021-07-07" },
         { "version": "3.0.0", "release_date": "2020-12-25", "end_date": "2021-04-05" }
       ],
       "implementations": [
         {
-          "name": "MRI 3.0.1",
-          "url": "https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/"
+          "name": "MRI 3.0.2",
+          "url": "https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/"
         }
       ],
       "changes": [
@@ -93,15 +94,16 @@
       "version_info": "2.7.0 (Dec 2019) - 2.7.3 (Apr 2021)",
       "state": "Supported",
       "minors": [
-        { "version": "2.7.3", "release_date": "2021-04-05", "end_date": "" },
+        { "version": "2.7.4", "release_date": "2021-07-07", "end_date": "" },
+        { "version": "2.7.3", "release_date": "2021-04-05", "end_date": "2021-07-07" },
         { "version": "2.7.2", "release_date": "2020-10-02", "end_date": "2021-04-05" },
         { "version": "2.7.1", "release_date": "2020-03-31", "end_date": "2020-10-02" },
         { "version": "2.7.0", "release_date": "2019-12-25", "end_date": "2020-03-31" }
       ],
       "implementations": [
         {
-          "name": "MRI 2.7.3",
-          "url": "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/"
+          "name": "MRI 2.7.4",
+          "url": "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/"
         }
       ],
       "changes": [
@@ -162,7 +164,8 @@
       "version_info": "2.6.0 (Dec 2018) - 2.6.7 (Apr 2021)",
       "state": "Supported",
       "minors": [
-        { "version": "2.6.7", "release_date": "2020-04-05", "end_date": "" },
+        { "version": "2.6.8", "release_date": "2021-07-07", "end_date": "" },
+        { "version": "2.6.7", "release_date": "2020-04-05", "end_date": "2021-07-07" },
         { "version": "2.6.6", "release_date": "2020-03-31", "end_date": "2020-04-05" },
         { "version": "2.6.5", "release_date": "2019-10-01", "end_date": "2020-03-31" },
         { "version": "2.6.4", "release_date": "2019-08-28", "end_date": "2019-10-01" },
@@ -173,8 +176,8 @@
       ],
       "implementations": [
         {
-          "name": "MRI 2.6.7",
-          "url": "https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-6-7-released/"
+          "name": "MRI 2.6.8",
+          "url": "https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/"
         }
       ],
       "changes": [

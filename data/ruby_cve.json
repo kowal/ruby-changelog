@@ -1,4 +1,46 @@
 {
+  "3.0.2": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/",
+      "title": "CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/",
+      "title": "CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/",
+      "title": "CVE-2021-31799: A command injection vulnerability in RDoc"
+    }
+  ],
+  "2.7.4": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/",
+      "title": "CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/",
+      "title": "CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/",
+      "title": "CVE-2021-31799: A command injection vulnerability in RDoc"
+    }
+  ],
+  "2.6.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/",
+      "title": "CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/",
+      "title": "CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/",
+      "title": "CVE-2021-31799: A command injection vulnerability in RDoc"
+    }
+  ],
   "3.0.1": [
     {
       "url": "https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/",

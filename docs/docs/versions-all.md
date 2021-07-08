@@ -5,6 +5,16 @@
 ## Ruby 3.0 
 
 
+### Ruby [3.0.2](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..](https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..](https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31799: A command injection vulnerability in RDoc..](https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/)
+  
 ### Ruby [3.0.1](https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -34,6 +44,16 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.4](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..](https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..](https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31799: A command injection vulnerability in RDoc..](https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/)
+  
 ### Ruby [2.7.3](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -72,6 +92,16 @@
 ## Ruby 2.6 
 
 
+### Ruby [2.6.8](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..](https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..](https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-31799: A command injection vulnerability in RDoc..](https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/)
+  
 ### Ruby [2.6.7](https://www.ruby-lang.org/en/news/2020/04/05/ruby-2-6-7-released/) <div class='icon-label calendar' title='Released on 2020-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -402,4 +432,4 @@
 
 ----
 
-(Last updated on 2021-04-09 18:17:51 +0200)
+(Last updated on 2021-07-08 19:46:15 +0200)
