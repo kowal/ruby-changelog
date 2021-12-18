@@ -3,14 +3,14 @@
 ## Intro
 
 * See full version of this project on https://rubychangelog.com/
-* This page was last updated on 2021-07-08 via `rake md` task
+* This page was last updated on 2021-12-18 via `rake md` task
 
 ## Ruby changelog
 
 
   ### Ruby 3.0
 
-  * Implementations: [MRI 3.0.2](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/)  
+  * Implementations: [MRI 3.0.3](https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
   * :new: Fiber Scheduler for light-weight concurrency :test_tube:
@@ -24,7 +24,7 @@
   
   ### Ruby 2.7
 
-  * Implementations: [MRI 2.7.4](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/)  
+  * Implementations: [MRI 2.7.5](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/)  
   * :new: Pattern Matching :test_tube:
   * :arrows_counterclockwise: REPL improvements 
   * :arrows_counterclockwise: Separation of positional and keyword arguments 
@@ -33,7 +33,7 @@
   
   ### Ruby 2.6
 
-  * Implementations: [MRI 2.6.8](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/)  
+  * Implementations: [MRI 2.6.9](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/)  
   * :new: endless ranges <code>(1..)</code> 
   * :new: <code>Enumerable#chain</code> 
   * :new: function composition operators <code><<, >></code> to <code>Proc</code> 

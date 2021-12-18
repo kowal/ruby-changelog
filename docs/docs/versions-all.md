@@ -5,6 +5,16 @@
 ## Ruby 3.0 
 
 
+### Ruby [3.0.3](https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41817: Regular Expression Denial of Service Vulnerab..](https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41816: Buffer Overrun in CGI.escape_html..](https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..](https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/)
+  
 ### Ruby [3.0.2](https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -44,6 +54,16 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.5](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41817: Regular Expression Denial of Service Vulnerab..](https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41816: Buffer Overrun in CGI.escape_html..](https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..](https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/)
+  
 ### Ruby [2.7.4](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -92,6 +112,14 @@
 ## Ruby 2.6 
 
 
+### Ruby [2.6.9](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41817: Regular Expression Denial of Service Vulnerab..](https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..](https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/)
+  
 ### Ruby [2.6.8](https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/) <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -432,4 +460,4 @@
 
 ----
 
-(Last updated on 2021-07-08 19:46:15 +0200)
+(Last updated on 2021-12-18 21:40:57 +0100)

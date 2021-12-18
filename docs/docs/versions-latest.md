@@ -3,7 +3,7 @@
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/">3.0.2</a>  <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/">3.0.3</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -70,7 +70,7 @@ This reverts change from Ruby 2.5.0.</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/">2.7.4</a>  <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/">2.7.5</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -123,7 +123,7 @@ end</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/">2.6.8</a>  <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/">2.6.9</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
@@ -270,4 +270,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2021-07-08 19:46:15 +0200)
+(Last updated on 2021-12-18 21:40:57 +0100)

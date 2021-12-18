@@ -1,4 +1,45 @@
 {
+  "3.0.3": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/",
+      "title": "CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/",
+      "title": "CVE-2021-41816: Buffer Overrun in CGI.escape_html"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/",
+      "title": "CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse"
+    }
+  ],
+  "2.7.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/",
+      "title": "CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/",
+      "title": "CVE-2021-41816: Buffer Overrun in CGI.escape_html"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/",
+      "title": "CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse"
+    }
+  ],
+  "2.6.9": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/",
+      "title": "CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/",
+      "title": "CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse"
+    }
+  ],
+  "3.1.0.preview1": [
+
+  ],
   "3.0.2": [
     {
       "url": "https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/",
