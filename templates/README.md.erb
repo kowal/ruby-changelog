@@ -55,3 +55,12 @@ To rebuild `README.md` from `templates/README.md.erb`:
     # =* Yield is serving your markdown at http://localhost:4000/
 
 Open http://localhost:4000/
+
+#### New Ruby version?
+
+1. Compare [Ruby releases](https://www.ruby-lang.org/en/downloads/releases/) page with [ruby_versions.json](https://github.com/kowal/ruby-changelog/blob/master/data/ruby_versions.json) if there are new Ruby versions.
+    - update ruby_versions.json with new versions details
+2. Update latest info about CVE - run `rake fetch:cve`
+3. Regenerate all artifacts - `rake doc html md`
+4. Verify - `bundle exec yield` and on mkdocs
+5. Commit & publish

@@ -2,9 +2,46 @@
 
 
 
+## Ruby 3.1 
+
+
+### Ruby [3.1.2](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28738: Double free in Regexp compilation..](https://www.ruby-lang.org/en/news/2022/04/12/double-free-in-regexp-compilation-cve-2022-28738/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28739: Buffer overrun in String-to-Float conversion..](https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/)
+  
+### Ruby [3.1.1](https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released/) <div class='icon-label calendar' title='Released on 2022-02-18'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.1.0](https://www.ruby-lang.org/en/news/2021/12/255/ruby-3-1-0-released/) <div class='icon-label calendar' title='Released on 2021-12-255'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-dark'>Internals</span> YJIT: New experimental in-process JIT compiler (experimental)    
+- <span class='badge badge-pill badge-success'>Added</span> debug gem: A new debugger    
+- <span class='badge badge-pill badge-success'>Added</span> error_highlight: Fine-grained error location in backtrace    
+- <span class='badge badge-pill badge-success'>Added</span> IRB Autocomplete and Documentation Display    
+- <span class='badge badge-pill badge-primary'>Updated</span> Values in Hash literals and keyword arguments can be omitted.    
+- <span class='badge badge-pill badge-primary'>Updated</span> Updates in RBS / TypeProf      
+
+----
+
+
 ## Ruby 3.0 
 
 
+### Ruby [3.0.4](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28738: Double free in Regexp compilation..](https://www.ruby-lang.org/en/news/2022/04/12/double-free-in-regexp-compilation-cve-2022-28738/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28739: Buffer overrun in String-to-Float conversion..](https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/)
+  
 ### Ruby [3.0.3](https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -54,6 +91,12 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.6](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28739: Buffer overrun in String-to-Float conversion..](https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/)
+  
 ### Ruby [2.7.5](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -109,9 +152,15 @@
 ----
 
 
-## Ruby 2.6 
+## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
+### Ruby [2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2022-28739: Buffer overrun in String-to-Float conversion..](https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/)
+  
 ### Ruby [2.6.9](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/) <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -188,7 +237,7 @@
 ----
 
 
-## Ruby 2.5 
+## Ruby 2.5 <div class='icon-label eol' title='All maintenance ended on 2021-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [2.5.9](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -460,4 +509,4 @@
 
 ----
 
-(Last updated on 2021-12-18 21:40:57 +0100)
+(Last updated on 2022-04-29 23:08:04 +0200)

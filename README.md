@@ -3,14 +3,24 @@
 ## Intro
 
 * See full version of this project on https://rubychangelog.com/
-* This page was last updated on 2021-12-18 via `rake md` task
+* This page was last updated on 2022-04-29 via `rake md` task
 
 ## Ruby changelog
 
 
+  ### Ruby 3.1
+
+  * Implementations: [MRI 3.1.2](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/)  
+  * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
+  * :new: debug gem: A new debugger 
+  * :new: error_highlight: Fine-grained error location in backtrace 
+  * :new: IRB Autocomplete and Documentation Display 
+  * :arrows_counterclockwise: Values in Hash literals and keyword arguments can be omitted. 
+  * :arrows_counterclockwise: Updates in RBS / TypeProf 
+  
   ### Ruby 3.0
 
-  * Implementations: [MRI 3.0.3](https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/)  
+  * Implementations: [MRI 3.0.4](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
   * :new: Fiber Scheduler for light-weight concurrency :test_tube:
@@ -24,7 +34,7 @@
   
   ### Ruby 2.7
 
-  * Implementations: [MRI 2.7.5](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/)  
+  * Implementations: [MRI 2.7.6](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/)  
   * :new: Pattern Matching :test_tube:
   * :arrows_counterclockwise: REPL improvements 
   * :arrows_counterclockwise: Separation of positional and keyword arguments 
@@ -32,8 +42,8 @@
   * :gear: Compaction GC 
   
   ### Ruby 2.6
-
-  * Implementations: [MRI 2.6.9](https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/)  
+  * :lock: **EOL** 2022-03-31
+  * Implementations: [MRI 2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/)  
   * :new: endless ranges <code>(1..)</code> 
   * :new: <code>Enumerable#chain</code> 
   * :new: function composition operators <code><<, >></code> to <code>Proc</code> 
@@ -42,7 +52,7 @@
   * :gear: Bundler is installed as a default gem 
   
   ### Ruby 2.5
-
+  * :lock: **EOL** 2021-03-31
   * Implementations: [MRI 2.5.9](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
   * :new: <code>yield_self</code> 
   * :new: <code>rescue</code> in blocks 
@@ -128,3 +138,12 @@ To rebuild `README.md` from `templates/README.md.erb`:
     # =* Yield is serving your markdown at http://localhost:4000/
 
 Open http://localhost:4000/
+
+#### New Ruby version?
+
+1. Compare [Ruby releases](https://www.ruby-lang.org/en/downloads/releases/) page with [ruby_versions.json](https://github.com/kowal/ruby-changelog/blob/master/data/ruby_versions.json) if there are new Ruby versions.
+    - update ruby_versions.json with new versions details
+2. Update latest info about CVE - run `rake fetch:cve`
+3. Regenerate all artifacts - `rake doc html md`
+4. Verify - `bundle exec yield` and on mkdocs
+5. Commit & publish

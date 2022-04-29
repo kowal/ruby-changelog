@@ -3,7 +3,44 @@
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/">3.0.3</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/">3.1.2</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  YJIT: New experimental in-process JIT compiler (experimental)
+    <a target='_blank' href="https://shopify.engineering/yjit-just-in-time-compiler-cruby"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  <a data-toggle="collapse" href="#codeExample310" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample310">
+    <div class="alert alert-light" role="alert">
+      <code class="code">--yjit  # CLI option</code>
+    </div>
+  </div>
+  - <span class='badge badge-pill badge-success'>Added</span>
+  debug gem: A new debugger
+  - <span class='badge badge-pill badge-success'>Added</span>
+  error_highlight: Fine-grained error location in backtrace
+  - <span class='badge badge-pill badge-success'>Added</span>
+  IRB Autocomplete and Documentation Display
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Values in Hash literals and keyword arguments can be omitted.
+  <a data-toggle="collapse" href="#codeExample314" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample314">
+    <div class="alert alert-light" role="alert">
+      <code class="code">{x:, y:} is syntax sugar for {x: x, y: y}
+foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
+    </div>
+  </div>
+  - <span class='badge badge-pill badge-primary'>Updated</span>
+  Updates in RBS / TypeProf
+  
+----
+
+
+
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/">3.0.4</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -70,7 +107,7 @@ This reverts change from Ruby 2.5.0.</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/">2.7.5</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/">2.7.6</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -123,7 +160,7 @@ end</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/">2.6.9</a>  <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/">2.6.10</a> <div class='icon-label eol' title='All maintenance ended on 2022-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
@@ -143,7 +180,7 @@ end</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/">2.5.9</a>  <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/">2.5.9</a> <div class='icon-label eol' title='All maintenance ended on 2021-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   <code>yield_self</code>
@@ -270,4 +307,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2021-12-18 21:40:57 +0100)
+(Last updated on 2022-04-29 23:08:04 +0200)
