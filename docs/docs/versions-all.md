@@ -17,7 +17,7 @@
 
 
 
-### Ruby [3.1.0](https://www.ruby-lang.org/en/news/2021/12/255/ruby-3-1-0-released/) <div class='icon-label calendar' title='Released on 2021-12-255'><div data-icon='ei-calendar' data-size='s'></div></div>
+### Ruby [3.1.0](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/) <div class='icon-label calendar' title='Released on 2021-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
 
