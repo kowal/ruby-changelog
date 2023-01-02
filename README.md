@@ -3,14 +3,23 @@
 ## Intro
 
 * See full version of this project on https://rubychangelog.com/
-* This page was last updated on 2022-04-29 via `rake md` task
+* This page was last updated on 2023-01-02 via `rake md` task
 
 ## Ruby changelog
 
 
+  ### Ruby 3.2
+
+  * Implementations: [MRI 3.2.0](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/)  
+  * :gear: WASI based WebAssembly support 
+  * :gear: Production-ready YJIT 
+  * :gear: Regexp improvements against ReDoS 
+  * :gear: IRB improvements (SyntaxSuggest, ErrorHighlight) 
+  * :gear: Bundler 2.4 now uses PubGrub resolver instead of Molinillo 
+  
   ### Ruby 3.1
 
-  * Implementations: [MRI 3.1.2](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/)  
+  * Implementations: [MRI 3.1.3](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/)  
   * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
   * :new: debug gem: A new debugger 
   * :new: error_highlight: Fine-grained error location in backtrace 
@@ -20,7 +29,7 @@
   
   ### Ruby 3.0
 
-  * Implementations: [MRI 3.0.4](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/)  
+  * Implementations: [MRI 3.0.5](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
   * :new: Fiber Scheduler for light-weight concurrency :test_tube:
@@ -34,7 +43,7 @@
   
   ### Ruby 2.7
 
-  * Implementations: [MRI 2.7.6](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/)  
+  * Implementations: [MRI 2.7.7](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/)  
   * :new: Pattern Matching :test_tube:
   * :arrows_counterclockwise: REPL improvements 
   * :arrows_counterclockwise: Separation of positional and keyword arguments 
