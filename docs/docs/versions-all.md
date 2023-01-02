@@ -2,9 +2,31 @@
 
 
 
+## Ruby 3.2 
+
+
+### Ruby [3.2.0](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/) <div class='icon-label calendar' title='Released on 2022-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-dark'>Internals</span> WASI based WebAssembly support    
+- <span class='badge badge-pill badge-dark'>Internals</span> Production-ready YJIT    
+- <span class='badge badge-pill badge-dark'>Internals</span> Regexp improvements against ReDoS    
+- <span class='badge badge-pill badge-dark'>Internals</span> IRB improvements (SyntaxSuggest, ErrorHighlight)    
+- <span class='badge badge-pill badge-dark'>Internals</span> Bundler 2.4 now uses PubGrub resolver instead of Molinillo      
+
+----
+
+
 ## Ruby 3.1 
 
 
+### Ruby [3.1.3](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/) <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-33621: HTTP response splitting in CGI..](https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/)
+  
 ### Ruby [3.1.2](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -17,7 +39,7 @@
 
 
 
-### Ruby [3.1.0](https://www.ruby-lang.org/en/news/2021/12/255/ruby-3-1-0-released/) <div class='icon-label calendar' title='Released on 2021-12-255'><div data-icon='ei-calendar' data-size='s'></div></div>
+### Ruby [3.1.0](https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/) <div class='icon-label calendar' title='Released on 2021-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
 
@@ -34,6 +56,12 @@
 ## Ruby 3.0 
 
 
+### Ruby [3.0.5](https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/) <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-33621: HTTP response splitting in CGI..](https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/)
+  
 ### Ruby [3.0.4](https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -91,6 +119,12 @@
 ## Ruby 2.7 
 
 
+### Ruby [2.7.7](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2021-33621: HTTP response splitting in CGI..](https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/)
+  
 ### Ruby [2.7.6](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -509,4 +543,4 @@
 
 ----
 
-(Last updated on 2022-04-29 23:08:04 +0200)
+(Last updated on 2023-01-02 09:47:05 +0100)

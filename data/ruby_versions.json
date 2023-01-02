@@ -1,18 +1,68 @@
 {
   "ruby_versions": [
     {
-      "version": "3.1",
-      "version_info": "3.1.0 (Dec 2020) - 3.1.2 (Apr 2022)",
+      "version": "3.2",
+      "version_info": "3.2.0 (Dec 2022) - 3.1.2 (Apr 2022)",
       "state": "Supported",
       "minors": [
-        { "version": "3.1.2", "release_date": "2022-04-12", "end_date": "" },
-        { "version": "3.1.1", "release_date": "2022-02-18", "end_date": "2022-04-12" },
-        { "version": "3.1.0", "release_date": "2021-12-255", "end_date": "2022-02-18" }
+        { "version": "3.2.0", "release_date": "2022-12-25", "end_date": "" }
       ],
       "implementations": [
         {
-          "name": "MRI 3.1.2",
-          "url": "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/"
+          "name": "MRI 3.2.0",
+          "url": "https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/"
+        }
+      ],
+      "changes": [
+        {
+          "type": "internals",
+          "tags": ["performance"],
+          "experimental": false,
+          "summary": "WASI based WebAssembly support",
+          "links": {
+            "news": "https://itnext.io/final-report-webassembly-wasi-support-in-ruby-4aface7d90c9"
+          }
+        },
+        {
+          "type": "internals",
+          "tags": ["performance"],
+          "experimental": false,
+          "summary": "Production-ready YJIT"
+        },
+        {
+          "type": "internals",
+          "tags": ["performance"],
+          "experimental": false,
+          "summary": "Regexp improvements against ReDoS"
+        },
+        {
+          "type": "internals",
+          "tags": [],
+          "experimental": false,
+          "summary": "IRB improvements (SyntaxSuggest, ErrorHighlight)"
+        },
+        {
+          "type": "internals",
+          "tags": ["bundler"],
+          "experimental": false,
+          "summary": "Bundler 2.4 now uses PubGrub resolver instead of Molinillo"
+        }
+      ]
+    },
+    {
+      "version": "3.1",
+      "version_info": "3.1.0 (Dec 2020) - 3.1.3 (Nov 2022)",
+      "state": "Supported",
+      "minors": [
+        { "version": "3.1.3", "release_date": "2022-11-24", "end_date": "" },
+        { "version": "3.1.2", "release_date": "2022-04-12", "end_date": "2022-11-24" },
+        { "version": "3.1.1", "release_date": "2022-02-18", "end_date": "2022-04-12" },
+        { "version": "3.1.0", "release_date": "2021-12-25", "end_date": "2022-02-18" }
+      ],
+      "implementations": [
+        {
+          "name": "MRI 3.1.3",
+          "url": "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/"
         }
       ],
       "changes": [
@@ -59,10 +109,11 @@
     },
     {
       "version": "3.0",
-      "version_info": "3.0.0 (Dec 2020) - 3.0.1 (Apr 2021)",
+      "version_info": "3.0.0 (Dec 2020) - 3.0.5 (Nov 2022)",
       "state": "Supported",
       "minors": [
-        { "version": "3.0.4", "release_date": "2022-04-12", "end_date": "" },
+        { "version": "3.0.5", "release_date": "2022-11-24", "end_date": "" },
+        { "version": "3.0.4", "release_date": "2022-04-12", "end_date": "2022-11-24" },
         { "version": "3.0.3", "release_date": "2021-11-24", "end_date": "2022-04-12" },
         { "version": "3.0.2", "release_date": "2021-07-07", "end_date": "2021-11-24" },
         { "version": "3.0.1", "release_date": "2021-04-05", "end_date": "2021-07-07" },
@@ -70,8 +121,8 @@
       ],
       "implementations": [
         {
-          "name": "MRI 3.0.4",
-          "url": "https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/"
+          "name": "MRI 3.0.5",
+          "url": "https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/"
         }
       ],
       "changes": [
@@ -150,10 +201,11 @@
     },
     {
       "version": "2.7",
-      "version_info": "2.7.0 (Dec 2019) - 2.7.6 (Apr 2022)",
+      "version_info": "2.7.0 (Dec 2019) - 2.7.7 (Nov 2022)",
       "state": "Security maintenance phase",
       "minors": [
-        { "version": "2.7.6", "release_date": "2022-04-12", "end_date": "" },
+        { "version": "2.7.7", "release_date": "2022-11-24", "end_date": "" },
+        { "version": "2.7.6", "release_date": "2022-04-12", "end_date": "2022-11-24" },
         { "version": "2.7.5", "release_date": "2021-11-24", "end_date": "2022-04-12" },
         { "version": "2.7.4", "release_date": "2021-07-07", "end_date": "2021-11-24" },
         { "version": "2.7.3", "release_date": "2021-04-05", "end_date": "2021-07-07" },
@@ -163,8 +215,8 @@
       ],
       "implementations": [
         {
-          "name": "MRI 2.7.6",
-          "url": "https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/"
+          "name": "MRI 2.7.7",
+          "url": "https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/"
         }
       ],
       "changes": [

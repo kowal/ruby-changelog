@@ -3,7 +3,25 @@
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/">3.1.2</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/">3.2.0</a>  <div class='icon-label calendar' title='Released on 2022-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  WASI based WebAssembly support
+    <a target='_blank' href="https://itnext.io/final-report-webassembly-wasi-support-in-ruby-4aface7d90c9"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Production-ready YJIT
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Regexp improvements against ReDoS
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  IRB improvements (SyntaxSuggest, ErrorHighlight)
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Bundler 2.4 now uses PubGrub resolver instead of Molinillo
+  
+----
+
+
+
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">3.1.3</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   YJIT: New experimental in-process JIT compiler (experimental)
@@ -40,7 +58,7 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/">3.0.4</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/">3.0.5</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -107,7 +125,7 @@ This reverts change from Ruby 2.5.0.</code>
 
 
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/">2.7.6</a>  <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -307,4 +325,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2022-04-29 23:08:04 +0200)
+(Last updated on 2023-01-02 09:47:05 +0100)
