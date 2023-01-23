@@ -6,7 +6,7 @@ GEM
     launchy (2.3.0)
       addressable (~> 2.3)
     mini_portile2 (2.8.1)
-    nokogiri (1.13.10)
+    nokogiri (1.14.0)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     public_suffix (5.0.1)
