@@ -1,4 +1,4 @@
-# Ruby versions changelog
+# Ruby all versions changelog
 
 
 
@@ -543,4 +543,4 @@
 
 ----
 
-(Last updated on 2023-01-23 09:27:11 +0100)
+(Last updated on 2023-01-23 09:39:07 +0100)
