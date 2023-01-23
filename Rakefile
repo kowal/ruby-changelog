@@ -1,4 +1,4 @@
-require './changelog'
+require './lib/changelog'
 require './ruby_changelog/cve_data'
 
 task default: :html
