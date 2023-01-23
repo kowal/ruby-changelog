@@ -24,6 +24,7 @@ GEM
     yield (0.2.2)
       launchy (= 2.3.0)
       sinatra (= 1.4.3)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
@@ -33,6 +34,7 @@ DEPENDENCIES
   rake
   webrick
   yield
+  zeitwerk
 
 RUBY VERSION
    ruby 3.1.0p0
