@@ -2,6 +2,9 @@
 
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/">3.2.0</a>  <div class='icon-label calendar' title='Released on 2022-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -20,6 +23,9 @@
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">3.1.3</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -57,6 +63,9 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/">3.0.5</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -124,6 +133,9 @@ This reverts change from Ruby 2.5.0.</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -177,6 +189,9 @@ end</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/">2.6.10</a> <div class='icon-label eol' title='All maintenance ended on 2022-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -197,6 +212,9 @@ end</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/">2.5.9</a> <div class='icon-label eol' title='All maintenance ended on 2021-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -245,6 +263,9 @@ This will be reversed again in Ruby 3.0.0</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/">2.4.10</a> <div class='icon-label eol' title='All maintenance ended on 2020-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -264,6 +285,9 @@ This will be reversed again in Ruby 3.0.0</code>
 ----
 
 
+  
+  
+  
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released">2.3.8</a> <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div>
   
@@ -281,7 +305,6 @@ This will be reversed again in Ruby 3.0.0</code>
 ----
 
 
-
 ## Ruby 2.2
   
   - <span class='badge badge-pill badge-danger'>Removed</span>
@@ -294,7 +317,6 @@ This will be reversed again in Ruby 3.0.0</code>
   The introduction of GC for symbols (mortal/immortal)
   
 ----
-
 
 
 ## Ruby 2.1
@@ -311,7 +333,6 @@ This will be reversed again in Ruby 3.0.0</code>
 ----
 
 
-
 ## Ruby 2.0
   
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -325,4 +346,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2023-01-23 22:51:45 +0100)
+(Last updated on 2023-01-24 00:02:37 +0100)
