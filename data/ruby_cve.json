@@ -1,4 +1,50 @@
 {
+  "3.3.0.preview1": [
+
+  ],
+  "3.2.2": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/",
+      "title": "CVE-2023-28755: ReDoS vulnerability in URI"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/",
+      "title": "CVE-2023-28756: ReDoS vulnerability in Time"
+    }
+  ],
+  "3.1.4": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/",
+      "title": "CVE-2023-28755: ReDoS vulnerability in URI"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/",
+      "title": "CVE-2023-28756: ReDoS vulnerability in Time"
+    }
+  ],
+  "3.0.6": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/",
+      "title": "CVE-2023-28755: ReDoS vulnerability in URI"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/",
+      "title": "CVE-2023-28756: ReDoS vulnerability in Time"
+    }
+  ],
+  "2.7.8": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/",
+      "title": "CVE-2023-28755: ReDoS vulnerability in URI"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/",
+      "title": "CVE-2023-28756: ReDoS vulnerability in Time"
+    }
+  ],
+  "3.2.1": [
+
+  ],
   "3.2.0": [
 
   ],
@@ -759,7 +805,7 @@
   ],
   "1.9.2.p330": [
     {
-      "url": "https://www.ruby-lang.orghttps://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6438",
+      "url": "https://www.ruby-lang.orghttps://www.cve.org/CVERecord?id=CVE-2014-6438",
       "title": "CVE-2014-6438"
     }
   ],

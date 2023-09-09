@@ -13,7 +13,7 @@
   * :lock: **EOL** <%= ruby_version['eol'] -%>
   <%- end -%>
   <%- if !ruby_version['implementations'].nil? %>
-  * Implementations: <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ')-%>
+  * Implementations: <%= ruby_version['implementations'].map { |impl| "[#{impl['name']}](#{impl['url']})" }.join(', ').strip-%>
   <% end -%>
 
   <% ruby_version['changes'].each do |change| -%>

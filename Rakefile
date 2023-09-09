@@ -18,6 +18,11 @@ task :doc do
 end
 
 namespace :fetch do
+  desc 'Fetch Ruby changes'
+  task :ruby do
+    RubyChangelog::Actions.new.fetch_ruby_changes
+  end
+
   desc 'Fetch CVE data'
   task :cve do
     RubyChangelog::Actions.new.fetch_cve_history

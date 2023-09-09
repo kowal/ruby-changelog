@@ -61,6 +61,14 @@ module RubyChangelog
         )
       )
     end
+
+    def fetch_ruby_changes
+      puts "\nNot implemented yet :)"
+      puts "----------------------"
+      puts "Manual steps:"
+      puts "1. Compare https://www.ruby-lang.org/en/downloads/releases/ page with ./data/ruby_versions.json"
+      puts "2. Update if needed.\n\n"
+    end
   
     def fetch_cve_history
       cve_results = RubyChangelog::CveData.new.fetch

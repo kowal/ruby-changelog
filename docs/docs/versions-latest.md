@@ -6,7 +6,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/">3.2.0</a>  <div class='icon-label calendar' title='Released on 2022-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/">3.2.2</a>  <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   WASI based WebAssembly support
@@ -27,7 +27,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">3.1.3</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/">3.1.4</a>  <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   YJIT: New experimental in-process JIT compiler (experimental)
@@ -67,7 +67,7 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/">3.0.5</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/">3.0.6</a>  <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -346,4 +346,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2023-01-24 00:02:37 +0100)
+(Last updated on 2023-09-09 14:36:15 +0200)
