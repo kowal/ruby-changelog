@@ -137,7 +137,7 @@ This reverts change from Ruby 2.5.0.</code>
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a>  <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a> <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -193,7 +193,7 @@ end</code>
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/">2.6.10</a> <div class='icon-label eol' title='All maintenance ended on 2022-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/">2.6.10</a> <div class='icon-label eol' title='All maintenance ended on 2022-04-12'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   endless ranges <code>(1..)</code>
@@ -346,4 +346,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2023-09-09 14:36:15 +0200)
+(Last updated on 2023-09-09 15:03:44 +0200)

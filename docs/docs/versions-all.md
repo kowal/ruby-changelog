@@ -144,9 +144,17 @@
 ----
 
 
-## Ruby 2.7 
+## Ruby 2.7 <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
+### Ruby [2.7.8](https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2023-28755: ReDoS vulnerability in URI..](https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2023-28756: ReDoS vulnerability in Time..](https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/)
+  
 ### Ruby [2.7.7](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/) <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -214,7 +222,7 @@
 ----
 
 
-## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-04-12'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -571,4 +579,4 @@
 
 ----
 
-(Last updated on 2023-09-09 14:36:15 +0200)
+(Last updated on 2023-09-09 15:03:44 +0200)

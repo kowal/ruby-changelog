@@ -42,7 +42,7 @@
   * :arrows_counterclockwise: Endless method definition <code>def square(x) = x * x</code> 
   
   ### Ruby 2.7
-
+  * :lock: **EOL** 2023-03-31
   * Implementations: [MRI 2.7.7](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/)  
   * :new: Pattern Matching :test_tube:
   * :arrows_counterclockwise: REPL improvements 
@@ -51,7 +51,7 @@
   * :gear: Compaction GC 
   
   ### Ruby 2.6
-  * :lock: **EOL** 2022-03-31
+  * :lock: **EOL** 2022-04-12
   * Implementations: [MRI 2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/)  
   * :new: endless ranges <code>(1..)</code> 
   * :new: <code>Enumerable#chain</code> 
