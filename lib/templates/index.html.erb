@@ -14,79 +14,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://www.amcharts.com/lib/4/core.js"></script>
-  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
-  <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
-  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-  <script type="text/javascript">
-    window.onload = function () {
-      // Chart Themes begin
-      am4core.useTheme(am4themes_dark);
-      am4core.useTheme(am4themes_animated);
-      // Chart Themes end
-
-      var chart = am4core.create("chartdiv", am4charts.XYChart);
-      chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
-
-      chart.paddingRight = 30;
-      chart.dateFormatter.inputDateFormat = "yyyy-MM-dd HH:mm";
-
-      var colorSet = new am4core.ColorSet();
-      colorSet.saturation = 0.2;
-
-      chart.data = <%= ruby_versions.map { |rb|
-          [*rb['minors']].map { |minor|
-            color = minor['version'].split.last.split('.').map { |n| n.to_i + 1 }.reduce(:*) % 255
-            end_date = minor['end_date'] != "" ? minor['end_date'] : (rb['eol'] ? rb['eol'] : Date.today.to_s)
-            {
-              "category": "Ruby #{rb['version']}",
-              "task": minor['version'],
-              "start": minor['release_date'],
-              "end": end_date,
-              "color": "rgb(255, #{color}, 0)",
-              "info": [
-                rb['state'],
-                rb['implementations'],
-                rb['changes']
-              ].join("\n")
-            }
-          }
-        }.flatten.to_json %>
-
-      chart.dateFormatter.dateFormat = "yyyy-MM-dd";
-      chart.dateFormatter.inputDateFormat = "yyyy-MM-dd";
-
-      var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
-      categoryAxis.dataFields.category = "category";
-      categoryAxis.renderer.grid.template.location = 0;
-      categoryAxis.renderer.inversed = true;
-
-      var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
-      dateAxis.renderer.minGridDistance = 70;
-      dateAxis.baseInterval = { count: 1, timeUnit: "day" };
-      // dateAxis.max = new Date(2018, 0, 1, 24, 0, 0, 0).getTime();
-      //dateAxis.strictMinMax = true;
-      dateAxis.renderer.tooltipLocation = 0;
-
-      var series1 = chart.series.push(new am4charts.ColumnSeries());
-      series1.columns.template.height = am4core.percent(70);
-      series1.columns.template.tooltipText = `
-        [bold]Ruby {task}
-        {openDateX}[/] - {dateX}[/]
-      `;
-
-      series1.dataFields.openDateX = "start";
-      series1.dataFields.dateX = "end";
-      series1.dataFields.categoryY = "category";
-      series1.columns.template.propertyFields.fill = "color"; // get color from data
-      series1.columns.template.propertyFields.stroke = "color";
-      series1.columns.template.strokeOpacity = 1;
-      var bullet1 = series1.bullets.push(new am4charts.LabelBullet());
-      bullet1.label.text = "{task}";
-
-      chart.scrollbarX = new am4core.Scrollbar();
-    }
-  </script>
 </head>
 
 <body class="text-center" data-gr-c-s-loaded="true" style="">
@@ -98,14 +25,6 @@
   </header>
 
   <main role="main" class="inner cover">
-    </br>
-    <a class="btn btn-primary" data-toggle="collapse" href="#chart-collapse-container" role="button" aria-expanded="false" aria-controls="chart-collapse-container">Toggle Chart</a>
-    <div class="collapse multi-collapse" id="chart-collapse-container">
-      <div id="chartdiv"></div>
-    </div>
-
-    </br><hr>
-
     <% ruby_versions.each do |ruby_version| -%>
       <div class="card">
         <h5 class="card-header">Ruby <%= ruby_version['version'] %>.x</h5>
