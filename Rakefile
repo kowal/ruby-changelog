@@ -1,20 +1,15 @@
 require_relative 'lib/ruby_changelog'
 
-task default: :html
-
-desc 'Generate single html page with changelog'
-task :html do
-  RubyChangelog::Actions.new.generate_html
-end
+task default: :doc
 
 desc 'Generate README file with changelog'
-task :md do
+task :readme do
   RubyChangelog::Actions.new.generate_readme
 end
 
 desc 'Generate full documentation'
 task :doc do
-  RubyChangelog::Actions.new.generate_full_docs
+  RubyChangelog::Actions.new.generate_docs
 end
 
 namespace :fetch do

@@ -123,6 +123,7 @@ To rebuild documentation pages from `templates/docs/**`:
 
     $ rake doc
     # Writing to mkdocs-material/docs/versions-latest.md .. Done
+    # Writing to docs/docs/versions-all.md .. Done
     # ...
 
 To start documentation app locally:
@@ -138,9 +139,9 @@ Deployment to github Pages is set up via [github actions](https://squidfunk.gith
 
 #### Readme
 
-To rebuild `README.md` from `templates/README.md.erb`:
+To rebuild this `README.md` from `templates/README.md.erb`:
 
-    $ rake md
+    $ rake readme
     # Writing to README.MD .. Done
 
     $ yield

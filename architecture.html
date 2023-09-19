@@ -9,12 +9,10 @@
   <div class="mermaid">
     flowchart LR
     A0[(fa:fa-database Data source<br><br>/data/ruby_versions.json<br>/data/ruby_cve.json)] -. uses JSON files as data source .-> B[main Changelog class]
-    A1[fa:fa-user rake html]      --> B[fa:fa-cogs main Changelog class]
-    A2[fa:fa-user rake md]        --> B
+    A2[fa:fa-user rake readme]    --> B
     A3[fa:fa-user rake doc]       --> B
     A4[fa:fa-user rake fetch:cve] --> B
 
-    B --> D(fa:fa-bolt Genereate static HTML)        --> dd::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o index.html]
     B --> E(fa:fa-bolt Genereate readme in Markdown) --> ee::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o README.md]
     B --> F(fa:fa-bolt Genereate MkDocs md files)    --> ff::out[fa:fa-arrow-circle-o-right fa:fa-file-text-o docs/docs/*.md files]
     B --> G(fa:fa-bolt Fetch CVE data) --> A0
