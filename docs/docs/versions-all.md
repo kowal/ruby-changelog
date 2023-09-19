@@ -13,7 +13,7 @@
   
 - <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2023-28756: ReDoS vulnerability in Time..](https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/)
   
-### Ruby [3.2.1](https://www.ruby-lang.org/en/news/2022/02/08/ruby-3-2-1-released/) <div class='icon-label calendar' title='Released on 2022-02-08'><div data-icon='ei-calendar' data-size='s'></div></div>
+### Ruby [3.2.1](https://www.ruby-lang.org/en/news/2023/02/08/ruby-3-2-1-released/) <div class='icon-label calendar' title='Released on 2023-02-08'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
 
@@ -579,4 +579,4 @@
 
 ----
 
-(Last updated on 2023-09-19 22:27:42 +0200)
+(Last updated on 2023-09-19 22:38:24 +0200)

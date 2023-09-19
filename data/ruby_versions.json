@@ -6,7 +6,7 @@
       "state": "Supported",
       "minors": [
         { "version": "3.2.2", "release_date": "2023-03-30", "end_date": "" },
-        { "version": "3.2.1", "release_date": "2022-02-08", "end_date": "2023-03-30" },
+        { "version": "3.2.1", "release_date": "2023-02-08", "end_date": "2023-03-30" },
         { "version": "3.2.0", "release_date": "2022-12-25", "end_date": "2022-02-08" }
       ],
       "implementations": [
@@ -116,7 +116,7 @@
       "state": "Security maintenance phase",
       "minors": [
         { "version": "3.0.6", "release_date": "2023-03-30", "end_date": "" },
-        { "version": "3.0.5", "release_date": "2022-11-24", "end_date": "2022-11-24" },
+        { "version": "3.0.5", "release_date": "2022-11-24", "end_date": "2023-03-30" },
         { "version": "3.0.4", "release_date": "2022-04-12", "end_date": "2022-11-24" },
         { "version": "3.0.3", "release_date": "2021-11-24", "end_date": "2022-04-12" },
         { "version": "3.0.2", "release_date": "2021-07-07", "end_date": "2021-11-24" },
@@ -425,7 +425,7 @@
         { "version": "2.4.9", "release_date": "2019-10-02", "end_date": "2020-03-31" },
         { "version": "2.4.8", "release_date": "2019-10-01", "end_date": "2019-10-02" },
         { "version": "2.4.7", "release_date": "2019-08-28", "end_date": "2019-10-01" },
-        { "version": "2.4.6", "release_date": "2019-04-01", "end_date": "2020-03-31" },
+        { "version": "2.4.6", "release_date": "2019-04-01", "end_date": "2019-08-28" },
         { "version": "2.4.5", "release_date": "2018-10-17", "end_date": "2019-04-01" },
         { "version": "2.4.4", "release_date": "2018-03-28", "end_date": "2018-10-17" },
         { "version": "2.4.3", "release_date": "2017-12-14", "end_date": "2018-03-28" },
@@ -472,7 +472,7 @@
       "state": "All maintenance ended on March 31, 2019",
       "eol": "2019-03-31",
       "minors": [
-        { "version": "2.3.8", "release_date": "2018-10-17", "end_date": "2019-03-31" },
+        { "version": "2.3.8", "release_date": "2018-10-17", "end_date": "" },
         { "version": "2.3.7", "release_date": "2018-03-28", "end_date": "2018-10-17" },
         { "version": "2.3.6", "release_date": "2017-12-14", "end_date": "2018-03-28" },
         { "version": "2.3.5", "release_date": "2017-09-14", "end_date": "2017-12-14" },
