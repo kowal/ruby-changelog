@@ -54,7 +54,7 @@ window.onload = function () {
         dataTable.addRows(getChartRows());
 
         var options = {
-          tooltip: { isHtml: true, trigger: 'selection' },
+          tooltip: { isHtml: true },
           timeline: {
             // groupByRowLabel: false
             colorByRowLabel: true,
