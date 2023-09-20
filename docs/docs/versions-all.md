@@ -2,7 +2,7 @@
 
 
 
-## Ruby 3.2 
+## Ruby 3.2 <div class='icon-label eol' title='All maintenance ended on 2026-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [3.2.2](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -30,7 +30,7 @@
 ----
 
 
-## Ruby 3.1 
+## Ruby 3.1 <div class='icon-label eol' title='All maintenance ended on 2025-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [3.1.4](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -73,7 +73,7 @@
 ----
 
 
-## Ruby 3.0 
+## Ruby 3.0 <div class='icon-label eol' title='All maintenance ended on 2024-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [3.0.6](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -579,4 +579,4 @@
 
 ----
 
-(Last updated on 2023-09-19 23:11:27 +0200)
+(Last updated on 2023-09-20 20:13:59 +0200)

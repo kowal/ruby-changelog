@@ -72,5 +72,7 @@ nav:
   - Versions:
     - Latest Versions: versions-latest.md
     - All Versions: versions-all.md
+  - Timeline:
+    - Timeline: timeline.md
   - Other:
     - Ruby resources: links.md

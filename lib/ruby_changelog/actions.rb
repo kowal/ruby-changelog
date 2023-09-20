@@ -12,6 +12,7 @@ module RubyChangelog
   TEMPLATE_DOCS_VERSIONS_LATEST_MD = "#{TEMPLATE_BASE}/docs/versions/latest.md.erb".freeze
   TEMPLATE_DOCS_VERSIONS_ALL_MD    = "#{TEMPLATE_BASE}/docs/versions/all.md.erb".freeze
   TEMPLATE_DOCS_TIMELINE_JS        = "#{TEMPLATE_BASE}/docs/charts/timeline.js.erb".freeze
+  TEMPLATE_DOCS_CHARTS_TIMELINE_MD = "#{TEMPLATE_BASE}/docs/charts/timeline.md.erb".freeze
 
   DOCS_BASE                        = 'docs'.freeze
   DOCS_VERSIONS_LATEST_MD          = "#{DOCS_BASE}/docs/versions-latest.md".freeze
@@ -40,7 +41,12 @@ module RubyChangelog
   
       save_file(
         DOCS_CHARTS_TIMELINE_JS,
-        generate_file(TEMPLATE_DOCS_TIMELINE_JS, ruby_versions: ruby_versions_data)
+        generate_file(TEMPLATE_DOCS_TIMELINE_JS, ruby_versions: ruby_versions_data, ruby_cve: ruby_cve_data)
+      )
+
+      save_file(
+        DOCS_CHARTS_TIMELINE_MD,
+        generate_file(TEMPLATE_DOCS_CHARTS_TIMELINE_MD, ruby_versions: ruby_versions_data)
       )
     end
 

@@ -1,2 +1,86 @@
 window.onload = function () {
+  var container = document.getElementById('timeline');
+
+  if (container) {
+    removeSidebars();
+
+    google.charts.load('current', {'packages':['timeline']});
+    google.charts.setOnLoadCallback(drawChart);
+  }
+
+  function removeSidebars() {
+    const sidebarsPrimary = document.querySelectorAll('.md-sidebar.md-sidebar--primary');
+    const sidebarsSecondary = document.querySelectorAll('.md-sidebar.md-sidebar--secondary');
+    
+    sidebarsPrimary.forEach(box => {
+      box.remove();
+    });
+
+    sidebarsSecondary.forEach(box => {
+      box.remove();
+    });
+  }
+
+  function getChartRows() {
+    return mapDateParams(<%= ruby_versions.map do |rb|
+      [*rb['minors']].map do |minor|
+        [
+          "Ruby #{rb['version']}",
+          minor['version'],
+          (if ruby_cve[minor['version']] && !ruby_cve[minor['version']].empty?
+            ruby_cve[minor['version']].map { |cve_entry| cve_entry['title'] }.join('<br')
+          else
+            rb['changes'].map { |ch| ch['summary'] }.join('<br>')
+          end),
+          minor['release_date'],
+          minor['end_date'] != '' ? minor['end_date'] : Date.today.to_s
+        ]
+      end
+    end.flatten(1).to_json %>)
+  };
+
+  function mapDateParams(list) {
+    return list.map(function(el) {
+      return [
+        el[0],
+        el[1],
+        el[2],
+        new Date(el[3]),
+        new Date(el[4])
+      ];
+    });
+  }
+
+  function drawChart() {
+    var container = document.getElementById('timeline');
+    if (container) {
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+        console.log('getChartRows()');
+        console.dir(getChartRows());
+
+        dataTable.addColumn({ type: 'string', id: 'Ruby major version' });
+        dataTable.addColumn({ type: 'string', id: 'Ruby version' });
+        dataTable.addColumn({ type: 'string', role: 'tooltip', 'p': {'html': true}});
+        dataTable.addColumn({ type: 'date', id: 'Start' });
+        dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows(getChartRows());
+
+        var options = {
+          tooltip: { isHtml: true },
+          timeline: {
+            // groupByRowLabel: false
+            colorByRowLabel: true,
+            rowLabelStyle: { fontSize: 10 }, barLabelStyle: { fontSize: 10 }
+          },
+          height: 1000,
+          enableInteractivity: true,
+          backgroundColor: '#ffd',
+          avoidOverlappingGridLines: true
+        };
+
+        chart.draw(dataTable, options);
+    } 
+  };
 }

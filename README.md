@@ -9,7 +9,7 @@
 
 
   ### Ruby 3.2
-
+  * :lock: **EOL** 2026-03-31
   * Implementations: [MRI 3.2.2](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/)  
   * :gear: WASI based WebAssembly support 
   * :gear: Production-ready YJIT 
@@ -18,7 +18,7 @@
   * :gear: Bundler 2.4 now uses PubGrub resolver instead of Molinillo 
   
   ### Ruby 3.1
-
+  * :lock: **EOL** 2025-03-31
   * Implementations: [MRI 3.1.4](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/)  
   * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
   * :new: debug gem: A new debugger 
@@ -28,7 +28,7 @@
   * :arrows_counterclockwise: Updates in RBS / TypeProf 
   
   ### Ruby 3.0
-
+  * :lock: **EOL** 2024-03-31
   * Implementations: [MRI 3.0.6](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
