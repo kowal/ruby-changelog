@@ -285,7 +285,7 @@
       "version": "2.6",
       "version_info": "2.6.0 (Dec 2018) - 2.6.10 (Apr 2022)",
       "state": "All maintenance ended on April 12, 2022",
-      "eol": "2022-04-12",
+      "eol": "2022-04-13",
       "minors": [
         { "version": "2.6.10", "release_date": "2022-04-12", "end_date": "" },
         { "version": "2.6.9", "release_date": "2021-11-24", "end_date": "2022-04-12" },
@@ -340,7 +340,7 @@
       "version": "2.5",
       "version_info": "2.5.0 (Dec 2017) - 2.5.9 (Apr 2021)",
       "state": "All maintenance ended on April 5, 2021",
-      "eol": "2021-03-31",
+      "eol": "2021-04-06",
       "minors": [
         { "version": "2.5.9", "release_date": "2021-04-05", "end_date": "" },
         { "version": "2.5.8", "release_date": "2020-03-31", "end_date": "2021-04-05" },
@@ -422,7 +422,7 @@
       "version": "2.4",
       "version_info": "2.4.0 (Dec 2016) - 2.4.10 (Mar 2020)",
       "state": "All maintenance ended on March 31, 2020",
-      "eol": "2020-03-31",
+      "eol": "2020-04-01",
       "minors": [
         { "version": "2.4.10", "release_date": "2020-03-31", "end_date": "" },
         { "version": "2.4.9", "release_date": "2019-10-02", "end_date": "2020-03-31" },

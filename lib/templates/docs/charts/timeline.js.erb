@@ -8,19 +8,6 @@ window.onload = function () {
     google.charts.setOnLoadCallback(drawChart);
   }
 
-  function removeSidebars() {
-    const sidebarsPrimary = document.querySelectorAll('.md-sidebar.md-sidebar--primary');
-    const sidebarsSecondary = document.querySelectorAll('.md-sidebar.md-sidebar--secondary');
-    
-    sidebarsPrimary.forEach(box => {
-      box.remove();
-    });
-
-    sidebarsSecondary.forEach(box => {
-      box.remove();
-    });
-  }
-
   function getChartRows() {
     return mapDateParams(<%= ruby_versions.map do |rb|
       [*rb['minors']].map do |minor|
@@ -33,7 +20,7 @@ window.onload = function () {
             rb['changes'].map { |ch| ch['summary'] }.join('<br>')
           end),
           minor['release_date'],
-          minor['end_date'] != '' ? minor['end_date'] : Date.today.to_s
+          minor['end_date'] != '' ? minor['end_date'] : (rb['eol'] || Date.todat.to_s)
         ]
       end
     end.flatten(1).to_json %>)
@@ -49,7 +36,7 @@ window.onload = function () {
         new Date(el[4])
       ];
     });
-  }
+  };
 
   function drawChart() {
     var container = document.getElementById('timeline');
@@ -82,5 +69,18 @@ window.onload = function () {
 
         chart.draw(dataTable, options);
     } 
+  };
+
+  function removeSidebars() {
+    const sidebarsPrimary = document.querySelectorAll('.md-sidebar.md-sidebar--primary');
+    const sidebarsSecondary = document.querySelectorAll('.md-sidebar.md-sidebar--secondary');
+    
+    sidebarsPrimary.forEach(box => {
+      box.remove();
+    });
+
+    sidebarsSecondary.forEach(box => {
+      box.remove();
+    });
   };
 }

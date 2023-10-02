@@ -222,7 +222,7 @@
 ----
 
 
-## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-04-12'><div data-icon='ei-lock' data-size='s'></div></div>
+## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-04-13'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/) <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -307,7 +307,7 @@
 ----
 
 
-## Ruby 2.5 <div class='icon-label eol' title='All maintenance ended on 2021-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+## Ruby 2.5 <div class='icon-label eol' title='All maintenance ended on 2021-04-06'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [2.5.9](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/) <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -395,7 +395,7 @@
 ----
 
 
-## Ruby 2.4 <div class='icon-label eol' title='All maintenance ended on 2020-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+## Ruby 2.4 <div class='icon-label eol' title='All maintenance ended on 2020-04-01'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/) <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -579,4 +579,4 @@
 
 ----
 
-(Last updated on 2023-09-20 20:20:16 +0200)
+(Last updated on 2023-10-02 10:54:12 +0200)
