@@ -3,7 +3,7 @@
 ## Intro
 
 * See full version of this project on https://rubychangelog.com/
-* This page was last updated on 2023-09-19 via `rake md` task
+* This page was last updated on 2023-11-05 via `rake md` task
 
 ## Ruby changelog
 
@@ -51,7 +51,7 @@
   * :gear: Compaction GC 
   
   ### Ruby 2.6
-  * :lock: **EOL** 2022-04-12
+  * :lock: **EOL** 2022-04-13
   * Implementations: [MRI 2.6.10](https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/)  
   * :new: endless ranges <code>(1..)</code> 
   * :new: <code>Enumerable#chain</code> 
@@ -61,7 +61,7 @@
   * :gear: Bundler is installed as a default gem 
   
   ### Ruby 2.5
-  * :lock: **EOL** 2021-03-31
+  * :lock: **EOL** 2021-04-06
   * Implementations: [MRI 2.5.9](https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/), [JRuby 9.2.0.0](https://www.jruby.org/2018/05/24/jruby-9-2-0-0)  
   * :new: <code>yield_self</code> 
   * :new: <code>rescue</code> in blocks 
@@ -74,7 +74,7 @@
   * :arrows_counterclockwise: Reverse order of backtrace (oldest call first) :test_tube:
   
   ### Ruby 2.4
-  * :lock: **EOL** 2020-03-31
+  * :lock: **EOL** 2020-04-01
   * Implementations: [MRI 2.4.10](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/)  
   * :new: <code>Enumerable#sum</code> 
   * :new: <code>Integer#digits</code> 
@@ -154,6 +154,6 @@ Open http://localhost:4000/
 1. Compare [Ruby releases](https://www.ruby-lang.org/en/downloads/releases/) page with [ruby_versions.json](https://github.com/kowal/ruby-changelog/blob/master/data/ruby_versions.json) if there are new Ruby versions.
     - update ruby_versions.json with new versions details
 2. Update latest info about CVE - run `rake fetch:cve`
-3. Regenerate all artifacts - `rake doc html md`
+3. Regenerate all artifacts - `rake doc readme`
 4. Verify - `bundle exec yield` and on mkdocs
 5. Commit & publish
