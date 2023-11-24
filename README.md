@@ -2,8 +2,11 @@
 
 ## Intro
 
-* See full version of this project on https://rubychangelog.com/
-* This page was last updated on 2023-11-05 via `rake md` task
+See full version of this project on https://rubychangelog.com/
+
+<img src='assets/screen1.jpg' width="200">
+
+This page was last updated on 2023-11-24 via `rake readme` task
 
 ## Ruby changelog
 
