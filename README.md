@@ -4,7 +4,7 @@
 
 See full version of this project on https://rubychangelog.com/
 
-<img src='assets/screen1.jpg' width="200">
+<img src='assets/screen1.jpg' width="500">
 
 This page was last updated on 2023-11-24 via `rake readme` task
 
