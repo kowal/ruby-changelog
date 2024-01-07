@@ -6,6 +6,28 @@
   
   
 
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/">3.3.0</a> <div class='icon-label eol' title='All maintenance ended on 2027-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Introduced Prism parser as a default gem, replacing Ripper
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Lrama replaces Bison as parser generator
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Introduction of M:N thread scheduler for efficient thread management
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Several performance improvements in the Garbage Collector
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Enhancements in IRB including advanced irb:rdbg integration and pager support
+  
+----
+
+
+  
+  
+  
+
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/">3.2.2</a> <div class='icon-label eol' title='All maintenance ended on 2026-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
@@ -346,4 +368,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2023-11-05 21:39:17 +0100)
+(Last updated on 2024-01-07 21:45:25 +0100)

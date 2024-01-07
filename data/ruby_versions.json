@@ -1,12 +1,65 @@
 {
   "ruby_versions": [
     {
+      "version": "3.3",
+      "version_info": "3.3.0 (Dec 2023)",
+      "state": "Supported",
+      "eol": "2027-03-31",
+      "minors": [
+        { "version": "3.3.0", "release_date": "2023-12-25", "end_date": "" }
+      ],
+      "implementations": [
+        {
+          "name": "MRI 3.3.0",
+          "url": "https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/"
+        }
+      ],
+      "changes": [
+        {
+          "type": "internals",
+          "tags": ["parser"],
+          "experimental": false,
+          "summary": "Introduced Prism parser as a default gem, replacing Ripper"
+        },
+        {
+          "type": "internals",
+          "tags": ["parser generator"],
+          "experimental": false,
+          "summary": "Lrama replaces Bison as parser generator"
+        },
+        {
+          "type": "internals",
+          "tags": ["performance", "JIT compiler"],
+          "experimental": false,
+          "summary": "Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler"
+        },
+        {
+          "type": "internals",
+          "tags": ["threading"],
+          "experimental": false,
+          "summary": "Introduction of M:N thread scheduler for efficient thread management"
+        },
+        {
+          "type": "internals",
+          "tags": ["garbage collection"],
+          "experimental": false,
+          "summary": "Several performance improvements in the Garbage Collector"
+        },
+        {
+          "type": "internals",
+          "tags": ["IRB"],
+          "experimental": false,
+          "summary": "Enhancements in IRB including advanced irb:rdbg integration and pager support"
+        }
+      ]
+    },    
+    {
       "version": "3.2",
       "version_info": "3.2.0 (Dec 2022) - 3.2.2 (March 2023)",
       "state": "Supported",
       "eol": "2026-03-31",
       "minors": [
-        { "version": "3.2.2", "release_date": "2023-03-30", "end_date": "" },
+        { "version": "3.2.2", "release_date": "2023-03-30", "end_date": "2023-12-25" },
         { "version": "3.2.1", "release_date": "2023-02-08", "end_date": "2023-03-30" },
         { "version": "3.2.0", "release_date": "2022-12-25", "end_date": "2023-02-08" }
       ],
