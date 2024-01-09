@@ -1,7 +1,7 @@
 
 .icon-label {
   display: inline;
-  font-size: small;
+  /* font-size: small; */
 }
 
 .icon-label.calendar {
@@ -15,7 +15,7 @@
 }
 
 .eol > .icon {
-  fill: red;
+  fill: #f98b8b;
 }
 
 .calendar > .icon {

@@ -2,7 +2,11 @@
 
 
 
-## Ruby 3.3 <div class='icon-label eol' title='All maintenance ended on 2027-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+
+
+
+
+## Ruby 3.3 
 
 
 ### Ruby [3.3.0](https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/) <div class='icon-label calendar' title='Released on 2023-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -19,7 +23,11 @@
 ----
 
 
-## Ruby 3.2 <div class='icon-label eol' title='All maintenance ended on 2026-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+
+
+
+
+## Ruby 3.2 
 
 
 ### Ruby [3.2.2](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -47,7 +55,11 @@
 ----
 
 
-## Ruby 3.1 <div class='icon-label eol' title='All maintenance ended on 2025-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+
+
+
+
+## Ruby 3.1 
 
 
 ### Ruby [3.1.4](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -90,7 +102,11 @@
 ----
 
 
-## Ruby 3.0 <div class='icon-label eol' title='All maintenance ended on 2024-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
+
+
+
+
+## Ruby 3.0 
 
 
 ### Ruby [3.0.6](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -159,6 +175,10 @@
 - <span class='badge badge-pill badge-primary'>Updated</span> Endless method definition <code>def square(x) = x * x</code>      
 
 ----
+
+
+
+
 
 
 ## Ruby 2.7 <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
@@ -237,6 +257,10 @@
 - <span class='badge badge-pill badge-dark'>Internals</span> Compaction GC      
 
 ----
+
+
+
+
 
 
 ## Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-04-13'><div data-icon='ei-lock' data-size='s'></div></div>
@@ -322,6 +346,10 @@
 - <span class='badge badge-pill badge-dark'>Internals</span> Bundler is installed as a default gem      
 
 ----
+
+
+
+
 
 
 ## Ruby 2.5 <div class='icon-label eol' title='All maintenance ended on 2021-04-06'><div data-icon='ei-lock' data-size='s'></div></div>
@@ -410,6 +438,10 @@
 - <span class='badge badge-pill badge-primary'>Updated</span> Reverse order of backtrace (oldest call first) (experimental)      
 
 ----
+
+
+
+
 
 
 ## Ruby 2.4 <div class='icon-label eol' title='All maintenance ended on 2020-04-01'><div data-icon='ei-lock' data-size='s'></div></div>
@@ -505,6 +537,10 @@
 ----
 
 
+
+
+
+
 ## Ruby 2.3 <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
@@ -579,10 +615,18 @@
 ----
 
 
+
+
+
+
 ## Ruby 2.2 <div class='icon-label eol' title='All maintenance ended on 2018-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ----
+
+
+
+
 
 
 ## Ruby 2.1 <div class='icon-label eol' title='All maintenance ended on 2017-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
@@ -591,9 +635,13 @@
 ----
 
 
+
+
+
+
 ## Ruby 2.0 <div class='icon-label eol' title='All maintenance ended on 2016-02-24'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ----
 
-(Last updated on 2024-01-07 21:45:25 +0100)
+(Last updated on 2024-01-09 18:49:47 +0100)

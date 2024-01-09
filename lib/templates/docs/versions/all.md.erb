@@ -1,8 +1,13 @@
 # Ruby all versions changelog
+<%- require 'date' -%>
 
 <%- ruby_versions.each do |ruby_version| %>
 
-## Ruby <%= ruby_version['version'] %> <%= !ruby_version['eol'].nil? ? "<div class='icon-label eol' title='All maintenance ended on #{ruby_version['eol']}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %>
+<% eol_date    = ruby_version['eol'] %>
+<% eol_set     = !eol_date.nil? %>
+<% eol_in_past = Date.parse(eol_date) < Date.today rescue nil %>
+
+## Ruby <%= ruby_version['version'] %> <%= eol_set && eol_in_past ? "<div class='icon-label eol' title='All maintenance ended on #{eol_date}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %>
 
 <%- [*ruby_version['minors']].each do |minor_version| %>
 ### Ruby [<%= minor_version['version'] %>](https://www.ruby-lang.org/en/news/<%= minor_version['release_date'].gsub('-', '/') %>/ruby-<%= minor_version['version'].gsub('.', '-') %>-released/) <div class='icon-label calendar' title='Released on <%= minor_version['release_date'] %>'><div data-icon='ei-calendar' data-size='s'></div></div>

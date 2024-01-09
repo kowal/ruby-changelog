@@ -6,7 +6,7 @@ See full version of this project on https://rubychangelog.com/
 
 <img src='assets/screen1.jpg' width="500">
 
-This page was last updated on 2024-01-07 via `rake readme` task
+This page was last updated on 2024-01-09 via `rake readme` task
 
 ## Ruby changelog
 

@@ -1,9 +1,14 @@
 # Ruby latest versions changelog
+<%- require 'date' -%>
 
 <%- ruby_versions.each do |ruby_version| %>
   <%- if !ruby_version['implementations'].nil? %>
   <% implementation_link = ruby_version['implementations'].first.yield_self { |impl| "<a target='_blank' href=\"#{impl['url']}\">#{impl['name'].split.last}</a>" } %>
-  <% eol_date_icon = !ruby_version['eol'].nil? ? "<div class='icon-label eol' title='All maintenance ended on #{ruby_version['eol']}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %>
+
+  <% eol_date    = ruby_version['eol'] %>
+  <% eol_set     = !eol_date.nil? %>
+  <% eol_in_past = Date.parse(eol_date) < Date.today rescue nil %>
+  <% eol_date_icon = eol_set && eol_in_past ? "<div class='icon-label eol' title='All maintenance ended on #{eol_date}'><div data-icon='ei-lock' data-size='s'></div></div>" : '' %>
   <% release_date_icon = "<div class='icon-label calendar' title='Released on #{ruby_version['minors'].first['release_date']}'><div data-icon='ei-calendar' data-size='s'></div></div>" %>
 
 ## Ruby <%= implementation_link %> <%= eol_date_icon %> <%= release_date_icon %>
