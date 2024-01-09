@@ -59,7 +59,7 @@
       "state": "Supported",
       "eol": "2026-03-31",
       "minors": [
-        { "version": "3.2.2", "release_date": "2023-03-30", "end_date": "2023-12-25" },
+        { "version": "3.2.2", "release_date": "2023-03-30", "end_date": "" },
         { "version": "3.2.1", "release_date": "2023-02-08", "end_date": "2023-03-30" },
         { "version": "3.2.0", "release_date": "2022-12-25", "end_date": "2023-02-08" }
       ],
