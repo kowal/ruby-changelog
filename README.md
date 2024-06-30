@@ -42,7 +42,7 @@ This page was last updated on 2024-06-30 via `rake readme` task
   
   ### Ruby 3.0
   * :lock: **EOL** 2024-03-31
-  * Implementations: [MRI 3.0.6](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/)  
+  * Implementations: [MRI 3.0.7](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
   * :new: Fiber Scheduler for light-weight concurrency :test_tube:

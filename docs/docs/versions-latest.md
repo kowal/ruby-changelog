@@ -105,7 +105,7 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/">3.0.6</a> <div class='icon-label eol' title='All maintenance ended on 2024-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/">3.0.7</a> <div class='icon-label eol' title='All maintenance ended on 2024-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   MJIT improvements
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-06-30 20:27:36 +0200)
+(Last updated on 2024-06-30 20:31:37 +0200)

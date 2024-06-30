@@ -113,7 +113,7 @@
     {
       "version": "3.1",
       "version_info": "3.1.0 (Dec 2020) - 3.1.6 (May 2024)",
-      "state": "Supported",
+      "state": "Security maintenance phase",
       "eol": "2025-03-31",
       "minors": [
         { "version": "3.1.6", "release_date": "2024-05-29", "end_date": "" },
@@ -174,11 +174,12 @@
     },
     {
       "version": "3.0",
-      "version_info": "3.0.0 (Dec 2020) - 3.0.6 (March 2023)",
-      "state": "Security maintenance phase",
+      "version_info": "3.0.0 (Dec 2020) - 3.0.7 (April 2024)",
+      "state": "All maintenance endded on April 24 2023",
       "eol": "2024-03-31",
       "minors": [
-        { "version": "3.0.6", "release_date": "2023-03-30", "end_date": "" },
+        { "version": "3.0.7", "release_date": "2024-04-23", "end_date": "" },
+        { "version": "3.0.6", "release_date": "2023-03-30", "end_date": "2024-04-23" },
         { "version": "3.0.5", "release_date": "2022-11-24", "end_date": "2023-03-30" },
         { "version": "3.0.4", "release_date": "2022-04-12", "end_date": "2022-11-24" },
         { "version": "3.0.3", "release_date": "2021-11-24", "end_date": "2022-04-12" },
@@ -188,8 +189,8 @@
       ],
       "implementations": [
         {
-          "name": "MRI 3.0.6",
-          "url": "https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/"
+          "name": "MRI 3.0.7",
+          "url": "https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/"
         }
       ],
       "changes": [
