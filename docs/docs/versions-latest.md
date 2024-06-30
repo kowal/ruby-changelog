@@ -36,7 +36,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/">3.2.2</a>  <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/">3.2.4</a>  <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   WASI based WebAssembly support
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-06-30 14:55:13 +0200)
+(Last updated on 2024-06-30 14:58:42 +0200)
