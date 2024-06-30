@@ -96,6 +96,20 @@
 ## Ruby 3.1 
 
 
+### Ruby [3.1.6](https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/) <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.1.5](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/) <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2024-27282: Arbitrary memory address read vulnerability w..](https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc..](https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2024-27280: Buffer overread vulnerability in StringIO..](https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/)
+  
 ### Ruby [3.1.4](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/) <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
 
 
@@ -678,4 +692,4 @@
 
 ----
 
-(Last updated on 2024-06-30 14:58:42 +0200)
+(Last updated on 2024-06-30 20:27:36 +0200)

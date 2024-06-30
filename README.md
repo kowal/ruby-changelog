@@ -23,7 +23,7 @@ This page was last updated on 2024-06-30 via `rake readme` task
   
   ### Ruby 3.2
   * :lock: **EOL** 2026-03-31
-  * Implementations: [MRI 3.2.2](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/)  
+  * Implementations: [MRI 3.2.4](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/)  
   * :gear: WASI based WebAssembly support 
   * :gear: Production-ready YJIT 
   * :gear: Regexp improvements against ReDoS 
@@ -32,7 +32,7 @@ This page was last updated on 2024-06-30 via `rake readme` task
   
   ### Ruby 3.1
   * :lock: **EOL** 2025-03-31
-  * Implementations: [MRI 3.1.4](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/)  
+  * Implementations: [MRI 3.1.6](https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/)  
   * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
   * :new: debug gem: A new debugger 
   * :new: error_highlight: Fine-grained error location in backtrace 
