@@ -1,4 +1,78 @@
 {
+  "3.3.3": [
+
+  ],
+  "3.3.2": [
+
+  ],
+  "3.1.6": [
+
+  ],
+  "3.4.0.preview1": [
+
+  ],
+  "3.3.1": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/",
+      "title": "CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
+      "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
+      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
+    }
+  ],
+  "3.2.4": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/",
+      "title": "CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
+      "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
+      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
+    }
+  ],
+  "3.1.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/",
+      "title": "CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
+      "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
+      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
+    }
+  ],
+  "3.0.7": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/",
+      "title": "CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
+      "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
+      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
+    }
+  ],
+  "3.2.3": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/",
+      "title": "CVE-2023-36617: ReDoS vulnerability in URI"
+    }
+  ],
   "3.3.0": [
 
   ],

@@ -6,14 +6,14 @@ See full version of this project on https://rubychangelog.com/
 
 <img src='assets/screen1.jpg' width="500">
 
-This page was last updated on 2024-01-09 via `rake readme` task
+This page was last updated on 2024-06-30 via `rake readme` task
 
 ## Ruby changelog
 
 
   ### Ruby 3.3
   * :lock: **EOL** 2027-03-31
-  * Implementations: [MRI 3.3.0](https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/)  
+  * Implementations: [MRI 3.3.3](https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/)  
   * :gear: Introduced Prism parser as a default gem, replacing Ripper 
   * :gear: Lrama replaces Bison as parser generator 
   * :gear: Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler 
