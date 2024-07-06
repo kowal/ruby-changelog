@@ -6,7 +6,7 @@ See full version of this project on https://rubychangelog.com/
 
 <img src='assets/screen1.jpg' width="500">
 
-This page was last updated on 2024-06-30 via `rake readme` task
+This page was last updated on 2024-07-06 via `rake readme` task
 
 ## Ruby changelog
 
@@ -41,7 +41,7 @@ This page was last updated on 2024-06-30 via `rake readme` task
   * :arrows_counterclockwise: Updates in RBS / TypeProf 
   
   ### Ruby 3.0
-  * :lock: **EOL** 2024-03-31
+  * :lock: **EOL** 
   * Implementations: [MRI 3.0.7](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
