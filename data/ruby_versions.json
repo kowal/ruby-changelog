@@ -22,7 +22,7 @@
           "type": "internals",
           "tags": ["parser"],
           "experimental": false,
-          "summary": "Introduced Prism parser as a default gem, replacing Ripper"
+          "summary": "Introduced Prism parser as a default gem"
         },
         {
           "type": "internals",
@@ -34,13 +34,13 @@
           "type": "internals",
           "tags": ["performance", "JIT compiler"],
           "experimental": false,
-          "summary": "Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler"
+          "summary": "Major YJIT performance improvements, introduction of RJIT"
         },
         {
           "type": "internals",
           "tags": ["threading"],
           "experimental": false,
-          "summary": "Introduction of M:N thread scheduler for efficient thread management"
+          "summary": "Introduction of M:N thread scheduler"
         },
         {
           "type": "internals",
@@ -52,7 +52,7 @@
           "type": "internals",
           "tags": ["IRB"],
           "experimental": false,
-          "summary": "Enhancements in IRB including advanced irb:rdbg integration and pager support"
+          "summary": "Enhancements in IRB: advanced irb:rdbg integration; pager support"
         }
       ]
     },    

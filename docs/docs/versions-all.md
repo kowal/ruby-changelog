@@ -31,12 +31,12 @@
 
 
 
-- <span class='badge badge-pill badge-dark'>Internals</span> Introduced Prism parser as a default gem, replacing Ripper    
+- <span class='badge badge-pill badge-dark'>Internals</span> Introduced Prism parser as a default gem    
 - <span class='badge badge-pill badge-dark'>Internals</span> Lrama replaces Bison as parser generator    
-- <span class='badge badge-pill badge-dark'>Internals</span> Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler    
-- <span class='badge badge-pill badge-dark'>Internals</span> Introduction of M:N thread scheduler for efficient thread management    
+- <span class='badge badge-pill badge-dark'>Internals</span> Major YJIT performance improvements, introduction of RJIT    
+- <span class='badge badge-pill badge-dark'>Internals</span> Introduction of M:N thread scheduler    
 - <span class='badge badge-pill badge-dark'>Internals</span> Several performance improvements in the Garbage Collector    
-- <span class='badge badge-pill badge-dark'>Internals</span> Enhancements in IRB including advanced irb:rdbg integration and pager support      
+- <span class='badge badge-pill badge-dark'>Internals</span> Enhancements in IRB: advanced irb:rdbg integration; pager support      
 
 ----
 
@@ -702,4 +702,4 @@
 
 ----
 
-(Last updated on 2024-07-06 18:31:03 +0200)
+(Last updated on 2024-07-06 18:49:11 +0200)

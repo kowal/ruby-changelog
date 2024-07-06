@@ -13,17 +13,17 @@
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/">3.3.3</a>  <div class='icon-label calendar' title='Released on 2024-06-12'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
-  Introduced Prism parser as a default gem, replacing Ripper
+  Introduced Prism parser as a default gem
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Lrama replaces Bison as parser generator
   - <span class='badge badge-pill badge-dark'>Internals</span>
-  Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler
+  Major YJIT performance improvements, introduction of RJIT
   - <span class='badge badge-pill badge-dark'>Internals</span>
-  Introduction of M:N thread scheduler for efficient thread management
+  Introduction of M:N thread scheduler
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Several performance improvements in the Garbage Collector
   - <span class='badge badge-pill badge-dark'>Internals</span>
-  Enhancements in IRB including advanced irb:rdbg integration and pager support
+  Enhancements in IRB: advanced irb:rdbg integration; pager support
   
 ----
 
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-07-06 18:31:03 +0200)
+(Last updated on 2024-07-06 18:49:11 +0200)

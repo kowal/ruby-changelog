@@ -14,12 +14,12 @@ This page was last updated on 2024-07-06 via `rake readme` task
   ### Ruby 3.3
   * :lock: **EOL** 2027-03-31
   * Implementations: [MRI 3.3.3](https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/)  
-  * :gear: Introduced Prism parser as a default gem, replacing Ripper 
+  * :gear: Introduced Prism parser as a default gem 
   * :gear: Lrama replaces Bison as parser generator 
-  * :gear: Major YJIT performance improvements and introduction of RJIT, a pure-Ruby JIT compiler 
-  * :gear: Introduction of M:N thread scheduler for efficient thread management 
+  * :gear: Major YJIT performance improvements, introduction of RJIT 
+  * :gear: Introduction of M:N thread scheduler 
   * :gear: Several performance improvements in the Garbage Collector 
-  * :gear: Enhancements in IRB including advanced irb:rdbg integration and pager support 
+  * :gear: Enhancements in IRB: advanced irb:rdbg integration; pager support 
   
   ### Ruby 3.2
   * :lock: **EOL** 2026-03-31
