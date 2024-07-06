@@ -33,17 +33,16 @@ This page was last updated on 2024-07-06 via `rake readme` task
   ### Ruby 3.1
   * :lock: **EOL** 2025-03-31
   * Implementations: [MRI 3.1.6](https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/)  
-  * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
   * :new: debug gem: A new debugger 
   * :new: error_highlight: Fine-grained error location in backtrace 
   * :new: IRB Autocomplete and Documentation Display 
   * :arrows_counterclockwise: Values in Hash literals and keyword arguments can be omitted. 
   * :arrows_counterclockwise: Updates in RBS / TypeProf 
+  * :gear: YJIT: New experimental in-process JIT compiler :test_tube:
   
   ### Ruby 3.0
   * :lock: **EOL** 2024-04-23
   * Implementations: [MRI 3.0.7](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/)  
-  * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:
   * :new: Fiber Scheduler for light-weight concurrency :test_tube:
   * :new: RBS - a language to describe the structure of Ruby classes 
@@ -53,6 +52,7 @@ This page was last updated on 2024-07-06 via `rake readme` task
   * :arrows_counterclockwise: Rightward assignment statement 
   * :arrows_counterclockwise: Reversed (again) order of backtrace  :test_tube:
   * :arrows_counterclockwise: Endless method definition <code>def square(x) = x * x</code> 
+  * :gear: MJIT improvements 
   
   ### Ruby 2.7
   * :lock: **EOL** 2023-03-31

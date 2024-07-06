@@ -63,17 +63,6 @@
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/">3.1.6</a>  <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div>
   
-  - <span class='badge badge-pill badge-dark'>Internals</span>
-  YJIT: New experimental in-process JIT compiler (experimental)
-    <a target='_blank' href="https://shopify.engineering/yjit-just-in-time-compiler-cruby"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
-  <a data-toggle="collapse" href="#codeExample310" aria-expanded="false" aria-controls="collapseExample">
-    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
-  </a>
-  <div class="collapse" id="codeExample310">
-    <div class="alert alert-light" role="alert">
-      <code class="code">--yjit  # CLI option</code>
-    </div>
-  </div>
   - <span class='badge badge-pill badge-success'>Added</span>
   debug gem: A new debugger
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -82,10 +71,10 @@
   IRB Autocomplete and Documentation Display
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Values in Hash literals and keyword arguments can be omitted.
-  <a data-toggle="collapse" href="#codeExample314" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample313" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample314">
+  <div class="collapse" id="codeExample313">
     <div class="alert alert-light" role="alert">
       <code class="code">{x:, y:} is syntax sugar for {x: x, y: y}
 foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
@@ -93,6 +82,17 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Updates in RBS / TypeProf
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  YJIT: New experimental in-process JIT compiler (experimental)
+    <a target='_blank' href="https://shopify.engineering/yjit-just-in-time-compiler-cruby"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
+  <a data-toggle="collapse" href="#codeExample315" aria-expanded="false" aria-controls="collapseExample">
+    <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
+  </a>
+  <div class="collapse" id="codeExample315">
+    <div class="alert alert-light" role="alert">
+      <code class="code">--yjit  # CLI option</code>
+    </div>
+  </div>
   
 ----
 
@@ -107,8 +107,6 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
 
 ## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/">3.0.7</a> <div class='icon-label eol' title='All maintenance ended on 2024-04-23'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div>
   
-  - <span class='badge badge-pill badge-dark'>Internals</span>
-  MJIT improvements
   - <span class='badge badge-pill badge-success'>Added</span>
   Ractor - Actor-model like concurrent abstraction (experimental)
   - <span class='badge badge-pill badge-success'>Added</span>
@@ -116,10 +114,10 @@ foo(x:, y:) is syntax sugar for foo(x: x, y: y).</code>
   - <span class='badge badge-pill badge-success'>Added</span>
   RBS - a language to describe the structure of Ruby classes
     <a target='_blank' href="https://github.com/ruby/rbs"><img class="icon link-service-icon" src="../assets/link-icon-news.ico" title="Check details on NEWS page (github)"></a>
-  <a data-toggle="collapse" href="#codeExample303" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample302" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample303">
+  <div class="collapse" id="codeExample302">
     <div class="alert alert-light" role="alert">
       <code class="code">class User
   attr_reader login: String
@@ -134,10 +132,10 @@ end</code>
   <code>Hash#except</code>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Keyword arguments are separated from other arguments
-  <a data-toggle="collapse" href="#codeExample306" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample305" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample306">
+  <div class="collapse" id="codeExample305">
     <div class="alert alert-light" role="alert">
       <code class="code">def foo(key: 42); end; foo({key: 42})   # won't work!
 def foo(key: 42); end; foo(**{key: 42}) # OK</code>
@@ -145,10 +143,10 @@ def foo(key: 42); end; foo(**{key: 42}) # OK</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Rightward assignment statement
-  <a data-toggle="collapse" href="#codeExample307" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample306" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample307">
+  <div class="collapse" id="codeExample306">
     <div class="alert alert-light" role="alert">
       <code class="code">fib(10) => a
 a #=> 55</code>
@@ -156,10 +154,10 @@ a #=> 55</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Reversed (again) order of backtrace  (experimental)
-  <a data-toggle="collapse" href="#codeExample308" aria-expanded="false" aria-controls="collapseExample">
+  <a data-toggle="collapse" href="#codeExample307" aria-expanded="false" aria-controls="collapseExample">
     <img class="icon link-service-icon" src="../assets/link-icon-code.ico" title="Expand code example">
   </a>
-  <div class="collapse" id="codeExample308">
+  <div class="collapse" id="codeExample307">
     <div class="alert alert-light" role="alert">
       <code class="code">Error message first, caller later.
 This reverts change from Ruby 2.5.0.</code>
@@ -167,6 +165,8 @@ This reverts change from Ruby 2.5.0.</code>
   </div>
   - <span class='badge badge-pill badge-primary'>Updated</span>
   Endless method definition <code>def square(x) = x * x</code>
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  MJIT improvements
   
 ----
 
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-07-06 18:49:11 +0200)
+(Last updated on 2024-07-06 18:52:44 +0200)

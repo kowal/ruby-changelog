@@ -140,12 +140,12 @@
 
 
 
-- <span class='badge badge-pill badge-dark'>Internals</span> YJIT: New experimental in-process JIT compiler (experimental)    
 - <span class='badge badge-pill badge-success'>Added</span> debug gem: A new debugger    
 - <span class='badge badge-pill badge-success'>Added</span> error_highlight: Fine-grained error location in backtrace    
 - <span class='badge badge-pill badge-success'>Added</span> IRB Autocomplete and Documentation Display    
 - <span class='badge badge-pill badge-primary'>Updated</span> Values in Hash literals and keyword arguments can be omitted.    
-- <span class='badge badge-pill badge-primary'>Updated</span> Updates in RBS / TypeProf      
+- <span class='badge badge-pill badge-primary'>Updated</span> Updates in RBS / TypeProf    
+- <span class='badge badge-pill badge-dark'>Internals</span> YJIT: New experimental in-process JIT compiler (experimental)      
 
 ----
 
@@ -221,7 +221,6 @@
 
 
 
-- <span class='badge badge-pill badge-dark'>Internals</span> MJIT improvements    
 - <span class='badge badge-pill badge-success'>Added</span> Ractor - Actor-model like concurrent abstraction (experimental)    
 - <span class='badge badge-pill badge-success'>Added</span> Fiber Scheduler for light-weight concurrency (experimental)    
 - <span class='badge badge-pill badge-success'>Added</span> RBS - a language to describe the structure of Ruby classes    
@@ -230,7 +229,8 @@
 - <span class='badge badge-pill badge-primary'>Updated</span> Keyword arguments are separated from other arguments    
 - <span class='badge badge-pill badge-primary'>Updated</span> Rightward assignment statement    
 - <span class='badge badge-pill badge-primary'>Updated</span> Reversed (again) order of backtrace  (experimental)    
-- <span class='badge badge-pill badge-primary'>Updated</span> Endless method definition <code>def square(x) = x * x</code>      
+- <span class='badge badge-pill badge-primary'>Updated</span> Endless method definition <code>def square(x) = x * x</code>    
+- <span class='badge badge-pill badge-dark'>Internals</span> MJIT improvements      
 
 ----
 
@@ -702,4 +702,4 @@
 
 ----
 
-(Last updated on 2024-07-06 18:49:11 +0200)
+(Last updated on 2024-07-06 18:52:44 +0200)

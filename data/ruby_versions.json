@@ -132,18 +132,6 @@
       ],
       "changes": [
         {
-          "type": "internals",
-          "tags": ["performance"],
-          "experimental": true,
-          "summary": "YJIT: New experimental in-process JIT compiler",
-          "links": {
-            "news": "https://shopify.engineering/yjit-just-in-time-compiler-cruby"
-          },
-          "detailsCode": [
-            "--yjit  # CLI option"
-          ]
-        },
-        {
           "type": "new",
           "tags": ["debug"],
           "summary": "debug gem: A new debugger"
@@ -169,6 +157,18 @@
         {
           "type": "update",
           "summary": "Updates in RBS / TypeProf"
+        },
+        {
+          "type": "internals",
+          "tags": ["performance"],
+          "experimental": true,
+          "summary": "YJIT: New experimental in-process JIT compiler",
+          "links": {
+            "news": "https://shopify.engineering/yjit-just-in-time-compiler-cruby"
+          },
+          "detailsCode": [
+            "--yjit  # CLI option"
+          ]
         }
       ]
     },
@@ -194,11 +194,6 @@
         }
       ],
       "changes": [
-        {
-          "type": "internals",
-          "tags": ["performance"],
-          "summary": "MJIT improvements"
-        },
         {
           "type": "new",
           "experimental": true,
@@ -264,6 +259,11 @@
         {
           "type": "update",
           "summary": "Endless method definition <code>def square(x) = x * x</code>"
+        },
+        {
+          "type": "internals",
+          "tags": ["performance"],
+          "summary": "MJIT improvements"
         }
       ]
     },
