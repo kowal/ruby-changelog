@@ -175,8 +175,8 @@
     {
       "version": "3.0",
       "version_info": "3.0.0 (Dec 2020) - 3.0.7 (April 2024)",
-      "state": "All maintenance ended on April 24 2023",
-      "eol": "",
+      "state": "All maintenance ended on March 31 2024",
+      "eol": "2024-04-23",
       "minors": [
         { "version": "3.0.7", "release_date": "2024-04-23", "end_date": "" },
         { "version": "3.0.6", "release_date": "2023-03-30", "end_date": "2024-04-23" },

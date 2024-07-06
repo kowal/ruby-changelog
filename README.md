@@ -41,7 +41,7 @@ This page was last updated on 2024-07-06 via `rake readme` task
   * :arrows_counterclockwise: Updates in RBS / TypeProf 
   
   ### Ruby 3.0
-  * :lock: **EOL** 
+  * :lock: **EOL** 2024-04-23
   * Implementations: [MRI 3.0.7](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/)  
   * :gear: MJIT improvements 
   * :new: Ractor - Actor-model like concurrent abstraction :test_tube:

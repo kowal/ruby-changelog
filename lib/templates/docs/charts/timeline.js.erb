@@ -20,7 +20,7 @@ window.onload = function () {
             rb['changes'].map { |ch| ch['summary'] }.join('<br>')
           end),
           minor['release_date'],
-          minor['end_date'] != '' ? minor['end_date'] : (rb['eol'] || Date.todat.to_s)
+          minor['end_date'] != '' ? minor['end_date'] : (rb['eol'] || Date.today.to_s)
         ]
       end
     end.flatten(1).to_json %>)
@@ -44,8 +44,7 @@ window.onload = function () {
         var chart = new google.visualization.Timeline(container);
         var dataTable = new google.visualization.DataTable();
 
-        console.log('getChartRows()');
-        console.dir(getChartRows());
+        <%# console.dir(getChartRows()); %>
 
         dataTable.addColumn({ type: 'string', id: 'Ruby major version' });
         dataTable.addColumn({ type: 'string', id: 'Ruby version' });
