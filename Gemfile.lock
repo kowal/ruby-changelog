@@ -37,7 +37,7 @@ DEPENDENCIES
   zeitwerk
 
 RUBY VERSION
-   ruby 3.1.0p0
+   ruby 3.3.3p89
 
 BUNDLED WITH
    2.4.5
