@@ -1,4 +1,28 @@
 {
+  "3.4.0.rc1": [
+
+  ],
+  "3.3.6": [
+
+  ],
+  "3.2.6": [
+
+  ],
+  "3.4.0.preview2": [
+
+  ],
+  "3.3.5": [
+
+  ],
+  "3.2.5": [
+    {
+      "url": "https://www.ruby-lang.org/en/news/2024/07/16/dos-rexml-cve-2024-39908/",
+      "title": "CVE-2024-39908 : DoS in REXML"
+    }
+  ],
+  "3.3.4": [
+
+  ],
   "3.3.3": [
 
   ],
@@ -19,10 +43,6 @@
     {
       "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
       "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
-    },
-    {
-      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
-      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
     }
   ],
   "3.2.4": [
@@ -33,10 +53,6 @@
     {
       "url": "https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/",
       "title": "CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc"
-    },
-    {
-      "url": "https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/",
-      "title": "CVE-2024-27280: Buffer overread vulnerability in StringIO"
     }
   ],
   "3.1.5": [
