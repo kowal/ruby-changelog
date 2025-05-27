@@ -10,7 +10,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/">3.3.3</a>  <div class='icon-label calendar' title='Released on 2024-06-12'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/">3.3.6</a>  <div class='icon-label calendar' title='Released on 2024-11-05'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Introduced Prism parser as a default gem
@@ -36,7 +36,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/">3.2.4</a>  <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/10/30/ruby-3-2-6-released/">3.2.6</a>  <div class='icon-label calendar' title='Released on 2024-10-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   WASI based WebAssembly support
@@ -179,7 +179,7 @@ This reverts change from Ruby 2.5.0.</code>
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a> <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/">2.7.8</a> <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   Pattern Matching (experimental)
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-07-06 19:01:37 +0200)
+(Last updated on 2024-12-23 11:23:16 +0530)
