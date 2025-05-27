@@ -61,7 +61,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/">3.1.6</a>  <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/">3.1.6</a> <div class='icon-label eol' title='All maintenance ended on 2025-03-31'><div data-icon='ei-lock' data-size='s'></div></div> <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-success'>Added</span>
   debug gem: A new debugger
@@ -404,4 +404,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2024-12-23 11:23:16 +0530)
+(Last updated on 2025-05-27 22:26:47 +0200)

@@ -111,7 +111,7 @@
 
 
 
-## Ruby 3.1 
+## Ruby 3.1 <div class='icon-label eol' title='All maintenance ended on 2025-03-31'><div data-icon='ei-lock' data-size='s'></div></div>
 
 
 ### Ruby [3.1.6](https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/) <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -720,4 +720,4 @@
 
 ----
 
-(Last updated on 2024-12-23 11:23:16 +0530)
+(Last updated on 2025-05-27 22:26:47 +0200)

@@ -6,14 +6,14 @@ See full version of this project on https://rubychangelog.com/
 
 <img src='assets/screen1.jpg' width="500">
 
-This page was last updated on 2024-07-06 via `rake readme` task
+This page was last updated on 2025-05-27 via `rake readme` task
 
 ## Ruby changelog
 
 
   ### Ruby 3.3
   * :lock: **EOL** 2027-03-31
-  * Implementations: [MRI 3.3.3](https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/)  
+  * Implementations: [MRI 3.3.6](https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/)  
   * :gear: Introduced Prism parser as a default gem 
   * :gear: Lrama replaces Bison as parser generator 
   * :gear: Major YJIT performance improvements, introduction of RJIT 
@@ -23,7 +23,7 @@ This page was last updated on 2024-07-06 via `rake readme` task
   
   ### Ruby 3.2
   * :lock: **EOL** 2026-03-31
-  * Implementations: [MRI 3.2.4](https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/)  
+  * Implementations: [MRI 3.2.6](https://www.ruby-lang.org/en/news/2024/10/30/ruby-3-2-6-released/)  
   * :gear: WASI based WebAssembly support 
   * :gear: Production-ready YJIT 
   * :gear: Regexp improvements against ReDoS 
@@ -56,7 +56,7 @@ This page was last updated on 2024-07-06 via `rake readme` task
   
   ### Ruby 2.7
   * :lock: **EOL** 2023-03-31
-  * Implementations: [MRI 2.7.7](https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/)  
+  * Implementations: [MRI 2.7.8](https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/)  
   * :new: Pattern Matching :test_tube:
   * :arrows_counterclockwise: REPL improvements 
   * :arrows_counterclockwise: Separation of positional and keyword arguments 
