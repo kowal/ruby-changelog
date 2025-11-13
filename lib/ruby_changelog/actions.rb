@@ -75,7 +75,7 @@ module RubyChangelog
     end
   
     def generate_file(template_path, template_params)
-      erb_file = read_file(template_path)
+      erb_file = File.read(template_path)
       erb_template_params = default_template_params.merge(template_params)
   
       ERB.new(erb_file, trim_mode: '-').result_with_hash(erb_template_params)
@@ -123,10 +123,6 @@ module RubyChangelog
   
     def cve_as_json
       File.read(CVE_SOURCE)
-    end
-  
-    def read_file(template_file)
-      File.read(template_file)
     end
   end
 end

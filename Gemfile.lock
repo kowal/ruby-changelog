@@ -7,7 +7,6 @@ GEM
       racc (~> 1.4)
     racc (1.8.0)
     rake (13.2.1)
-    webrick (1.8.1)
     zeitwerk (2.6.16)
 
 PLATFORMS
@@ -16,7 +15,6 @@ PLATFORMS
 DEPENDENCIES
   nokogiri
   rake
-  webrick
   zeitwerk
 
 RUBY VERSION

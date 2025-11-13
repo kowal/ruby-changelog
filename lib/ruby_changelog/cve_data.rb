@@ -53,11 +53,5 @@ module RubyChangelog
       version = path.scan(%r{.*\/(ruby-)?(.*).*-released}).last
       version[1].gsub('-is', '').gsub('-has-been', '').gsub('-', '.') if version
     end
-
-    def write_json_file_from_hash(filepath, hash)
-      File.open(filepath, 'w') do |f|
-        f.write(JSON.pretty_generate(hash))
-      end
-    end
   end
 end
