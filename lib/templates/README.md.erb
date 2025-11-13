@@ -55,10 +55,10 @@ To rebuild this `README.md` from `templates/README.md.erb`:
     $ rake readme
     # Writing to README.MD .. Done
 
-    $ yield
-    # =* Yield is serving your markdown at http://localhost:4000/
+    $ mdserve README.md
+    # Server running at http://localhost:3000
 
-Open http://localhost:4000/
+Open http://localhost:3000/
 
 #### New Ruby version?
 
@@ -66,5 +66,5 @@ Open http://localhost:4000/
     - update ruby_versions.json with new versions details
 2. Update latest info about CVE - run `rake fetch:cve`
 3. Regenerate all artifacts - `rake doc readme`
-4. Verify - `bundle exec yield` and on mkdocs
+4. Verify - `mdserve README.md` and on mkdocs
 5. Commit & publish
