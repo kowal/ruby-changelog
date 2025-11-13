@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '3.3.3'
+ruby '3.4.7'
 
 gem 'nokogiri'
-gem 'yield'
 gem 'rake'
 gem 'webrick'
 gem 'zeitwerk'
