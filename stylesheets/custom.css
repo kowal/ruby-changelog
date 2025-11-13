@@ -1,0 +1,69 @@
+
+.icon-label {
+  display: inline;
+  /* font-size: small; */
+}
+
+.icon-label.calendar {
+  color: cadetblue;
+}
+
+.icon {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+.eol > .icon {
+  fill: #f98b8b;
+}
+
+.calendar > .icon {
+  fill: cadetblue;
+}
+
+.md-typeset ul {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.md-typeset ul li, .md-typeset ol li {
+  line-height: 20px;
+}
+
+.md-typeset a {
+  color: #f07373;
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
+}
+
+.md-header-nav__source a {
+  color: white;
+}
+
+img.link-service-icon {
+  max-height: 16px;
+  width: auto;
+  transition: transform .5s;
+  opacity: 0.3;
+}
+
+.link-service-icon:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+.badge-pill {
+  min-width: 66px;
+}
+
+a {
+  color: black;
+}
+
+code.code {
+  display: block;
+  white-space: pre-wrap   
+}

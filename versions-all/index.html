@@ -1,0 +1,2834 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Welcome to the RubyChangelog.com site! You can find here the history of Ruby programming language versions">
+      
+      
+        <link rel="canonical" href="https://rubychangelog.com/versions-all/">
+      
+      
+        <meta name="author" content="Marek Kowalcze">
+      
+      <link rel="shortcut icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-5.1.4">
+    
+    
+      
+        <title>All Versions - Ruby Changelog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.c8609f9b.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85bb4ebe.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ef5350">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="../stylesheets/custom.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="red" data-md-color-accent="red">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ruby-all-versions-changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://rubychangelog.com/" title="Ruby Changelog" class="md-header-nav__button md-logo" aria-label="Ruby Changelog">
+      
+  <img src="../assets/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Ruby Changelog
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              All Versions
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/kowal/ruby-changelog" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kowal/ruby-changelog
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href=".." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../versions-latest/" class="md-tabs__link md-tabs__link--active">
+          Versions
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../timeline/" class="md-tabs__link">
+          Timeline
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../links/" class="md-tabs__link">
+          Other
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://rubychangelog.com/" title="Ruby Changelog" class="md-nav__button md-logo" aria-label="Ruby Changelog">
+      
+  <img src="../assets/favicon.ico" alt="logo">
+
+    </a>
+    Ruby Changelog
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/kowal/ruby-changelog" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kowal/ruby-changelog
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Versions
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Versions" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Versions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../versions-latest/" title="Latest Versions" class="md-nav__link">
+      Latest Versions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        All Versions
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="All Versions" class="md-nav__link md-nav__link--active">
+      All Versions
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-34" class="md-nav__link">
+    Ruby 3.4
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-347" class="md-nav__link">
+    Ruby 3.4.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-346" class="md-nav__link">
+    Ruby 3.4.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-345" class="md-nav__link">
+    Ruby 3.4.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-344" class="md-nav__link">
+    Ruby 3.4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-343" class="md-nav__link">
+    Ruby 3.4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-342" class="md-nav__link">
+    Ruby 3.4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-341" class="md-nav__link">
+    Ruby 3.4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-340" class="md-nav__link">
+    Ruby 3.4.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-33" class="md-nav__link">
+    Ruby 3.3
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-3310" class="md-nav__link">
+    Ruby 3.3.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-339" class="md-nav__link">
+    Ruby 3.3.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-338" class="md-nav__link">
+    Ruby 3.3.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-337" class="md-nav__link">
+    Ruby 3.3.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-336" class="md-nav__link">
+    Ruby 3.3.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-335" class="md-nav__link">
+    Ruby 3.3.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-334" class="md-nav__link">
+    Ruby 3.3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-333" class="md-nav__link">
+    Ruby 3.3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-332" class="md-nav__link">
+    Ruby 3.3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-331" class="md-nav__link">
+    Ruby 3.3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-330" class="md-nav__link">
+    Ruby 3.3.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-32" class="md-nav__link">
+    Ruby 3.2
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-329" class="md-nav__link">
+    Ruby 3.2.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-328" class="md-nav__link">
+    Ruby 3.2.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-327" class="md-nav__link">
+    Ruby 3.2.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-326" class="md-nav__link">
+    Ruby 3.2.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-325" class="md-nav__link">
+    Ruby 3.2.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-324" class="md-nav__link">
+    Ruby 3.2.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-323" class="md-nav__link">
+    Ruby 3.2.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-322" class="md-nav__link">
+    Ruby 3.2.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-321" class="md-nav__link">
+    Ruby 3.2.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-320" class="md-nav__link">
+    Ruby 3.2.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-31" class="md-nav__link">
+    Ruby 3.1
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-316" class="md-nav__link">
+    Ruby 3.1.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-315" class="md-nav__link">
+    Ruby 3.1.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-314" class="md-nav__link">
+    Ruby 3.1.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-313" class="md-nav__link">
+    Ruby 3.1.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-312" class="md-nav__link">
+    Ruby 3.1.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-311" class="md-nav__link">
+    Ruby 3.1.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-310" class="md-nav__link">
+    Ruby 3.1.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-30" class="md-nav__link">
+    Ruby 3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-307" class="md-nav__link">
+    Ruby 3.0.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-306" class="md-nav__link">
+    Ruby 3.0.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-305" class="md-nav__link">
+    Ruby 3.0.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-304" class="md-nav__link">
+    Ruby 3.0.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-303" class="md-nav__link">
+    Ruby 3.0.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-302" class="md-nav__link">
+    Ruby 3.0.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-301" class="md-nav__link">
+    Ruby 3.0.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-300" class="md-nav__link">
+    Ruby 3.0.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-27" class="md-nav__link">
+    Ruby 2.7
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-278" class="md-nav__link">
+    Ruby 2.7.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-277" class="md-nav__link">
+    Ruby 2.7.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-276" class="md-nav__link">
+    Ruby 2.7.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-275" class="md-nav__link">
+    Ruby 2.7.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-274" class="md-nav__link">
+    Ruby 2.7.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-273" class="md-nav__link">
+    Ruby 2.7.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-272" class="md-nav__link">
+    Ruby 2.7.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-271" class="md-nav__link">
+    Ruby 2.7.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-270" class="md-nav__link">
+    Ruby 2.7.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-26" class="md-nav__link">
+    Ruby 2.6
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-2610" class="md-nav__link">
+    Ruby 2.6.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-269" class="md-nav__link">
+    Ruby 2.6.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-268" class="md-nav__link">
+    Ruby 2.6.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-267" class="md-nav__link">
+    Ruby 2.6.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-266" class="md-nav__link">
+    Ruby 2.6.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-265" class="md-nav__link">
+    Ruby 2.6.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-264" class="md-nav__link">
+    Ruby 2.6.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-263" class="md-nav__link">
+    Ruby 2.6.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-262" class="md-nav__link">
+    Ruby 2.6.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-261" class="md-nav__link">
+    Ruby 2.6.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-260" class="md-nav__link">
+    Ruby 2.6.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-25" class="md-nav__link">
+    Ruby 2.5
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-259" class="md-nav__link">
+    Ruby 2.5.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-258" class="md-nav__link">
+    Ruby 2.5.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-257" class="md-nav__link">
+    Ruby 2.5.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-256" class="md-nav__link">
+    Ruby 2.5.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-255" class="md-nav__link">
+    Ruby 2.5.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-254" class="md-nav__link">
+    Ruby 2.5.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-253" class="md-nav__link">
+    Ruby 2.5.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-252" class="md-nav__link">
+    Ruby 2.5.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-251" class="md-nav__link">
+    Ruby 2.5.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-250" class="md-nav__link">
+    Ruby 2.5.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-24" class="md-nav__link">
+    Ruby 2.4
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-2410" class="md-nav__link">
+    Ruby 2.4.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-249" class="md-nav__link">
+    Ruby 2.4.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-248" class="md-nav__link">
+    Ruby 2.4.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-247" class="md-nav__link">
+    Ruby 2.4.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-246" class="md-nav__link">
+    Ruby 2.4.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-245" class="md-nav__link">
+    Ruby 2.4.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-244" class="md-nav__link">
+    Ruby 2.4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-243" class="md-nav__link">
+    Ruby 2.4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-242" class="md-nav__link">
+    Ruby 2.4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-241" class="md-nav__link">
+    Ruby 2.4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-240" class="md-nav__link">
+    Ruby 2.4.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-23" class="md-nav__link">
+    Ruby 2.3
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-238" class="md-nav__link">
+    Ruby 2.3.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-237" class="md-nav__link">
+    Ruby 2.3.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-236" class="md-nav__link">
+    Ruby 2.3.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-235" class="md-nav__link">
+    Ruby 2.3.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-234" class="md-nav__link">
+    Ruby 2.3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-233" class="md-nav__link">
+    Ruby 2.3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-232" class="md-nav__link">
+    Ruby 2.3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-231" class="md-nav__link">
+    Ruby 2.3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-230" class="md-nav__link">
+    Ruby 2.3.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-22" class="md-nav__link">
+    Ruby 2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-21" class="md-nav__link">
+    Ruby 2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-20" class="md-nav__link">
+    Ruby 2.0
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Timeline
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Timeline" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Timeline
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../timeline/" title="Timeline" class="md-nav__link">
+      Timeline
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Other
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Other" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Other
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../links/" title="Ruby resources" class="md-nav__link">
+      Ruby resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-34" class="md-nav__link">
+    Ruby 3.4
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-347" class="md-nav__link">
+    Ruby 3.4.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-346" class="md-nav__link">
+    Ruby 3.4.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-345" class="md-nav__link">
+    Ruby 3.4.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-344" class="md-nav__link">
+    Ruby 3.4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-343" class="md-nav__link">
+    Ruby 3.4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-342" class="md-nav__link">
+    Ruby 3.4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-341" class="md-nav__link">
+    Ruby 3.4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-340" class="md-nav__link">
+    Ruby 3.4.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-33" class="md-nav__link">
+    Ruby 3.3
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-3310" class="md-nav__link">
+    Ruby 3.3.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-339" class="md-nav__link">
+    Ruby 3.3.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-338" class="md-nav__link">
+    Ruby 3.3.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-337" class="md-nav__link">
+    Ruby 3.3.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-336" class="md-nav__link">
+    Ruby 3.3.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-335" class="md-nav__link">
+    Ruby 3.3.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-334" class="md-nav__link">
+    Ruby 3.3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-333" class="md-nav__link">
+    Ruby 3.3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-332" class="md-nav__link">
+    Ruby 3.3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-331" class="md-nav__link">
+    Ruby 3.3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-330" class="md-nav__link">
+    Ruby 3.3.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-32" class="md-nav__link">
+    Ruby 3.2
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-329" class="md-nav__link">
+    Ruby 3.2.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-328" class="md-nav__link">
+    Ruby 3.2.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-327" class="md-nav__link">
+    Ruby 3.2.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-326" class="md-nav__link">
+    Ruby 3.2.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-325" class="md-nav__link">
+    Ruby 3.2.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-324" class="md-nav__link">
+    Ruby 3.2.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-323" class="md-nav__link">
+    Ruby 3.2.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-322" class="md-nav__link">
+    Ruby 3.2.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-321" class="md-nav__link">
+    Ruby 3.2.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-320" class="md-nav__link">
+    Ruby 3.2.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-31" class="md-nav__link">
+    Ruby 3.1
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-316" class="md-nav__link">
+    Ruby 3.1.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-315" class="md-nav__link">
+    Ruby 3.1.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-314" class="md-nav__link">
+    Ruby 3.1.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-313" class="md-nav__link">
+    Ruby 3.1.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-312" class="md-nav__link">
+    Ruby 3.1.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-311" class="md-nav__link">
+    Ruby 3.1.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-310" class="md-nav__link">
+    Ruby 3.1.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-30" class="md-nav__link">
+    Ruby 3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-307" class="md-nav__link">
+    Ruby 3.0.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-306" class="md-nav__link">
+    Ruby 3.0.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-305" class="md-nav__link">
+    Ruby 3.0.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-304" class="md-nav__link">
+    Ruby 3.0.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-303" class="md-nav__link">
+    Ruby 3.0.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-302" class="md-nav__link">
+    Ruby 3.0.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-301" class="md-nav__link">
+    Ruby 3.0.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-300" class="md-nav__link">
+    Ruby 3.0.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-27" class="md-nav__link">
+    Ruby 2.7
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-278" class="md-nav__link">
+    Ruby 2.7.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-277" class="md-nav__link">
+    Ruby 2.7.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-276" class="md-nav__link">
+    Ruby 2.7.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-275" class="md-nav__link">
+    Ruby 2.7.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-274" class="md-nav__link">
+    Ruby 2.7.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-273" class="md-nav__link">
+    Ruby 2.7.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-272" class="md-nav__link">
+    Ruby 2.7.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-271" class="md-nav__link">
+    Ruby 2.7.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-270" class="md-nav__link">
+    Ruby 2.7.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-26" class="md-nav__link">
+    Ruby 2.6
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-2610" class="md-nav__link">
+    Ruby 2.6.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-269" class="md-nav__link">
+    Ruby 2.6.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-268" class="md-nav__link">
+    Ruby 2.6.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-267" class="md-nav__link">
+    Ruby 2.6.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-266" class="md-nav__link">
+    Ruby 2.6.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-265" class="md-nav__link">
+    Ruby 2.6.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-264" class="md-nav__link">
+    Ruby 2.6.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-263" class="md-nav__link">
+    Ruby 2.6.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-262" class="md-nav__link">
+    Ruby 2.6.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-261" class="md-nav__link">
+    Ruby 2.6.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-260" class="md-nav__link">
+    Ruby 2.6.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-25" class="md-nav__link">
+    Ruby 2.5
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-259" class="md-nav__link">
+    Ruby 2.5.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-258" class="md-nav__link">
+    Ruby 2.5.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-257" class="md-nav__link">
+    Ruby 2.5.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-256" class="md-nav__link">
+    Ruby 2.5.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-255" class="md-nav__link">
+    Ruby 2.5.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-254" class="md-nav__link">
+    Ruby 2.5.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-253" class="md-nav__link">
+    Ruby 2.5.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-252" class="md-nav__link">
+    Ruby 2.5.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-251" class="md-nav__link">
+    Ruby 2.5.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-250" class="md-nav__link">
+    Ruby 2.5.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-24" class="md-nav__link">
+    Ruby 2.4
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-2410" class="md-nav__link">
+    Ruby 2.4.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-249" class="md-nav__link">
+    Ruby 2.4.9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-248" class="md-nav__link">
+    Ruby 2.4.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-247" class="md-nav__link">
+    Ruby 2.4.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-246" class="md-nav__link">
+    Ruby 2.4.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-245" class="md-nav__link">
+    Ruby 2.4.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-244" class="md-nav__link">
+    Ruby 2.4.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-243" class="md-nav__link">
+    Ruby 2.4.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-242" class="md-nav__link">
+    Ruby 2.4.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-241" class="md-nav__link">
+    Ruby 2.4.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-240" class="md-nav__link">
+    Ruby 2.4.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-23" class="md-nav__link">
+    Ruby 2.3
+  </a>
+  
+    <nav class="md-nav" aria-label="Ruby 2.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ruby-238" class="md-nav__link">
+    Ruby 2.3.8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-237" class="md-nav__link">
+    Ruby 2.3.7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-236" class="md-nav__link">
+    Ruby 2.3.6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-235" class="md-nav__link">
+    Ruby 2.3.5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-234" class="md-nav__link">
+    Ruby 2.3.4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-233" class="md-nav__link">
+    Ruby 2.3.3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-232" class="md-nav__link">
+    Ruby 2.3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-231" class="md-nav__link">
+    Ruby 2.3.1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruby-230" class="md-nav__link">
+    Ruby 2.3.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-22" class="md-nav__link">
+    Ruby 2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-21" class="md-nav__link">
+    Ruby 2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ruby-20" class="md-nav__link">
+    Ruby 2.0
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/kowal/ruby-changelog/edit/master/docs/versions-all.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="ruby-all-versions-changelog">Ruby all versions changelog</h1>
+<h2 id="ruby-34">Ruby 3.4</h2>
+<h3 id="ruby-347">Ruby <a href="https://www.ruby-lang.org/en/news/2025/10/07/ruby-3-4-7-released/">3.4.7</a> <div class='icon-label calendar' title='Released on 2025-10-07'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/">an update to the uri gem addressing CVE-2025-61594..</a></li>
+</ul>
+<h3 id="ruby-346">Ruby <a href="https://www.ruby-lang.org/en/news/2025/09/16/ruby-3-4-6-released/">3.4.6</a> <div class='icon-label calendar' title='Released on 2025-09-16'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-345">Ruby <a href="https://www.ruby-lang.org/en/news/2025/07/15/ruby-3-4-5-released/">3.4.5</a> <div class='icon-label calendar' title='Released on 2025-07-15'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-344">Ruby <a href="https://www.ruby-lang.org/en/news/2025/05/14/ruby-3-4-4-released/">3.4.4</a> <div class='icon-label calendar' title='Released on 2025-05-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-343">Ruby <a href="https://www.ruby-lang.org/en/news/2025/04/14/ruby-3-4-3-released/">3.4.3</a> <div class='icon-label calendar' title='Released on 2025-04-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-342">Ruby <a href="https://www.ruby-lang.org/en/news/2025/02/14/ruby-3-4-2-released/">3.4.2</a> <div class='icon-label calendar' title='Released on 2025-02-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-341">Ruby <a href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/">3.4.1</a> <div class='icon-label calendar' title='Released on 2024-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-340">Ruby <a href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/">3.4.0</a> <div class='icon-label calendar' title='Released on 2024-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>it</code> block parameter reference    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Prism becomes the default parser    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Major YJIT performance improvements with compressed context    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Happy Eyeballs Version 2 (RFC 8305) support in socket library    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Modular GC architecture allowing alternative garbage collector implementations    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Array methods rewritten in Ruby for better performance    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> JSON.parse approximately 1.5x faster than json-2.7.x      </li>
+</ul>
+<hr />
+<h2 id="ruby-33">Ruby 3.3</h2>
+<h3 id="ruby-3310">Ruby <a href="https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/">3.3.10</a> <div class='icon-label calendar' title='Released on 2025-10-23'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/">an update to the uri gem addressing CVE-2025-61594..</a></li>
+</ul>
+<h3 id="ruby-339">Ruby <a href="https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/">3.3.9</a> <div class='icon-label calendar' title='Released on 2025-07-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/">CVE-2025-24294: Possible Denial of Service in resolv gem..</a></li>
+</ul>
+<h3 id="ruby-338">Ruby <a href="https://www.ruby-lang.org/en/news/2025/04/09/ruby-3-3-8-released/">3.3.8</a> <div class='icon-label calendar' title='Released on 2025-04-09'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-337">Ruby <a href="https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released/">3.3.7</a> <div class='icon-label calendar' title='Released on 2025-01-15'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-336">Ruby <a href="https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/">3.3.6</a> <div class='icon-label calendar' title='Released on 2024-11-05'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-335">Ruby <a href="https://www.ruby-lang.org/en/news/2024/09/03/ruby-3-3-5-released/">3.3.5</a> <div class='icon-label calendar' title='Released on 2024-09-03'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-334">Ruby <a href="https://www.ruby-lang.org/en/news/2024/07/09/ruby-3-3-4-released/">3.3.4</a> <div class='icon-label calendar' title='Released on 2024-07-09'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-333">Ruby <a href="https://www.ruby-lang.org/en/news/2024/06/12/ruby-3-3-3-released/">3.3.3</a> <div class='icon-label calendar' title='Released on 2024-06-12'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-332">Ruby <a href="https://www.ruby-lang.org/en/news/2024/05/30/ruby-3-3-2-released/">3.3.2</a> <div class='icon-label calendar' title='Released on 2024-05-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-331">Ruby <a href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-3-1-released/">3.3.1</a> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability w..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc..</a></p>
+</li>
+</ul>
+<h3 id="ruby-330">Ruby <a href="https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/">3.3.0</a> <div class='icon-label calendar' title='Released on 2023-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Introduced Prism parser as a default gem    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Lrama replaces Bison as parser generator    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Major YJIT performance improvements, introduction of RJIT    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Introduction of M:N thread scheduler    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Several performance improvements in the Garbage Collector    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Enhancements in IRB: advanced irb:rdbg integration; pager support      </li>
+</ul>
+<hr />
+<h2 id="ruby-32">Ruby 3.2</h2>
+<h3 id="ruby-329">Ruby <a href="https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/">3.2.9</a> <div class='icon-label calendar' title='Released on 2025-07-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/">CVE-2025-24294: Possible Denial of Service in resolv gem..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/">CVE-2025-43857: DoS vulnerability in net-imap..</a></p>
+</li>
+</ul>
+<h3 id="ruby-328">Ruby <a href="https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/">3.2.8</a> <div class='icon-label calendar' title='Released on 2025-03-26'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/02/26/security-advisories/">CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes..</a></li>
+</ul>
+<h3 id="ruby-327">Ruby <a href="https://www.ruby-lang.org/en/news/2025/02/04/ruby-3-2-7-released/">3.2.7</a> <div class='icon-label calendar' title='Released on 2025-02-04'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-326">Ruby <a href="https://www.ruby-lang.org/en/news/2024/10/30/ruby-3-2-6-released/">3.2.6</a> <div class='icon-label calendar' title='Released on 2024-10-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-325">Ruby <a href="https://www.ruby-lang.org/en/news/2024/07/26/ruby-3-2-5-released/">3.2.5</a> <div class='icon-label calendar' title='Released on 2024-07-26'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/07/16/dos-rexml-cve-2024-39908/">CVE-2024-39908 : DoS in REXML..</a></li>
+</ul>
+<h3 id="ruby-324">Ruby <a href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-2-4-released/">3.2.4</a> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability w..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc..</a></p>
+</li>
+</ul>
+<h3 id="ruby-323">Ruby <a href="https://www.ruby-lang.org/en/news/2024/01/18/ruby-3-2-3-released/">3.2.3</a> <div class='icon-label calendar' title='Released on 2024-01-18'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/">CVE-2023-36617: ReDoS vulnerability in URI..</a></li>
+</ul>
+<h3 id="ruby-322">Ruby <a href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/">3.2.2</a> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755: ReDoS vulnerability in URI..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756: ReDoS vulnerability in Time..</a></p>
+</li>
+</ul>
+<h3 id="ruby-321">Ruby <a href="https://www.ruby-lang.org/en/news/2023/02/08/ruby-3-2-1-released/">3.2.1</a> <div class='icon-label calendar' title='Released on 2023-02-08'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-320">Ruby <a href="https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/">3.2.0</a> <div class='icon-label calendar' title='Released on 2022-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-dark'>Internals</span> WASI based WebAssembly support    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Production-ready YJIT    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Regexp improvements against ReDoS    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> IRB improvements (SyntaxSuggest, ErrorHighlight)    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Bundler 2.4 now uses PubGrub resolver instead of Molinillo      </li>
+</ul>
+<hr />
+<h2 id="ruby-31">Ruby 3.1 <div class='icon-label eol' title='All maintenance ended on 2025-03-31'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-316">Ruby <a href="https://www.ruby-lang.org/en/news/2024/05/29/ruby-3-1-6-released/">3.1.6</a> <div class='icon-label calendar' title='Released on 2024-05-29'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-315">Ruby <a href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-1-5-released/">3.1.5</a> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability w..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/">CVE-2024-27280: Buffer overread vulnerability in StringIO..</a></p>
+</li>
+</ul>
+<h3 id="ruby-314">Ruby <a href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/">3.1.4</a> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755: ReDoS vulnerability in URI..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756: ReDoS vulnerability in Time..</a></p>
+</li>
+</ul>
+<h3 id="ruby-313">Ruby <a href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">3.1.3</a> <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/">CVE-2021-33621: HTTP response splitting in CGI..</a></li>
+</ul>
+<h3 id="ruby-312">Ruby <a href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/">3.1.2</a> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/double-free-in-regexp-compilation-cve-2022-28738/">CVE-2022-28738: Double free in Regexp compilation..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/">CVE-2022-28739: Buffer overrun in String-to-Float conversion..</a></p>
+</li>
+</ul>
+<h3 id="ruby-311">Ruby <a href="https://www.ruby-lang.org/en/news/2022/02/18/ruby-3-1-1-released/">3.1.1</a> <div class='icon-label calendar' title='Released on 2022-02-18'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-310">Ruby <a href="https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/">3.1.0</a> <div class='icon-label calendar' title='Released on 2021-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> debug gem: A new debugger    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> error_highlight: Fine-grained error location in backtrace    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> IRB Autocomplete and Documentation Display    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Values in Hash literals and keyword arguments can be omitted.    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Updates in RBS / TypeProf    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> YJIT: New experimental in-process JIT compiler (experimental)      </li>
+</ul>
+<hr />
+<h2 id="ruby-30">Ruby 3.0 <div class='icon-label eol' title='All maintenance ended on 2024-04-23'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-307">Ruby <a href="https://www.ruby-lang.org/en/news/2024/04/23/ruby-3-0-7-released/">3.0.7</a> <div class='icon-label calendar' title='Released on 2024-04-23'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability w..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/">CVE-2024-27280: Buffer overread vulnerability in StringIO..</a></p>
+</li>
+</ul>
+<h3 id="ruby-306">Ruby <a href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/">3.0.6</a> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755: ReDoS vulnerability in URI..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756: ReDoS vulnerability in Time..</a></p>
+</li>
+</ul>
+<h3 id="ruby-305">Ruby <a href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-0-5-released/">3.0.5</a> <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/">CVE-2021-33621: HTTP response splitting in CGI..</a></li>
+</ul>
+<h3 id="ruby-304">Ruby <a href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-0-4-released/">3.0.4</a> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/double-free-in-regexp-compilation-cve-2022-28738/">CVE-2022-28738: Double free in Regexp compilation..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/">CVE-2022-28739: Buffer overrun in String-to-Float conversion..</a></p>
+</li>
+</ul>
+<h3 id="ruby-303">Ruby <a href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-3-0-3-released/">3.0.3</a> <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/">CVE-2021-41817: Regular Expression Denial of Service Vulnerab..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/">CVE-2021-41816: Buffer Overrun in CGI.escape_html..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/">CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..</a></p>
+</li>
+</ul>
+<h3 id="ruby-302">Ruby <a href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/">3.0.2</a> <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/">CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/">CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/">CVE-2021-31799: A command injection vulnerability in RDoc..</a></p>
+</li>
+</ul>
+<h3 id="ruby-301">Ruby <a href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-3-0-1-released/">3.0.1</a> <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/">CVE-2021-28965: XML round-trip vulnerability in REXML..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/tempfile-path-traversal-on-windows-cve-2021-28966/">CVE-2021-28966: Path traversal in Tempfile on Windows..</a></p>
+</li>
+</ul>
+<h3 id="ruby-300">Ruby <a href="https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/">3.0.0</a> <div class='icon-label calendar' title='Released on 2020-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> Ractor - Actor-model like concurrent abstraction (experimental)    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> Fiber Scheduler for light-weight concurrency (experimental)    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> RBS - a language to describe the structure of Ruby classes    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> TypeProf - type analysis tool, generates RBS type signatures (experimental)    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Hash#except</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Keyword arguments are separated from other arguments    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Rightward assignment statement    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Reversed (again) order of backtrace  (experimental)    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Endless method definition <code>def square(x) = x * x</code>    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> MJIT improvements      </li>
+</ul>
+<hr />
+<h2 id="ruby-27">Ruby 2.7 <div class='icon-label eol' title='All maintenance ended on 2023-03-31'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-278">Ruby <a href="https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/">2.7.8</a> <div class='icon-label calendar' title='Released on 2023-03-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755: ReDoS vulnerability in URI..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756: ReDoS vulnerability in Time..</a></p>
+</li>
+</ul>
+<h3 id="ruby-277">Ruby <a href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-2-7-7-released/">2.7.7</a> <div class='icon-label calendar' title='Released on 2022-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/">CVE-2021-33621: HTTP response splitting in CGI..</a></li>
+</ul>
+<h3 id="ruby-276">Ruby <a href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-7-6-released/">2.7.6</a> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/">CVE-2022-28739: Buffer overrun in String-to-Float conversion..</a></li>
+</ul>
+<h3 id="ruby-275">Ruby <a href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-7-5-released/">2.7.5</a> <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/">CVE-2021-41817: Regular Expression Denial of Service Vulnerab..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/">CVE-2021-41816: Buffer Overrun in CGI.escape_html..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/">CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..</a></p>
+</li>
+</ul>
+<h3 id="ruby-274">Ruby <a href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/">2.7.4</a> <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/">CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/">CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/">CVE-2021-31799: A command injection vulnerability in RDoc..</a></p>
+</li>
+</ul>
+<h3 id="ruby-273">Ruby <a href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-7-3-released/">2.7.3</a> <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/">CVE-2021-28965: XML round-trip vulnerability in REXML..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/tempfile-path-traversal-on-windows-cve-2021-28966/">CVE-2021-28966: Path traversal in Tempfile on Windows..</a></p>
+</li>
+</ul>
+<h3 id="ruby-272">Ruby <a href="https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/">2.7.2</a> <div class='icon-label calendar' title='Released on 2020-10-02'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/">CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..</a></li>
+</ul>
+<h3 id="ruby-271">Ruby <a href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-7-1-released/">2.7.1</a> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/">CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/">CVE-2020-10933: Heap exposure vulnerability in the socket lib..</a></p>
+</li>
+</ul>
+<h3 id="ruby-270">Ruby <a href="https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/">2.7.0</a> <div class='icon-label calendar' title='Released on 2019-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> Pattern Matching (experimental)    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> REPL improvements    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Separation of positional and keyword arguments    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Argument forwarding    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Compaction GC      </li>
+</ul>
+<hr />
+<h2 id="ruby-26">Ruby 2.6 <div class='icon-label eol' title='All maintenance ended on 2022-04-13'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-2610">Ruby <a href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-2-6-10-released/">2.6.10</a> <div class='icon-label calendar' title='Released on 2022-04-12'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/">CVE-2022-28739: Buffer overrun in String-to-Float conversion..</a></li>
+</ul>
+<h3 id="ruby-269">Ruby <a href="https://www.ruby-lang.org/en/news/2021/11/24/ruby-2-6-9-released/">2.6.9</a> <div class='icon-label calendar' title='Released on 2021-11-24'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/">CVE-2021-41817: Regular Expression Denial of Service Vulnerab..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/">CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse..</a></p>
+</li>
+</ul>
+<h3 id="ruby-268">Ruby <a href="https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-6-8-released/">2.6.8</a> <div class='icon-label calendar' title='Released on 2021-07-07'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/">CVE-2021-31810: Trusting FTP PASV responses vulnerability in ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/07/07/starttls-stripping-in-net-imap/">CVE-2021-32066: A StartTLS stripping vulnerability in Net::IM..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/">CVE-2021-31799: A command injection vulnerability in RDoc..</a></p>
+</li>
+</ul>
+<h3 id="ruby-267">Ruby <a href="https://www.ruby-lang.org/en/news/2020/04/05/ruby-2-6-7-released/">2.6.7</a> <div class='icon-label calendar' title='Released on 2020-04-05'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/">CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/">CVE-2021-28965: XML round-trip vulnerability in REXML..</a></p>
+</li>
+</ul>
+<h3 id="ruby-266">Ruby <a href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/">2.6.6</a> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/">CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/">CVE-2020-10933: Heap exposure vulnerability in the socket lib..</a></p>
+</li>
+</ul>
+<h3 id="ruby-265">Ruby <a href="https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-6-5-released/">2.6.5</a> <div class='icon-label calendar' title='Released on 2019-10-01'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/">CVE-2019-16255: A code injection vulnerability of Shell#[] an..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/">CVE-2019-16254: HTTP response splitting in WEBrick (Additiona..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/">CVE-2019-15845: A NUL injection vulnerability of File.fnmatch..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/">CVE-2019-16201: Regular Expression Denial of Service vulnerab..</a></p>
+</li>
+</ul>
+<h3 id="ruby-264">Ruby <a href="https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/">2.6.4</a> <div class='icon-label calendar' title='Released on 2019-08-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-263">Ruby <a href="https://www.ruby-lang.org/en/news/2019/04/17/ruby-2-6-3-released/">2.6.3</a> <div class='icon-label calendar' title='Released on 2019-04-17'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-262">Ruby <a href="https://www.ruby-lang.org/en/news/2019/03/13/ruby-2-6-2-released/">2.6.2</a> <div class='icon-label calendar' title='Released on 2019-03-13'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-261">Ruby <a href="https://www.ruby-lang.org/en/news/2019/01/30/ruby-2-6-1-released/">2.6.1</a> <div class='icon-label calendar' title='Released on 2019-01-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-260">Ruby <a href="https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/">2.6.0</a> <div class='icon-label calendar' title='Released on 2018-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> endless ranges <code>(1..)</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Enumerable#chain</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> function composition operators <code>&lt;&lt;, &gt;&gt;</code> to <code>Proc</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> <code>#then</code> alias for <code>#yield_self</code>    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> JIT compiler <code>--jit</code>    </li>
+<li><span class='badge badge-pill badge-dark'>Internals</span> Bundler is installed as a default gem      </li>
+</ul>
+<hr />
+<h2 id="ruby-25">Ruby 2.5 <div class='icon-label eol' title='All maintenance ended on 2021-04-06'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-259">Ruby <a href="https://www.ruby-lang.org/en/news/2021/04/05/ruby-2-5-9-released/">2.5.9</a> <div class='icon-label calendar' title='Released on 2021-04-05'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/">CVE-2020-25613: Potential HTTP Request Smuggling Vulnerabilit..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/">CVE-2021-28965: XML round-trip vulnerability in REXML..</a></p>
+</li>
+</ul>
+<h3 id="ruby-258">Ruby <a href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-5-8-released/">2.5.8</a> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/">CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/">CVE-2020-10933: Heap exposure vulnerability in the socket lib..</a></p>
+</li>
+</ul>
+<h3 id="ruby-257">Ruby <a href="https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-5-7-released/">2.5.7</a> <div class='icon-label calendar' title='Released on 2019-10-01'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/">CVE-2019-16255: A code injection vulnerability of Shell#[] an..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/">CVE-2019-16254: HTTP response splitting in WEBrick (Additiona..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/">CVE-2019-15845: A NUL injection vulnerability of File.fnmatch..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/">CVE-2019-16201: Regular Expression Denial of Service vulnerab..</a></p>
+</li>
+</ul>
+<h3 id="ruby-256">Ruby <a href="https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-5-6-released/">2.5.6</a> <div class='icon-label calendar' title='Released on 2019-08-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-255">Ruby <a href="https://www.ruby-lang.org/en/news/2019/03/15/ruby-2-5-5-released/">2.5.5</a> <div class='icon-label calendar' title='Released on 2019-03-15'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-254">Ruby <a href="https://www.ruby-lang.org/en/news/2019/03/13/ruby-2-5-4-released/">2.5.4</a> <div class='icon-label calendar' title='Released on 2019-03-13'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-253">Ruby <a href="https://www.ruby-lang.org/en/news/2018/10/18/ruby-2-5-3-released/">2.5.3</a> <div class='icon-label calendar' title='Released on 2018-10-18'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-252">Ruby <a href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-5-2-released/">2.5.2</a> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/">CVE-2018-16396: Tainted flags are not propagated in Array#pac..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/">CVE-2018-16395: OpenSSL::X509::Name equality check does not w..</a></p>
+</li>
+</ul>
+<h3 id="ruby-251">Ruby <a href="https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/">2.5.1</a> <div class='icon-label calendar' title='Released on 2018-03-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/">CVE-2017-17742: HTTP response splitting in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/">CVE-2018-6914: Unintentional file and directory creation with..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/">CVE-2018-8777: DoS by large request in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/">CVE-2018-8778: Buffer under-read in String#unpack..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/">CVE-2018-8779: Unintentional socket creation by poisoned NUL ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/">CVE-2018-8780: Unintentional directory traversal by poisoned ..</a></p>
+</li>
+</ul>
+<h3 id="ruby-250">Ruby <a href="https://www.ruby-lang.org/en/news/2017/12/25/ruby-2-5-0-released/">2.5.0</a> <div class='icon-label calendar' title='Released on 2017-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>yield_self</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>rescue</code> in blocks    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Hash#slice</code> and <code>Hash#transform_keys</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>ERB#result_with_hash</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> New <code>Array</code> aliases - <code>#prepend (#unshift)</code> and <code>#append (#push)</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Pattern argument on <code>Enumerable</code> methods    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Keyword arguments on <code>Struct.new</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Removed Top-level constant lookup    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Reverse order of backtrace (oldest call first) (experimental)      </li>
+</ul>
+<hr />
+<h2 id="ruby-24">Ruby 2.4 <div class='icon-label eol' title='All maintenance ended on 2020-04-01'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-2410">Ruby <a href="https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-4-10-released/">2.4.10</a> <div class='icon-label calendar' title='Released on 2020-03-31'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2020/03/19/json-dos-cve-2020-10663/">CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON ..</a></li>
+</ul>
+<h3 id="ruby-249">Ruby <a href="https://www.ruby-lang.org/en/news/2019/10/02/ruby-2-4-9-released/">2.4.9</a> <div class='icon-label calendar' title='Released on 2019-10-02'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-248">Ruby <a href="https://www.ruby-lang.org/en/news/2019/10/01/ruby-2-4-8-released/">2.4.8</a> <div class='icon-label calendar' title='Released on 2019-10-01'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/">CVE-2019-16255: A code injection vulnerability of Shell#[] an..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/">CVE-2019-16254: HTTP response splitting in WEBrick (Additiona..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/">CVE-2019-15845: A NUL injection vulnerability of File.fnmatch..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/">CVE-2019-16201: Regular Expression Denial of Service vulnerab..</a></p>
+</li>
+</ul>
+<h3 id="ruby-247">Ruby <a href="https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-4-7-released/">2.4.7</a> <div class='icon-label calendar' title='Released on 2019-08-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-246">Ruby <a href="https://www.ruby-lang.org/en/news/2019/04/01/ruby-2-4-6-released/">2.4.6</a> <div class='icon-label calendar' title='Released on 2019-04-01'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-245">Ruby <a href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-4-5-released/">2.4.5</a> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/">CVE-2018-16396: Tainted flags are not propagated in Array#pac..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/">CVE-2018-16395: OpenSSL::X509::Name equality check does not w..</a></p>
+</li>
+</ul>
+<h3 id="ruby-244">Ruby <a href="https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-4-4-released/">2.4.4</a> <div class='icon-label calendar' title='Released on 2018-03-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/">CVE-2017-17742: HTTP response splitting in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/">CVE-2018-6914: Unintentional file and directory creation with..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/">CVE-2018-8777: DoS by large request in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/">CVE-2018-8778: Buffer under-read in String#unpack..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/">CVE-2018-8779: Unintentional socket creation by poisoned NUL ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/">CVE-2018-8780: Unintentional directory traversal by poisoned ..</a></p>
+</li>
+</ul>
+<h3 id="ruby-243">Ruby <a href="https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-4-3-released/">2.4.3</a> <div class='icon-label calendar' title='Released on 2017-12-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/">CVE-2017-17405: Command injection vulnerability in Net::FTP..</a></li>
+</ul>
+<h3 id="ruby-242">Ruby <a href="https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-4-2-released/">2.4.2</a> <div class='icon-label calendar' title='Released on 2017-09-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/">CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprint..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/">CVE-2017-10784: Escape sequence injection vulnerability in th..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/">CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/">CVE-2017-14064: Heap exposure in generating JSON..</a></p>
+</li>
+</ul>
+<h3 id="ruby-241">Ruby <a href="https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/">2.4.1</a> <div class='icon-label calendar' title='Released on 2017-03-22'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-240">Ruby <a href="https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/">2.4.0</a> <div class='icon-label calendar' title='Released on 2016-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Enumerable#sum</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Integer#digits</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Regexp#match?</code>, <code>Regexp#named_captures</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> New constructor <code>Logger.new(STDOUT, level:, progname:)</code>    </li>
+<li><span class='badge badge-pill badge-primary'>Updated</span> Float: <code>#round</code>, <code>#ceil</code>, <code>#floor</code>, and <code>#truncate</code> now accept a precision    </li>
+<li><span class='badge badge-pill badge-danger'>Removed</span> Removed <code>Fixnum</code> and <code>Bignum</code> classes (unified to <code>Integer</code>)      </li>
+</ul>
+<hr />
+<h2 id="ruby-23">Ruby 2.3 <div class='icon-label eol' title='All maintenance ended on 2019-03-31'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<h3 id="ruby-238">Ruby <a href="https://www.ruby-lang.org/en/news/2018/10/17/ruby-2-3-8-released/">2.3.8</a> <div class='icon-label calendar' title='Released on 2018-10-17'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/">CVE-2018-16396: Tainted flags are not propagated in Array#pac..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/">CVE-2018-16395: OpenSSL::X509::Name equality check does not w..</a></p>
+</li>
+</ul>
+<h3 id="ruby-237">Ruby <a href="https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-3-7-released/">2.3.7</a> <div class='icon-label calendar' title='Released on 2018-03-28'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/">CVE-2017-17742: HTTP response splitting in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/">CVE-2018-8777: DoS by large request in WEBrick..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/">CVE-2018-6914: Unintentional file and directory creation with..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/">CVE-2018-8778: Buffer under-read in String#unpack..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/">CVE-2018-8779: Unintentional socket creation by poisoned NUL ..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/">CVE-2018-8780: Unintentional directory traversal by poisoned ..</a></p>
+</li>
+</ul>
+<h3 id="ruby-236">Ruby <a href="https://www.ruby-lang.org/en/news/2017/12/14/ruby-2-3-6-released/">2.3.6</a> <div class='icon-label calendar' title='Released on 2017-12-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/">CVE-2017-17405: Command injection vulnerability in Net::FTP..</a></li>
+</ul>
+<h3 id="ruby-235">Ruby <a href="https://www.ruby-lang.org/en/news/2017/09/14/ruby-2-3-5-released/">2.3.5</a> <div class='icon-label calendar' title='Released on 2017-09-14'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/">CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprint..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/">CVE-2017-10784: Escape sequence injection vulnerability in th..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/">CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1..</a></p>
+</li>
+<li>
+<p><span class='badge badge-pill badge-warning'>CVE</span> <a href="https://www.ruby-lang.org/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/">CVE-2017-14064: Heap exposure vulnerability in generating JSO..</a></p>
+</li>
+</ul>
+<h3 id="ruby-234">Ruby <a href="https://www.ruby-lang.org/en/news/2017/03/30/ruby-2-3-4-released/">2.3.4</a> <div class='icon-label calendar' title='Released on 2017-03-30'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-233">Ruby <a href="https://www.ruby-lang.org/en/news/2016/11/21/ruby-2-3-3-released/">2.3.3</a> <div class='icon-label calendar' title='Released on 2016-11-21'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-232">Ruby <a href="https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-3-2-released/">2.3.2</a> <div class='icon-label calendar' title='Released on 2016-11-15'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-231">Ruby <a href="https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/">2.3.1</a> <div class='icon-label calendar' title='Released on 2016-04-26'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<h3 id="ruby-230">Ruby <a href="https://www.ruby-lang.org/en/news/2015/12/25/ruby-2-3-0-released/">2.3.0</a> <div class='icon-label calendar' title='Released on 2015-12-25'><div data-icon='ei-calendar' data-size='s'></div></div></h3>
+<ul>
+<li><span class='badge badge-pill badge-success'>Added</span> Safe navigation operator <code>&amp;.</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> Frozen string literals    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Array#dig</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> <code>Hash#fetch_values</code>, <code>Hash#to_proc</code>, <code>Hash#dig</code>    </li>
+<li><span class='badge badge-pill badge-success'>Added</span> 'Did you mean?'      </li>
+</ul>
+<hr />
+<h2 id="ruby-22">Ruby 2.2 <div class='icon-label eol' title='All maintenance ended on 2018-03-31'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<hr />
+<h2 id="ruby-21">Ruby 2.1 <div class='icon-label eol' title='All maintenance ended on 2017-03-31'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<hr />
+<h2 id="ruby-20">Ruby 2.0 <div class='icon-label eol' title='All maintenance ended on 2016-02-24'><div data-icon='ei-lock' data-size='s'></div></div></h2>
+<hr />
+<p>(Last updated on 2025-11-13 21:34:55 +0100)</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../versions-latest/" title="Latest Versions" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Latest Versions
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../timeline/" title="Timeline" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Timeline
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020-2021 Marek Kowalcze
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+      <a href="https://github.com/kowal" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+      <a href="https://twitter.com/kowal" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.8caa27b7.min.js"></script>
+      <script src="../assets/javascripts/bundle.193efd2f.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["tabs"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.37585f48.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
+      
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+      
+        <script src="../javascripts/charts-timeline.js"></script>
+      
+    
+  </body>
+</html>
