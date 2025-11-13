@@ -1,4 +1,38 @@
 {
+  "3.3.10": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/",
+      "title": "an update to the uri gem addressing CVE-2025-61594"
+    }
+  ],
+  "3.4.7": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/",
+      "title": "an update to the uri gem addressing CVE-2025-61594"
+    }
+  ],
+  "3.4.6": [
+
+  ],
+  "3.3.9": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/",
+      "title": "CVE-2025-24294: Possible Denial of Service in resolv gem"
+    }
+  ],
+  "3.2.9": [
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/",
+      "title": "CVE-2025-24294: Possible Denial of Service in resolv gem"
+    },
+    {
+      "url": "https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/",
+      "title": "CVE-2025-43857: DoS vulnerability in net-imap"
+    }
+  ],
+  "3.4.5": [
+
+  ],
   "3.4.4": [
 
   ],

@@ -10,7 +10,35 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/">3.3.6</a>  <div class='icon-label calendar' title='Released on 2024-11-05'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2025/10/07/ruby-3-4-7-released/">3.4.7</a>  <div class='icon-label calendar' title='Released on 2025-10-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+  
+  - <span class='badge badge-pill badge-success'>Added</span>
+  <code>it</code> block parameter reference
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Prism becomes the default parser
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Major YJIT performance improvements with compressed context
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Happy Eyeballs Version 2 (RFC 8305) support in socket library
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Modular GC architecture allowing alternative garbage collector implementations
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  Array methods rewritten in Ruby for better performance
+  - <span class='badge badge-pill badge-dark'>Internals</span>
+  JSON.parse approximately 1.5x faster than json-2.7.x
+  
+----
+
+
+  
+
+  
+  
+  
+  
+  
+
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/">3.3.10</a>  <div class='icon-label calendar' title='Released on 2025-10-23'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   Introduced Prism parser as a default gem
@@ -36,7 +64,7 @@
   
   
 
-## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2024/10/30/ruby-3-2-6-released/">3.2.6</a>  <div class='icon-label calendar' title='Released on 2024-10-30'><div data-icon='ei-calendar' data-size='s'></div></div>
+## Ruby <a target='_blank' href="https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/">3.2.9</a>  <div class='icon-label calendar' title='Released on 2025-07-24'><div data-icon='ei-calendar' data-size='s'></div></div>
   
   - <span class='badge badge-pill badge-dark'>Internals</span>
   WASI based WebAssembly support
@@ -404,4 +432,4 @@ This will be reversed again in Ruby 3.0.0</code>
   
 ----
 
-(Last updated on 2025-05-27 22:26:47 +0200)
+(Last updated on 2025-11-13 20:03:39 +0100)

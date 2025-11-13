@@ -6,7 +6,79 @@
 
 
 
+## Ruby 3.4 
+
+
+### Ruby [3.4.7](https://www.ruby-lang.org/en/news/2025/10/07/ruby-3-4-7-released/) <div class='icon-label calendar' title='Released on 2025-10-07'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [an update to the uri gem addressing CVE-2025-61594..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/)
+  
+### Ruby [3.4.6](https://www.ruby-lang.org/en/news/2025/09/16/ruby-3-4-6-released/) <div class='icon-label calendar' title='Released on 2025-09-16'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.5](https://www.ruby-lang.org/en/news/2025/07/15/ruby-3-4-5-released/) <div class='icon-label calendar' title='Released on 2025-07-15'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.4](https://www.ruby-lang.org/en/news/2025/05/14/ruby-3-4-4-released/) <div class='icon-label calendar' title='Released on 2025-05-14'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.3](https://www.ruby-lang.org/en/news/2025/04/14/ruby-3-4-3-released/) <div class='icon-label calendar' title='Released on 2025-04-14'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.2](https://www.ruby-lang.org/en/news/2025/02/14/ruby-3-4-2-released/) <div class='icon-label calendar' title='Released on 2025-02-14'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.1](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/) <div class='icon-label calendar' title='Released on 2024-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.4.0](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/) <div class='icon-label calendar' title='Released on 2024-12-25'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-success'>Added</span> <code>it</code> block parameter reference    
+- <span class='badge badge-pill badge-dark'>Internals</span> Prism becomes the default parser    
+- <span class='badge badge-pill badge-dark'>Internals</span> Major YJIT performance improvements with compressed context    
+- <span class='badge badge-pill badge-dark'>Internals</span> Happy Eyeballs Version 2 (RFC 8305) support in socket library    
+- <span class='badge badge-pill badge-dark'>Internals</span> Modular GC architecture allowing alternative garbage collector implementations    
+- <span class='badge badge-pill badge-dark'>Internals</span> Array methods rewritten in Ruby for better performance    
+- <span class='badge badge-pill badge-dark'>Internals</span> JSON.parse approximately 1.5x faster than json-2.7.x      
+
+----
+
+
+
+
+
+
 ## Ruby 3.3 
+
+
+### Ruby [3.3.10](https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/) <div class='icon-label calendar' title='Released on 2025-10-23'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [an update to the uri gem addressing CVE-2025-61594..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/)
+  
+### Ruby [3.3.9](https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/) <div class='icon-label calendar' title='Released on 2025-07-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2025-24294: Possible Denial of Service in resolv gem..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
+  
+### Ruby [3.3.8](https://www.ruby-lang.org/en/news/2025/04/09/ruby-3-3-8-released/) <div class='icon-label calendar' title='Released on 2025-04-09'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+### Ruby [3.3.7](https://www.ruby-lang.org/en/news/2025/01/15/ruby-3-3-7-released/) <div class='icon-label calendar' title='Released on 2025-01-15'><div data-icon='ei-calendar' data-size='s'></div></div>
+
 
 
 ### Ruby [3.3.6](https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/) <div class='icon-label calendar' title='Released on 2024-11-05'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -56,6 +128,24 @@
 
 
 ## Ruby 3.2 
+
+
+### Ruby [3.2.9](https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/) <div class='icon-label calendar' title='Released on 2025-07-24'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2025-24294: Possible Denial of Service in resolv gem..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
+  
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2025-43857: DoS vulnerability in net-imap..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/)
+  
+### Ruby [3.2.8](https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/) <div class='icon-label calendar' title='Released on 2025-03-26'><div data-icon='ei-calendar' data-size='s'></div></div>
+
+
+
+- <span class='badge badge-pill badge-warning'>CVE</span> [CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes..](https://www.ruby-lang.orghttps://www.ruby-lang.org/en/news/2025/02/26/security-advisories/)
+  
+### Ruby [3.2.7](https://www.ruby-lang.org/en/news/2025/02/04/ruby-3-2-7-released/) <div class='icon-label calendar' title='Released on 2025-02-04'><div data-icon='ei-calendar' data-size='s'></div></div>
+
 
 
 ### Ruby [3.2.6](https://www.ruby-lang.org/en/news/2024/10/30/ruby-3-2-6-released/) <div class='icon-label calendar' title='Released on 2024-10-30'><div data-icon='ei-calendar' data-size='s'></div></div>
@@ -720,4 +810,4 @@
 
 ----
 
-(Last updated on 2025-05-27 22:26:47 +0200)
+(Last updated on 2025-11-13 20:03:39 +0100)
